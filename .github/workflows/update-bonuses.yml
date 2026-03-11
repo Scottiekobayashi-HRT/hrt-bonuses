@@ -1,0 +1,35 @@
+name: Daily Transfer Bonus Update
+
+on:
+  schedule:
+    - cron: '0 16 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-bonuses:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install anthropic
+
+      - name: Run bonus scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python update_bonuses.py
+
+      - name: Commit updated bonuses.json
+        run: |
+          git config user.name "HRT Bot"
+          git config user.email "bot@hawaiirewardtravel.com"
+          git add bonuses.json
+          git diff --cached --quiet || git commit -m "Auto-update transfer bonuses $(date +'%Y-%m-%d')"
+          git push
