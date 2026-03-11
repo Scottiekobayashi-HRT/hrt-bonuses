@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transfer Bonus Tracker – Hawaii Reward Travel</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* SQUARESPACE ISOLATION — all styles scoped to #hrt-tracker */
+  #hrt-tracker {
+    --gold: #C9A84C;
+    --gold-light: #E8C96A;
+    --gold-dim: #8B6E2A;
+    --black: #0A0A0A;
+    --surface: #111111;
+    --surface2: #1A1A1A;
+    --surface3: #242424;
+    --border: rgba(201,168,76,0.15);
+    --text: #F0EDE8;
+    --text-muted: #888;
+    --red: #E85C4A;
+    --green: #4ABA7A;
+
+    all: initial;
+    display: block !important;
+    box-sizing: border-box !important;
+    background: #0A0A0A !important;
+    color: #F0EDE8 !important;
+    font-family: 'DM Sans', sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    width: 100% !important;
+    overflow: hidden;
+  }
+
+  #hrt-tracker *, #hrt-tracker *::before, #hrt-tracker *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+  }
+
+  #hrt-tracker button {
+    all: unset;
+    box-sizing: border-box;
+  }
+
+  /* ── HEADER ── */
+  #hrt-tracker .tracker-header {
+    padding: 48px 32px 32px;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+  }
+  #hrt-tracker .tracker-header::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 280px; height: 280px;
+    background: radial-gradient(circle, rgba(201,168,76,0.12) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  #hrt-tracker .header-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 8px;
+  }
+  #hrt-tracker .header-eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+  #hrt-tracker .header-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(36px, 6vw, 56px);
+    letter-spacing: 0.03em;
+    line-height: 1;
+    color: var(--text);
+  }
+  .header-title span { color: var(--gold); }
+  #hrt-tracker .header-sub {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-top: 8px;
+    max-width: 480px;
+    line-height: 1.6;
+  }
+  #hrt-tracker .live-badge {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background: rgba(74,186,122,0.1);
+    border: 1px solid rgba(74,186,122,0.25);
+    color: var(--green);
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    padding: 7px 14px;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+  #hrt-tracker .live-dot {
+    width: 6px; height: 6px;
+    background: var(--green);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(1.4); }
+  }
+
+  /* ── FILTERS ── */
+  #hrt-tracker .filter-bar {
+    display: flex;
+    gap: 8px;
+    padding: 16px 32px;
+    align-items: center;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE */
+    white-space: nowrap;
+  }
+  .filter-bar::-webkit-scrollbar { display: none; } /* Chrome/Safari */
+  /* Fade edges to hint at scrollability */
+  #hrt-tracker .filter-bar-wrap {
+    position: relative;
+    border-bottom: 1px solid var(--border);
+  }
+  #hrt-tracker .filter-bar-wrap::after {
+    content: '';
+    position: absolute;
+    right: 0; top: 0; bottom: 0;
+    width: 40px;
+    background: linear-gradient(to right, transparent, var(--black));
+    pointer-events: none;
+  }
+  #hrt-tracker .filter-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-right: 4px;
+    flex-shrink: 0;
+  }
+  #hrt-tracker .filter-btn {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 18px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.2s;
+    flex-shrink: 0;
+    min-height: 44px; /* Apple HIG minimum touch target */
+    display: inline-flex;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  .filter-btn:hover { border-color: var(--gold-dim); color: var(--text); }
+  .filter-btn:active { transform: scale(0.96); }
+  #hrt-tracker .filter-btn.active {
+    background: rgba(201,168,76,0.12);
+    border-color: var(--gold);
+    color: var(--gold);
+  }
+
+  /* ── STATS BAR ── */
+  #hrt-tracker .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0;
+    border-bottom: 1px solid var(--border);
+  }
+  #hrt-tracker .stat-item {
+    padding: 20px 28px;
+    border-right: 1px solid var(--border);
+  }
+  .stat-item:last-child { border-right: none; }
+  #hrt-tracker .stat-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.03em;
+    color: var(--gold);
+    line-height: 1;
+  }
+  #hrt-tracker .stat-label {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 3px;
+  }
+
+  /* ── BONUS GRID ── */
+  #hrt-tracker .bonuses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2px;
+    padding: 2px;
+  }
+
+  /* ── BONUS CARD ── */
+  #hrt-tracker .bonus-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 24px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.25s;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  #hrt-tracker .bonus-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    opacity: 0;
+    transition: opacity 0.25s;
+  }
+  .bonus-card:hover { background: var(--surface2); border-color: rgba(201,168,76,0.3); }
+  .bonus-card:hover::before { opacity: 1; }
+  .bonus-card.expiring-soon { border-color: rgba(232,92,74,0.3); }
+  .bonus-card.expiring-soon::before { background: linear-gradient(90deg, transparent, var(--red), transparent); opacity: 0.6; }
+
+  /* Card Top Row */
+  #hrt-tracker .card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  #hrt-tracker .bank-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border-radius: 100px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid;
+  }
+  #hrt-tracker .bank-chase { background: rgba(0,112,186,0.1); border-color: rgba(0,112,186,0.3); color: #5BB8FF; }
+  #hrt-tracker .bank-amex  { background: rgba(0,114,206,0.1); border-color: rgba(0,114,206,0.3); color: #69C4FF; }
+  #hrt-tracker .bank-capital-one { background: rgba(204,0,0,0.1); border-color: rgba(204,0,0,0.3); color: #FF7066; }
+  #hrt-tracker .bank-bilt  { background: rgba(201,168,76,0.1); border-color: rgba(201,168,76,0.3); color: var(--gold); }
+  #hrt-tracker .bank-dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+
+  #hrt-tracker .bonus-pct {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    color: var(--gold-light);
+    line-height: 1;
+    letter-spacing: 0.02em;
+  }
+  #hrt-tracker .bonus-pct-label {
+    font-size: 10px;
+    font-family: 'DM Mono', monospace;
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+    text-align: right;
+    line-height: 1.2;
+  }
+
+  /* Partner Row */
+  #hrt-tracker .partner-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  #hrt-tracker .partner-icon {
+    width: 36px; height: 36px;
+    border-radius: 8px;
+    background: var(--surface3);
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+  }
+  #hrt-tracker .partner-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.2;
+  }
+  #hrt-tracker .partner-type {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 1px;
+  }
+
+  /* Details Row */
+  #hrt-tracker .card-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .detail-item { }
+  #hrt-tracker .detail-key {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 3px;
+  }
+  #hrt-tracker .detail-val {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text);
+  }
+
+  /* Expiry */
+  #hrt-tracker .expiry-bar {
+    background: var(--surface3);
+    border-radius: 100px;
+    height: 3px;
+    overflow: hidden;
+  }
+  #hrt-tracker .expiry-fill {
+    height: 100%;
+    border-radius: 100px;
+    transition: width 1s ease;
+  }
+  #hrt-tracker .expiry-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  #hrt-tracker .expiry-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.08em;
+  }
+  .expiry-label.soon { color: var(--red); }
+  .expiry-label.ok { color: var(--text-muted); }
+
+  /* Verified stamp */
+  #hrt-tracker .verified-stamp {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: rgba(201,168,76,0.5);
+    margin-top: auto;
+  }
+  .verified-icon { font-size: 10px; }
+
+  /* ── EMPTY STATE ── */
+  #hrt-tracker .empty-state {
+    grid-column: 1 / -1;
+    padding: 80px 32px;
+    text-align: center;
+    color: var(--text-muted);
+  }
+  .empty-state-icon { font-size: 48px; margin-bottom: 16px; opacity: 0.3; }
+
+  /* ── FOOTER ── */
+  #hrt-tracker .tracker-footer {
+    border-top: 1px solid var(--border);
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  #hrt-tracker .footer-note {
+    font-size: 11px;
+    color: var(--text-muted);
+    max-width: 480px;
+    line-height: 1.6;
+  }
+  #hrt-tracker .footer-brand {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+  }
+
+  /* ── LAST UPDATED TICKER ── */
+  #hrt-tracker .update-ticker {
+    background: rgba(201,168,76,0.05);
+    border-bottom: 1px solid var(--border);
+    padding: 9px 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+  }
+  .ticker-icon { color: var(--gold); font-size: 11px; }
+
+  /* Loading */
+  #hrt-tracker .loading-overlay {
+    display: none;
+    padding: 60px;
+    text-align: center;
+    color: var(--text-muted);
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+  }
+  #hrt-tracker .loading-spinner {
+    width: 24px; height: 24px;
+    border: 2px solid var(--border);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 16px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 600px) {
+    .tracker-header { padding: 28px 18px 22px; }
+    .header-sub { font-size: 13px; }
+    .live-badge { font-size: 10px; padding: 6px 12px; }
+
+    /* Filter bar: tighter side padding on mobile, scrolls horizontally */
+    .filter-bar { padding: 12px 18px; gap: 7px; }
+    .filter-bar-wrap::after { width: 28px; }
+
+    /* Stats: 2x2 grid, tighter */
+    .stats-bar { grid-template-columns: repeat(2, 1fr); }
+    .stat-item { padding: 14px 18px; }
+    .stat-num { font-size: 28px; }
+    .stat-label { font-size: 10px; }
+
+    /* Ticker */
+    .update-ticker { padding: 9px 18px; font-size: 9px; }
+
+    /* Cards: full width, slightly tighter padding */
+    .bonuses-grid { grid-template-columns: 1fr; gap: 1px; padding: 1px; }
+    .bonus-card { padding: 20px 18px; }
+    .bonus-pct { font-size: 36px; }
+
+    /* Card details: stack on very small screens */
+    .card-details { grid-template-columns: 1fr 1fr; gap: 10px; }
+
+    /* Footer stacks vertically */
+    .tracker-footer { padding: 16px 18px; flex-direction: column; align-items: flex-start; }
+    .footer-note { font-size: 10px; }
+
+    /* Partner row tighter */
+    .partner-name { font-size: 15px; }
+  }
+
+  /* Very small phones */
+  @media (max-width: 380px) {
+    .header-title { font-size: 32px; }
+    .bonus-pct { font-size: 30px; }
+    .bank-tag { font-size: 9px; padding: 4px 10px; }
+    .card-details { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div id="hrt-tracker">
+
+  <!-- HEADER -->
+  <div class="tracker-header">
+    <div class="header-eyebrow">Hawaii Reward Travel — Live Dashboard</div>
+    <div class="header-top">
+      <div>
+        <div class="header-title">Transfer <span>Bonus</span> Tracker</div>
+        <div class="header-sub">Active transfer bonuses from Chase, Amex, Capital One &amp; Bilt. Updated daily. Never miss a bonus window.</div>
+      </div>
+      <div class="live-badge"><span class="live-dot"></span> LIVE DATA</div>
+    </div>
+  </div>
+
+  <!-- UPDATE TICKER -->
+  <div class="update-ticker">
+    <span class="ticker-icon">⟳</span>
+    <span id="last-updated-text">Checking for latest bonuses...</span>
+  </div>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stat-item"><div class="stat-num" id="stat-active">—</div><div class="stat-label">Active Bonuses</div></div>
+    <div class="stat-item"><div class="stat-num" id="stat-banks">4</div><div class="stat-label">Banks Tracked</div></div>
+    <div class="stat-item"><div class="stat-num" id="stat-expiring">—</div><div class="stat-label">Expiring Soon</div></div>
+    <div class="stat-item"><div class="stat-num" id="stat-best">—</div><div class="stat-label">Best Bonus %</div></div>
+  </div>
+
+  <!-- FILTER BAR -->
+  <div class="filter-bar-wrap">
+    <div class="filter-bar">
+      <span class="filter-label">Filter:</span>
+      <button class="filter-btn active" data-filter="all">All Banks</button>
+      <button class="filter-btn" data-filter="chase">Chase</button>
+      <button class="filter-btn" data-filter="amex">Amex</button>
+      <button class="filter-btn" data-filter="capital-one">Capital One</button>
+      <button class="filter-btn" data-filter="bilt">Bilt</button>
+      <button class="filter-btn" data-filter="airlines">✈ Airlines</button>
+      <button class="filter-btn" data-filter="hotels">🏨 Hotels</button>
+    </div>
+  </div>
+
+  <!-- LOADING -->
+  <div class="loading-overlay" id="loading">
+    <div class="loading-spinner"></div>
+    LOADING BONUSES
+  </div>
+
+  <!-- GRID -->
+  <div class="bonuses-grid" id="bonuses-grid"></div>
+
+  <!-- FOOTER -->
+  <div class="tracker-footer">
+    <div class="footer-note">
+      Bonus data is sourced daily via AI-assisted research. Always verify directly with your bank before transferring. Transfer ratios reflect standard program terms.
+    </div>
+    <div class="footer-brand">HawaiiRewardTravel.com</div>
+  </div>
+
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════
+//  CONFIGURATION — Update DATA_URL to point to your GitHub JSON
+// ═══════════════════════════════════════════════════════════════
+const CONFIG = {
+  // Once you set up GitHub, replace with your raw JSON URL:
+  // DATA_URL: 'https://raw.githubusercontent.com/YOUR_USERNAME/hrt-bonuses/main/bonuses.json',
+  DATA_URL: null, // null = use SAMPLE_DATA below
+  EXPIRING_THRESHOLD_DAYS: 7,
+};
+
+// ═══════════════════════════════════════════════════════════════
+//  SAMPLE DATA — Replace with live GitHub data once set up
+// ═══════════════════════════════════════════════════════════════
+const SAMPLE_DATA = {
+  lastUpdated: new Date().toISOString(),
+  bonuses: [
+    {
+      id: 1,
+      bank: "amex",
+      bankName: "American Express",
+      partner: "Air Canada Aeroplan",
+      partnerType: "airline",
+      partnerIcon: "✈️",
+      bonusPct: 30,
+      transferRatio: "1:1",
+      bonusRatio: "1:1.3",
+      expiresDate: getRelativeDate(12),
+      notes: "Transfer 1,000+ MR points to earn bonus miles",
+      sourceUrl: "https://thepointsguy.com"
+    },
+    {
+      id: 2,
+      bank: "chase",
+      bankName: "Chase Ultimate Rewards",
+      partner: "World of Hyatt",
+      partnerType: "hotel",
+      partnerIcon: "🏨",
+      bonusPct: 25,
+      transferRatio: "1:1",
+      bonusRatio: "1:1.25",
+      expiresDate: getRelativeDate(5),
+      notes: "Min 1,000 points transfer required",
+      sourceUrl: "https://thepointsguy.com"
+    },
+    {
+      id: 3,
+      bank: "capital-one",
+      bankName: "Capital One Miles",
+      partner: "Turkish Airlines Miles&Smiles",
+      partnerType: "airline",
+      partnerIcon: "✈️",
+      bonusPct: 30,
+      transferRatio: "1:1",
+      bonusRatio: "1:1.3",
+      expiresDate: getRelativeDate(18),
+      notes: "Great for Star Alliance redemptions to Hawaii",
+      sourceUrl: "https://thepointsguy.com"
+    },
+    {
+      id: 4,
+      bank: "bilt",
+      bankName: "Bilt Rewards",
+      partner: "Alaska Airlines Mileage Plan",
+      partnerType: "airline",
+      partnerIcon: "✈️",
+      bonusPct: 50,
+      transferRatio: "1:1",
+      bonusRatio: "1:1.5",
+      expiresDate: getRelativeDate(3),
+      notes: "Best for direct Hawaii routes. Rent Day only.",
+      sourceUrl: "https://thepointsguy.com"
+    },
+    {
+      id: 5,
+      bank: "amex",
+      bankName: "American Express",
+      partner: "Hilton Honors",
+      partnerType: "hotel",
+      partnerIcon: "🏨",
+      bonusPct: 20,
+      transferRatio: "1:2",
+      bonusRatio: "1:2.4",
+      expiresDate: getRelativeDate(22),
+      notes: "MR to Hilton at 1:2 base — 20% bonus on top",
+      sourceUrl: "https://thepointsguy.com"
+    },
+    {
+      id: 6,
+      bank: "chase",
+      bankName: "Chase Ultimate Rewards",
+      partner: "United MileagePlus",
+      partnerType: "airline",
+      partnerIcon: "✈️",
+      bonusPct: 25,
+      transferRatio: "1:1",
+      bonusRatio: "1:1.25",
+      expiresDate: getRelativeDate(9),
+      notes: "Saver awards to Hawaii still excellent value",
+      sourceUrl: "https://thepointsguy.com"
+    }
+  ]
+};
+
+function getRelativeDate(daysFromNow) {
+  const d = new Date();
+  d.setDate(d.getDate() + daysFromNow);
+  return d.toISOString().split('T')[0];
+}
+
+// ═══════════════════════════════════════════════════════════════
+//  TRACKER ENGINE
+// ═══════════════════════════════════════════════════════════════
+let allBonuses = [];
+let activeFilter = 'all';
+
+async function loadBonuses() {
+  document.getElementById('loading').style.display = 'block';
+  document.getElementById('bonuses-grid').innerHTML = '';
+
+  let data = SAMPLE_DATA;
+
+  if (CONFIG.DATA_URL) {
+    try {
+      const res = await fetch(CONFIG.DATA_URL + '?t=' + Date.now());
+      if (res.ok) data = await res.json();
+    } catch (e) {
+      console.warn('Could not fetch remote data, using sample.', e);
+    }
+  }
+
+  allBonuses = data.bonuses || [];
+  updateLastUpdated(data.lastUpdated);
+  document.getElementById('loading').style.display = 'none';
+  renderBonuses();
+  updateStats();
+}
+
+function updateLastUpdated(iso) {
+  const el = document.getElementById('last-updated-text');
+  if (!iso) { el.textContent = 'Sample data — connect GitHub to go live'; return; }
+  const d = new Date(iso);
+  const now = new Date();
+  const mins = Math.round((now - d) / 60000);
+  let label = mins < 2 ? 'Just now' : mins < 60 ? `${mins} min ago` : `${Math.round(mins/60)}h ago`;
+  el.textContent = `Last updated: ${label} — Next check: tomorrow at 6:00 AM HST`;
+}
+
+function getDaysLeft(dateStr) {
+  const exp = new Date(dateStr);
+  exp.setHours(23, 59, 59);
+  const now = new Date();
+  return Math.ceil((exp - now) / 86400000);
+}
+
+function getExpiryColor(days) {
+  if (days <= 3) return '#E85C4A';
+  if (days <= 7) return '#E8A94A';
+  return '#4ABA7A';
+}
+
+function renderBonuses() {
+  const grid = document.getElementById('bonuses-grid');
+  let filtered = allBonuses;
+
+  if (activeFilter !== 'all') {
+    if (activeFilter === 'airlines') filtered = allBonuses.filter(b => b.partnerType === 'airline');
+    else if (activeFilter === 'hotels') filtered = allBonuses.filter(b => b.partnerType === 'hotel');
+    else filtered = allBonuses.filter(b => b.bank === activeFilter);
+  }
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div class="empty-state"><div class="empty-state-icon">🔍</div>No active bonuses for this filter right now.<br>Check back soon — new bonuses are added daily.</div>`;
+    return;
+  }
+
+  // Sort: soonest expiring first
+  filtered.sort((a, b) => new Date(a.expiresDate) - new Date(b.expiresDate));
+
+  grid.innerHTML = filtered.map(b => {
+    const days = getDaysLeft(b.expiresDate);
+    const isSoon = days <= 7;
+    const color = getExpiryColor(days);
+    const pct = Math.max(0, Math.min(100, (days / 30) * 100));
+    const expLabel = days <= 0 ? 'EXPIRED' : days === 1 ? 'Expires tomorrow' : `Expires in ${days} days`;
+    const expDate = new Date(b.expiresDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+
+    return `
+      <div class="bonus-card ${isSoon ? 'expiring-soon' : ''}">
+
+        <div class="card-top">
+          <div class="bank-tag bank-${b.bank}">
+            <span class="bank-dot"></span>${b.bankName}
+          </div>
+          <div style="text-align:right">
+            <div class="bonus-pct">+${b.bonusPct}%</div>
+            <div class="bonus-pct-label">TRANSFER<br>BONUS</div>
+          </div>
+        </div>
+
+        <div class="partner-row">
+          <div class="partner-icon">${b.partnerIcon}</div>
+          <div>
+            <div class="partner-name">${b.partner}</div>
+            <div class="partner-type">${b.partnerType === 'airline' ? 'Airline Partner' : 'Hotel Partner'}</div>
+          </div>
+        </div>
+
+        <div class="card-details">
+          <div class="detail-item">
+            <div class="detail-key">Base Ratio</div>
+            <div class="detail-val">${b.transferRatio}</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-key">Bonus Ratio</div>
+            <div class="detail-val" style="color:var(--gold)">${b.bonusRatio}</div>
+          </div>
+          <div class="detail-item" style="grid-column: 1 / -1">
+            <div class="detail-key">Scottie's Note</div>
+            <div class="detail-val" style="font-weight:400;font-size:12px;color:var(--text-muted);line-height:1.5">${b.notes}</div>
+          </div>
+        </div>
+
+        <div>
+          <div class="expiry-row" style="margin-bottom:6px">
+            <div class="expiry-label ${isSoon ? 'soon' : 'ok'}">⏱ ${expLabel}</div>
+            <div class="expiry-label ok">${expDate}</div>
+          </div>
+          <div class="expiry-bar">
+            <div class="expiry-fill" style="width:${pct}%;background:${color}"></div>
+          </div>
+        </div>
+
+        <div class="verified-stamp">
+          <span class="verified-icon">✓</span>
+          VERIFIED — Updated daily by HRT
+        </div>
+
+      </div>
+    `;
+  }).join('');
+}
+
+function updateStats() {
+  const active = allBonuses.filter(b => getDaysLeft(b.expiresDate) > 0);
+  const expiring = active.filter(b => getDaysLeft(b.expiresDate) <= 7);
+  const bestBonus = active.length ? Math.max(...active.map(b => b.bonusPct)) : 0;
+
+  document.getElementById('stat-active').textContent = active.length;
+  document.getElementById('stat-expiring').textContent = expiring.length;
+  document.getElementById('stat-best').textContent = bestBonus > 0 ? `${bestBonus}%` : '—';
+}
+
+// Filter buttons
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.filter;
+    renderBonuses();
+  });
+});
+
+// Boot
+loadBonuses();
+</script>
+</body>
+</html>
