@@ -25,7 +25,7 @@ jobs:
       - name: Run bonus scraper
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scripts/update_bonuses.py
+        run: python update_bonuses.py
 
       - name: Commit updated bonuses.json
         run: |
