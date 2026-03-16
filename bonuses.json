@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T17:02:11.325772Z",
+  "lastUpdated": "2026-03-16T19:38:25.769693Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,7 +12,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Use Avios to book AA flights to Hawaii from West Coast for 13k each way",
+      "notes": "Use Avios for AA flights to Hawaii; book off-peak for best value",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -26,7 +26,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Avios can book AA Hawaii flights; same currency as British Airways",
+      "notes": "Avios can be used on AA partner flights to Hawaii",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -40,7 +40,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Avios program; can book AA partner flights to Hawaii",
+      "notes": "Avios currency; combine with BA/Aer Lingus for more options",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -54,13 +54,13 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-03-31",
-      "notes": "Wyndham has properties in Hawaii including Margaritaville resorts",
+      "notes": "Wyndham has limited Hawaii properties; verify value before transfer",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
       "id": 5,
       "bank": "amex",
-      "bankName": "American Express",
+      "bankName": "American Express Membership Rewards",
       "partner": "Avianca LifeMiles",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -68,21 +68,21 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-03-28",
-      "notes": "Book Star Alliance partners like United to Hawaii with no fuel surcharges",
+      "notes": "Book United flights to Hawaii via Star Alliance; no fuel surcharges",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
       "id": 6,
       "bank": "capital-one",
       "bankName": "Capital One Miles",
-      "partner": "Preferred Hotels I Prefer",
+      "partner": "Preferred Hotels & Resorts (I Prefer)",
       "partnerType": "hotel",
       "partnerIcon": "\ud83c\udfe8",
       "bonusPct": 30,
       "transferRatio": "1:2",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-03-31",
-      "notes": "Boutique luxury hotels; check for Hawaii properties in portfolio",
+      "notes": "Limited Hawaii properties; check availability before transferring",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     }
   ],
@@ -91,8 +91,8 @@
     "bonusCount": 6,
     "banks": [
       "capital-one",
-      "chase",
-      "amex"
+      "amex",
+      "chase"
     ]
   }
 }
