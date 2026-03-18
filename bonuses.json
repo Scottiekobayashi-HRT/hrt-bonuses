@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T19:39:33.818087Z",
+  "lastUpdated": "2026-03-18T19:31:16.215158Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,7 +12,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Use Avios for Hawaiian Airlines partner awards or Alaska flights to Hawaii",
+      "notes": "Use Avios for AA flights to Hawaii; great for inter-island hops",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -26,7 +26,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Avios can book American Airlines flights to Hawaii at low rates",
+      "notes": "Avios can book AA partner flights to Hawaii at low rates",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -40,7 +40,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Avios work across BA, Iberia, Aer Lingus for partner bookings",
+      "notes": "Iberia Avios work on AA flights; sweet spot for Hawaii travel",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -54,13 +54,13 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-03-31",
-      "notes": "Wyndham has properties in Hawaii; new Chase transfer partner",
+      "notes": "Wyndham has Hawaii properties; only transfer with specific booking in mind",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
       "id": 5,
       "bank": "amex",
-      "bankName": "American Express",
+      "bankName": "American Express Membership Rewards",
       "partner": "Avianca LifeMiles",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -68,13 +68,13 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-03-28",
-      "notes": "Book Star Alliance partners to Hawaii; offer via LifeMiles not Amex",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+      "notes": "LifeMiles books Star Alliance partners to Hawaii with no fuel surcharges",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses"
     },
     {
       "id": 6,
       "bank": "capital-one",
-      "bankName": "Capital One",
+      "bankName": "Capital One Miles",
       "partner": "Preferred Hotels I Prefer",
       "partnerType": "hotel",
       "partnerIcon": "\ud83c\udfe8",
@@ -82,7 +82,7 @@
       "transferRatio": "1:2",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-03-31",
-      "notes": "Luxury independent hotels; check for Hawaii properties before transfer",
+      "notes": "I Prefer has boutique Hawaii properties; check for specific redemptions",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     }
   ],
@@ -90,9 +90,9 @@
     "source": "HRT Auto-Updater v2.0",
     "bonusCount": 6,
     "banks": [
-      "chase",
       "amex",
-      "capital-one"
+      "capital-one",
+      "chase"
     ]
   }
 }
