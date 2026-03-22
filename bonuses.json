@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-21T16:59:32.697400Z",
+  "lastUpdated": "2026-03-22T17:00:17.306406Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,7 +12,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Use Avios for Hawaiian Airlines partner awards or AA flights to Hawaii",
+      "notes": "Use Avios for short-haul Hawaii inter-island flights or AA partner awards to Hawaii",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -26,7 +26,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Avios can book AA flights to Hawaii at low rates",
+      "notes": "Avios can book AA flights to Hawaii at lower rates than AAdvantage",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -40,7 +40,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Avios work for partner awards including AA Hawaii routes",
+      "notes": "Iberia Avios work on AA metal; good for off-peak Hawaii awards",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -54,7 +54,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-03-31",
-      "notes": "Several Wyndham properties available in Hawaii",
+      "notes": "Wyndham has limited Hawaii properties; verify value before transferring",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -68,7 +68,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-03-28",
-      "notes": "Book United flights to Hawaii with no fuel surcharges",
+      "notes": "LifeMiles books United flights to Hawaii with no fuel surcharges",
       "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses"
     },
     {
@@ -82,7 +82,7 @@
       "transferRatio": "1:2",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-03-31",
-      "notes": "Luxury independent hotels available in Hawaii",
+      "notes": "Check for luxury Hawaii independents in I Prefer portfolio",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     }
   ],
@@ -90,9 +90,9 @@
     "source": "HRT Auto-Updater v2.0",
     "bonusCount": 6,
     "banks": [
+      "amex",
       "capital-one",
-      "chase",
-      "amex"
+      "chase"
     ]
   }
 }
