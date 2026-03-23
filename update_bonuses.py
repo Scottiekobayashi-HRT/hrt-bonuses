@@ -1,5 +1,5 @@
 """
-HRT Transfer Bonus Auto-Updater v2.0
+HRT Transfer Bonus Auto-Updater v2.1
 Runs daily via GitHub Actions. Uses Claude + web search to find current
 transfer bonuses from Chase, Amex, Capital One, and Bilt.
 """
@@ -7,6 +7,7 @@ transfer bonuses from Chase, Amex, Capital One, and Bilt.
 import anthropic
 import json
 import os
+import time
 from datetime import datetime, date
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
@@ -62,6 +63,36 @@ Find every active bonus with its exact percentage, partner, expiration date, and
 Return ONLY the raw JSON object described in your instructions."""
 
 
+def call_with_retry(func, max_retries=5):
+    """
+    Retry wrapper with exponential backoff.
+    Handles 529 Overloaded and 529-like transient errors.
+    """
+    for attempt in range(1, max_retries + 1):
+        try:
+            return func()
+        except anthropic.OverloadedError as e:
+            if attempt == max_retries:
+                raise
+            wait = 30 * attempt  # 30s, 60s, 90s, 120s
+            print(f"  API overloaded (attempt {attempt}/{max_retries}). Waiting {wait}s before retry...")
+            time.sleep(wait)
+        except anthropic.RateLimitError as e:
+            if attempt == max_retries:
+                raise
+            wait = 60 * attempt
+            print(f"  Rate limited (attempt {attempt}/{max_retries}). Waiting {wait}s before retry...")
+            time.sleep(wait)
+        except anthropic.APIStatusError as e:
+            # Retry on any 5xx server error
+            if e.status_code >= 500 and attempt < max_retries:
+                wait = 30 * attempt
+                print(f"  Server error {e.status_code} (attempt {attempt}/{max_retries}). Waiting {wait}s...")
+                time.sleep(wait)
+            else:
+                raise
+
+
 def fetch_bonuses():
     print("Searching for current transfer bonuses...")
 
@@ -69,13 +100,16 @@ def fetch_bonuses():
 
     # Agentic loop — keeps going until Claude stops using tools
     while True:
-        response = client.messages.create(
-            model="claude-opus-4-5",
-            max_tokens=4096,
-            system=SYSTEM_PROMPT,
-            tools=[{"type": "web_search_20250305", "name": "web_search"}],
-            messages=messages,
-        )
+        def make_request():
+            return client.messages.create(
+                model="claude-opus-4-5",
+                max_tokens=4096,
+                system=SYSTEM_PROMPT,
+                tools=[{"type": "web_search_20250305", "name": "web_search"}],
+                messages=messages,
+            )
+
+        response = call_with_retry(make_request)
 
         # Add Claude's response to the conversation history
         messages.append({"role": "assistant", "content": response.content})
@@ -167,7 +201,7 @@ def merge_bonuses(existing, new_data):
         "lastUpdated": datetime.utcnow().isoformat() + "Z",
         "bonuses": all_bonuses,
         "meta": {
-            "source": "HRT Auto-Updater v2.0",
+            "source": "HRT Auto-Updater v2.1",
             "bonusCount": len(all_bonuses),
             "banks": list(set(b["bank"] for b in all_bonuses))
         }
