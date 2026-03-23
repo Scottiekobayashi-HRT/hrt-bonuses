@@ -13,10 +13,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -34,4 +34,5 @@ jobs:
           git config user.email "bot@hawaiirewardtravel.com"
           git add bonuses.json
           git diff --cached --quiet || git commit -m "Auto-update transfer bonuses $(date +'%Y-%m-%d')"
+          git pull --rebase origin main
           git push
