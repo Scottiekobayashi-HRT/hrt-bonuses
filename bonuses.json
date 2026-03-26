@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T18:38:31.958890Z",
+  "lastUpdated": "2026-03-26T19:41:31.201242Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,7 +12,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Use Avios for short-haul Hawaii inter-island flights or partner awards to Hawaii",
+      "notes": "Use Avios for Alaska flights to Hawaii from West Coast; low fees",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -26,7 +26,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Avios can book Alaska partner awards to Hawaii at good rates",
+      "notes": "Avios can book AA flights to Hawaii; great for short-haul redemptions",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -40,7 +40,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Avios pool with BA/Aer Lingus for flexible partner bookings",
+      "notes": "Avios pool with BA; book AA flights to Hawaii with combined balance",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -54,7 +54,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-03-31",
-      "notes": "Wyndham has limited Hawaii properties but fixed award nights available",
+      "notes": "Wyndham has limited Hawaii options; best for specific property redemptions",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -68,21 +68,21 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-03-28",
-      "notes": "LifeMiles books Star Alliance partners to Hawaii with no fuel surcharges",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses"
+      "notes": "Book United flights to Hawaii via Star Alliance; low surcharges",
+      "sourceUrl": "https://www.dailydrop.com/transfer-partners-cheat-sheet"
     },
     {
       "id": 6,
       "bank": "capital-one",
       "bankName": "Capital One Miles",
-      "partner": "Preferred Hotels I Prefer",
+      "partner": "Preferred Hotels & Resorts (I Prefer)",
       "partnerType": "hotel",
       "partnerIcon": "\ud83c\udfe8",
       "bonusPct": 30,
       "transferRatio": "1:2",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-03-31",
-      "notes": "I Prefer has luxury Hawaii properties; check for specific redemptions",
+      "notes": "Boutique hotel program; check for Hawaii properties before transferring",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     }
   ],
@@ -90,8 +90,8 @@
     "source": "HRT Auto-Updater v2.1",
     "bonusCount": 6,
     "banks": [
-      "capital-one",
       "amex",
+      "capital-one",
       "chase"
     ]
   }
