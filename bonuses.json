@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T17:04:42.472419Z",
+  "lastUpdated": "2026-03-29T16:42:08.498713Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,7 +12,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Use Avios for Hawaiian inter-island flights or Alaska partner awards",
+      "notes": "Use Avios for Hawaii inter-island flights on Alaska or AA partner awards",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -26,7 +26,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Avios can be used for AA flights to Hawaii from West Coast",
+      "notes": "Avios can book AA flights to Hawaii at lower rates than AAdvantage",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -40,7 +40,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Avios pooling lets you combine with BA for more redemption options",
+      "notes": "Transfer Avios between BA/Iberia/Aer Lingus for flexibility",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -54,39 +54,25 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-03-31",
-      "notes": "Wyndham has limited Hawaii options; best for US mainland stays",
+      "notes": "Wyndham has limited Hawaii properties; check Ramada/Days Inn options",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
       "id": 5,
-      "bank": "amex",
-      "bankName": "American Express Membership Rewards",
-      "partner": "Avianca LifeMiles",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 15,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.15",
-      "expiresDate": "2026-03-28",
-      "notes": "Book United flights to Hawaii via LifeMiles, often lower fees",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses"
-    },
-    {
-      "id": 6,
       "bank": "capital-one",
       "bankName": "Capital One Miles",
-      "partner": "Preferred Hotels & Resorts",
+      "partner": "Preferred Hotels I Prefer",
       "partnerType": "hotel",
       "partnerIcon": "\ud83c\udfe8",
       "bonusPct": 30,
       "transferRatio": "1:2",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-03-31",
-      "notes": "Limited Hawaii properties but some luxury options available",
+      "notes": "Limited Hawaii options but check boutique properties on Maui/Oahu",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
-      "id": 7,
+      "id": 6,
       "bank": "bilt",
       "bankName": "Bilt Rewards",
       "partner": "Wyndham Rewards",
@@ -95,18 +81,17 @@
       "bonusPct": 125,
       "transferRatio": "1:1",
       "bonusRatio": "1:2.25",
-      "expiresDate": "2026-04-01",
-      "notes": "April 1 Rent Day only; bonus varies 25-125% by status tier",
+      "expiresDate": "2026-04-02",
+      "notes": "April Rent Day only (4/1-4/2); bonus varies 25-125% by status tier",
       "sourceUrl": "https://awardwallet.com/news/bilt-rewards/bilt-rent-day/"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.1",
-    "bonusCount": 7,
+    "bonusCount": 6,
     "banks": [
-      "chase",
-      "amex",
       "capital-one",
+      "chase",
       "bilt"
     ]
   }
