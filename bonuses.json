@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T17:03:39.993230Z",
+  "lastUpdated": "2026-03-31T17:05:23.645406Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,25 +12,11 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Use Avios for AA flights to Hawaii from West Coast at just 13k each way",
+      "notes": "Use Avios for Hawaii inter-island flights on Alaska Airlines from 6,000 Avios each way",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
       "id": 2,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Iberia Plus",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-03-31",
-      "notes": "Avios can transfer between BA, Iberia, Aer Lingus, and Qatar programs",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
-    },
-    {
-      "id": 3,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Aer Lingus AerClub",
@@ -40,7 +26,21 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-03-31",
-      "notes": "Avios work for off-peak AA partner flights to Hawaii",
+      "notes": "Avios pool with BA & Iberia; book partner awards to Hawaii on AA",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+    },
+    {
+      "id": 3,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Iberia Plus",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-03-31",
+      "notes": "Avios currency pools with BA; off-peak awards to Hawaii can be great value",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -54,21 +54,21 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-03-31",
-      "notes": "Wyndham has limited Hawaii properties; best for budget stays",
+      "notes": "Wyndham has limited Hawaii options; best for budget stays on outer islands",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
       "id": 5,
       "bank": "capital-one",
       "bankName": "Capital One Miles",
-      "partner": "Preferred Hotels I Prefer",
+      "partner": "Preferred Hotels & Resorts (I Prefer)",
       "partnerType": "hotel",
       "partnerIcon": "\ud83c\udfe8",
       "bonusPct": 30,
       "transferRatio": "1:2",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-03-31",
-      "notes": "I Prefer has select boutique Hawaii properties worth exploring",
+      "notes": "I Prefer has luxury Hawaii properties; check for availability at upscale resorts",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -81,18 +81,18 @@
       "bonusPct": 125,
       "transferRatio": "1:1",
       "bonusRatio": "1:2.25",
-      "expiresDate": "2026-04-01",
-      "notes": "April 1 Rent Day only; 25-125% bonus based on Bilt status tier",
-      "sourceUrl": "https://onemileatatime.com/guides/bilt-rent-day-promotion/"
+      "expiresDate": "2026-04-02",
+      "notes": "April Rent Day only (Apr 1); bonus varies 25-125% by status tier",
+      "sourceUrl": "https://awardwallet.com/news/bilt-rewards/bilt-rent-day/"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.1",
     "bonusCount": 6,
     "banks": [
-      "bilt",
+      "chase",
       "capital-one",
-      "chase"
+      "bilt"
     ]
   }
 }
