@@ -1,127 +1,55 @@
 {
-  "lastUpdated": "2026-04-01T06:00:00.000Z",
+  "lastUpdated": "2026-04-02T17:02:10.973739Z",
   "bonuses": [
     {
       "id": 1,
-      "bank": "bilt",
-      "bankName": "Bilt Rewards",
-      "partner": "Wyndham Rewards",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 100,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:2",
-      "transferTime": "Instant",
-      "expiresDate": "2026-04-01",
-      "notes": "Bilt Rent Day bonus only — Platinum members get 100%, Gold 75%, Silver 50%, Blue 25%. Transfer on April 1st only.",
-      "sourceUrl": "https://www.biltrewards.com"
-    },
-    {
-      "id": 2,
-      "bank": "capital-one",
-      "bankName": "Capital One Miles",
-      "partner": "Japan Airlines Mileage Bank",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
-      "transferRatio": "2:1",
-      "bonusRatio": "2:1.95",
-      "transferTime": "Instant",
-      "expiresDate": "2026-04-30",
-      "notes": "Great option for Hawaii-to-Japan premium cabin awards. JAL has excellent business class out of HNL and this bonus makes the value even better.",
-      "sourceUrl": "https://www.capitalone.com"
-    },
-    {
-      "id": 3,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Air Canada Aeroplan",
       "partnerType": "airline",
-      "partnerIcon": "✈️",
+      "partnerIcon": "\u2708\ufe0f",
       "bonusPct": 20,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
-      "transferTime": "Instant",
       "expiresDate": "2026-04-30",
-      "notes": "Aeroplan is one of the best programs for Star Alliance business class from Honolulu. United and ANA first class sweet spots are bookable through Aeroplan.",
-      "sourceUrl": "https://www.chase.com"
+      "notes": "Great for Hawaii via partner airlines. 30% bonus possible with Aeroplan card.",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
-      "id": 4,
+      "id": 2,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "IHG One Rewards",
       "partnerType": "hotel",
-      "partnerIcon": "🏨",
+      "partnerIcon": "\ud83c\udfe8",
       "bonusPct": 70,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
-      "transferTime": "1 day",
       "expiresDate": "2026-04-30",
-      "notes": "IHG has solid Hawaii properties including Waikiki. The 70% bonus makes this one of the highest-value hotel transfer opportunities available right now.",
-      "sourceUrl": "https://www.chase.com"
+      "notes": "High bonus but low point value. Consider InterContinental properties in Hawaii.",
+      "sourceUrl": "https://frequentmiler.com/you-can-get-a-70-bonus-transferring-chase-ultimate-rewards-to-ihg-but-you-shouldnt/"
     },
     {
-      "id": 5,
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Avianca Lifemiles",
+      "id": 3,
+      "bank": "capital-one",
+      "bankName": "Capital One Miles",
+      "partner": "Japan Airlines Mileage Bank",
       "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "transferTime": "Instant",
-      "expiresDate": "2026-04-18",
-      "notes": "Avianca Lifemiles is excellent for booking United flights from Honolulu — including first class to the mainland. No carrier-imposed fees.",
-      "sourceUrl": "https://www.citi.com"
-    },
-    {
-      "id": 6,
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Virgin Atlantic Flying Club",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
+      "partnerIcon": "\u2708\ufe0f",
       "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "transferTime": "2 days",
-      "expiresDate": "2026-04-18",
-      "notes": "Virgin Atlantic is a sweet spot for ANA First Class — one of the most luxurious products you can book from Hawaii. Lower prices than transferring directly to ANA.",
-      "sourceUrl": "https://www.citi.com"
+      "transferRatio": "2:1.5",
+      "bonusRatio": "1:0.975",
+      "expiresDate": "2026-04-30",
+      "notes": "Nearly 1:1 ratio with bonus. JAL flies direct to Hawaii from Tokyo.",
+      "sourceUrl": "https://onemileatatime.com/deals/capital-one-japan-airlines-mileage-bank-transfer-bonus/"
     }
   ],
-  "recentlyExpired": [
-    {
-      "id": 101,
-      "bank": "capital-one",
-      "bankName": "Capital One",
-      "partner": "Preferred Hotels & Resorts",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 30,
-      "expiresDate": "2026-03-31"
-    },
-    {
-      "id": 102,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "British Airways Avios",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "expiresDate": "2026-03-31"
-    },
-    {
-      "id": 103,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "Wyndham Rewards",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 30,
-      "expiresDate": "2026-03-31"
-    }
-  ]
+  "meta": {
+    "source": "HRT Auto-Updater v2.1",
+    "bonusCount": 3,
+    "banks": [
+      "capital-one",
+      "chase"
+    ]
+  }
 }
