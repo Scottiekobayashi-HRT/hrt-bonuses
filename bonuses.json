@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T16:57:12.164417Z",
+  "lastUpdated": "2026-04-07T17:08:30.792480Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,7 +12,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-04-30",
-      "notes": "Use Aeroplan for Star Alliance flights to Hawaii via United or partner airlines",
+      "notes": "Book Hawaiian via Star Alliance; Aeroplan co-brand cardholders get extra 10% (30% total)",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -26,7 +26,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-04-30",
-      "notes": "Limited IHG options in Hawaii; transfer only with specific redemption in mind",
+      "notes": "IHG points often sold for 0.5cpp; better value elsewhere for Hawaii hotels",
       "sourceUrl": "https://frequentmiler.com/you-can-get-a-70-bonus-transferring-chase-ultimate-rewards-to-ihg-but-you-shouldnt/"
     },
     {
@@ -38,9 +38,9 @@
       "partnerIcon": "\u2708\ufe0f",
       "bonusPct": 30,
       "transferRatio": "2:1.5",
-      "bonusRatio": "1000:975",
+      "bonusRatio": "1:0.975",
       "expiresDate": "2026-04-30",
-      "notes": "JAL flies direct Tokyo-Honolulu; great for Hawaii trips via Japan",
+      "notes": "JAL flies HNL-NRT; bonus brings ratio close to 1:1 for Hawaii flights",
       "sourceUrl": "https://onemileatatime.com/deals/capital-one-japan-airlines-mileage-bank-transfer-bonus/"
     }
   ],
@@ -48,8 +48,8 @@
     "source": "HRT Auto-Updater v2.1",
     "bonusCount": 3,
     "banks": [
-      "capital-one",
-      "chase"
+      "chase",
+      "capital-one"
     ]
   }
 }
