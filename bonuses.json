@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T17:11:09.695352Z",
+  "lastUpdated": "2026-04-14T17:17:26.782357Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,7 +12,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-04-30",
-      "notes": "Book Hawaiian via Star Alliance partners. Aeroplan cardholders get 30% bonus.",
+      "notes": "Book Hawaii via Star Alliance partners; Aeroplan has good partner availability to HNL",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
@@ -26,7 +26,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-04-30",
-      "notes": "IHG has Hawaii properties but poor value vs airline transfers.",
+      "notes": "IHG has limited Hawaii options; consider InterContinental resorts but value is marginal",
       "sourceUrl": "https://frequentmiler.com/you-can-get-a-70-bonus-transferring-chase-ultimate-rewards-to-ihg-but-you-shouldnt/"
     },
     {
@@ -38,9 +38,9 @@
       "partnerIcon": "\u2708\ufe0f",
       "bonusPct": 30,
       "transferRatio": "2:1.5",
-      "bonusRatio": "1:0.975",
+      "bonusRatio": "2:1.95",
       "expiresDate": "2026-04-30",
-      "notes": "JAL flies nonstop to Hawaii. Near 1:1 effective ratio with this bonus.",
+      "notes": "JAL flies direct to Hawaii; great for premium cabin awards HND-HNL",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     }
   ],
