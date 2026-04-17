@@ -1,5 +1,5 @@
 """
-HRT Transfer Bonus Auto-Updater v2.1
+HRT Transfer Bonus Auto-Updater v2.2
 Runs daily via GitHub Actions. Uses Claude + web search to find current
 transfer bonuses from Chase, Amex, Capital One, and Bilt.
 """
@@ -8,13 +8,21 @@ import anthropic
 import json
 import os
 import time
-from datetime import datetime, date
+from datetime import datetime, date, timezone
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
+# FIX #2: Use a current model. claude-opus-4-5 doesn't exist.
+# Options: claude-opus-4-7 (newest, best), claude-sonnet-4-6 (cheaper, fine for this)
+MODEL = "claude-opus-4-7"
+
 SYSTEM_PROMPT = """You are a credit card points expert for Hawaii Reward Travel (HRT).
 Research current transfer bonuses and return ONLY a valid JSON object.
-No preamble, no markdown fences, no explanation — just the raw JSON.
+
+CRITICAL FORMATTING RULE:
+Your FINAL response must be ONLY raw JSON — no preamble, no markdown fences, no
+explanation sentences like "Based on my research..." — just the JSON object
+starting with { and ending with }. Any text before or after will break the pipeline.
 
 Required structure:
 {
@@ -26,7 +34,7 @@ Required structure:
       "bankName": "American Express",
       "partner": "Air Canada Aeroplan",
       "partnerType": "airline",
-      "partnerIcon": "✈️",
+      "partnerIcon": "\u2708\ufe0f",
       "bonusPct": 30,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
@@ -40,13 +48,13 @@ Required structure:
 Rules:
 - bank must be: chase, amex, capital-one, or bilt
 - partnerType must be: airline or hotel
-- partnerIcon: use the airplane emoji for airlines, hotel emoji for hotels
+- partnerIcon: airplane emoji for airlines, hotel emoji for hotels
 - bonusPct is a number (30 = 30% bonus)
 - expiresDate must be a future YYYY-MM-DD date
 - If no clear expiry, use 30 days from today
 - Only include ACTIVE bonuses that are live right now
 - Return empty bonuses array if none found — never fabricate
-- Return ONLY raw JSON, nothing else"""
+- Your final message must be ONLY the raw JSON object, nothing else"""
 
 USER_PROMPT = f"""Today is {date.today().isoformat()}.
 
@@ -60,32 +68,25 @@ Search sources like thepointsguy.com, frequentmiler.com, onemileatatime.com, and
 
 Find every active bonus with its exact percentage, partner, expiration date, and transfer ratio.
 
-Return ONLY the raw JSON object described in your instructions."""
+When you're done researching, respond with ONLY the raw JSON object — no preamble, no markdown fences, no explanation."""
 
 
 def call_with_retry(func, max_retries=5):
-    """
-    Retry wrapper with exponential backoff.
-    Handles 529 Overloaded and 529-like transient errors.
-    """
+    """Retry wrapper with exponential backoff for transient errors."""
     for attempt in range(1, max_retries + 1):
         try:
             return func()
-        except anthropic.OverloadedError as e:
-            if attempt == max_retries:
-                raise
-            wait = 30 * attempt  # 30s, 60s, 90s, 120s
-            print(f"  API overloaded (attempt {attempt}/{max_retries}). Waiting {wait}s before retry...")
-            time.sleep(wait)
-        except anthropic.RateLimitError as e:
+        except anthropic.RateLimitError:
             if attempt == max_retries:
                 raise
             wait = 60 * attempt
-            print(f"  Rate limited (attempt {attempt}/{max_retries}). Waiting {wait}s before retry...")
+            print(f"  Rate limited (attempt {attempt}/{max_retries}). Waiting {wait}s...")
             time.sleep(wait)
         except anthropic.APIStatusError as e:
-            # Retry on any 5xx server error
-            if e.status_code >= 500 and attempt < max_retries:
+            # 529 = overloaded, 5xx = server errors. Retry these.
+            if e.status_code in (529,) or e.status_code >= 500:
+                if attempt == max_retries:
+                    raise
                 wait = 30 * attempt
                 print(f"  Server error {e.status_code} (attempt {attempt}/{max_retries}). Waiting {wait}s...")
                 time.sleep(wait)
@@ -94,77 +95,91 @@ def call_with_retry(func, max_retries=5):
 
 
 def fetch_bonuses():
+    """Call Claude with web_search enabled and return the final text response."""
     print("Searching for current transfer bonuses...")
 
-    messages = [{"role": "user", "content": USER_PROMPT}]
+    def make_request():
+        return client.messages.create(
+            model=MODEL,
+            max_tokens=8192,  # JSON can get long with many bonuses
+            system=SYSTEM_PROMPT,
+            tools=[{
+                "type": "web_search_20250305",
+                "name": "web_search",
+                "max_uses": 10,  # enough for researching 4 banks thoroughly
+            }],
+            messages=[{"role": "user", "content": USER_PROMPT}],
+        )
 
-    # Agentic loop — keeps going until Claude stops using tools
-    while True:
-        def make_request():
-            return client.messages.create(
-                model="claude-opus-4-5",
-                max_tokens=4096,
-                system=SYSTEM_PROMPT,
-                tools=[{"type": "web_search_20250305", "name": "web_search"}],
-                messages=messages,
-            )
+    response = call_with_retry(make_request)
 
-        response = call_with_retry(make_request)
+    # FIX #3: web_search is a server-side tool. No client-side tool_use loop needed.
+    # Anthropic runs the searches and returns everything in one response.
 
-        # Add Claude's response to the conversation history
-        messages.append({"role": "assistant", "content": response.content})
+    # FIX #1: Collect ALL text blocks, not just the first one.
+    # Claude typically outputs: preamble text → search calls → JSON text.
+    # We want the LAST text block (the final answer), but we'll concatenate all
+    # text blocks so parse_response can robustly extract the JSON from anywhere.
+    text_blocks = []
+    for block in response.content:
+        # Only grab client-facing text blocks, skip server_tool_use and tool_result blocks
+        if getattr(block, "type", None) == "text" and block.text.strip():
+            text_blocks.append(block.text.strip())
 
-        # Done — extract the final text response
-        if response.stop_reason == "end_turn":
-            for block in response.content:
-                if block.type == "text" and block.text.strip():
-                    return block.text.strip()
-            raise ValueError("Claude returned no text in final response")
+    if not text_blocks:
+        # Dump the whole response for debugging if we somehow got nothing
+        print(f"  stop_reason: {response.stop_reason}")
+        print(f"  block types: {[getattr(b, 'type', '?') for b in response.content]}")
+        raise ValueError("Claude returned no text blocks")
 
-        # Tool use — collect results and continue the loop
-        if response.stop_reason == "tool_use":
-            tool_results = []
-            for block in response.content:
-                if block.type == "tool_use":
-                    print(f"  Searched: {block.input.get('query', 'unknown query')}")
-                    tool_results.append({
-                        "type": "tool_result",
-                        "tool_use_id": block.id,
-                        "content": "Search completed successfully."
-                    })
-            if tool_results:
-                messages.append({"role": "user", "content": tool_results})
-            continue
+    # Join all text blocks. The JSON should be at the end (Claude's final answer).
+    full_text = "\n\n".join(text_blocks)
 
-        # Fallback — try to get any text from the response
-        for block in response.content:
-            if hasattr(block, "text") and block.text.strip():
-                return block.text.strip()
-        raise ValueError(f"Unexpected stop reason: {response.stop_reason}")
+    # Log how many searches Claude actually did (good for debugging)
+    search_count = sum(
+        1 for b in response.content if getattr(b, "type", None) == "server_tool_use"
+    )
+    print(f"  Claude performed {search_count} web searches")
+    print(f"  Collected {len(text_blocks)} text block(s), total {len(full_text)} chars")
+
+    return full_text
 
 
 def parse_response(raw):
-    """Clean and parse Claude's JSON response."""
+    """Clean and parse Claude's JSON response. Robust to preamble, fences, postamble."""
+    if not raw or not raw.strip():
+        raise ValueError("Empty response from Claude")
+
     text = raw.strip()
 
     # Strip markdown fences if present
     if "```" in text:
-        parts = text.split("```")
-        for part in parts:
-            part = part.strip()
-            if part.startswith("json"):
-                part = part[4:].strip()
-            if part.startswith("{"):
-                text = part
-                break
+        # Try to find a fenced json block first
+        import re
+        fenced = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
+        if fenced:
+            text = fenced.group(1)
 
-    # Find the JSON object boundaries
+    # Find the outermost JSON object boundaries
     start = text.find("{")
-    end = text.rfind("}") + 1
-    if start != -1 and end > start:
-        text = text[start:end]
+    end = text.rfind("}")
 
-    return json.loads(text)
+    if start == -1 or end == -1 or end <= start:
+        # Give a useful error — show what we actually got so we can debug
+        preview = text[:500] if len(text) > 500 else text
+        raise ValueError(
+            f"No JSON object found in response. "
+            f"Got {len(text)} chars starting with: {preview!r}"
+        )
+
+    json_text = text[start:end + 1]
+
+    try:
+        return json.loads(json_text)
+    except json.JSONDecodeError as e:
+        # On parse failure, include the problematic JSON for debugging
+        preview = json_text[:500] if len(json_text) > 500 else json_text
+        raise ValueError(f"JSON parse failed: {e}. Extracted text: {preview!r}") from e
 
 
 def load_existing():
@@ -197,20 +212,21 @@ def merge_bonuses(existing, new_data):
     for i, b in enumerate(all_bonuses, 1):
         b["id"] = i
 
+    # FIX: Use timezone-aware UTC instead of deprecated utcnow()
     return {
-        "lastUpdated": datetime.utcnow().isoformat() + "Z",
+        "lastUpdated": datetime.now(timezone.utc).isoformat(),
         "bonuses": all_bonuses,
         "meta": {
-            "source": "HRT Auto-Updater v2.1",
+            "source": "HRT Auto-Updater v2.2",
             "bonusCount": len(all_bonuses),
-            "banks": list(set(b["bank"] for b in all_bonuses))
-        }
+            "banks": list(set(b["bank"] for b in all_bonuses)),
+        },
     }
 
 
 def save(data):
     with open("bonuses.json", "w") as f:
-        json.dump(data, f, indent=2)
+        json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"Saved {len(data['bonuses'])} active bonuses to bonuses.json")
 
 
@@ -218,9 +234,11 @@ def main():
     try:
         raw = fetch_bonuses()
         print(f"Raw response length: {len(raw)} chars")
+        # Print a preview so future failures are easier to debug
+        print(f"Raw response preview: {raw[:200]!r}")
 
         new_data = parse_response(raw)
-        print(f"Found {len(new_data.get('bonuses', []))} bonuses")
+        print(f"Parsed {len(new_data.get('bonuses', []))} bonuses from response")
 
         existing = load_existing()
         merged = merge_bonuses(existing, new_data)
@@ -228,7 +246,10 @@ def main():
 
         print("\nActive bonuses:")
         for b in merged["bonuses"]:
-            print(f"  {b['bankName']} -> {b['partner']} (+{b['bonusPct']}%) expires {b['expiresDate']}")
+            print(
+                f"  {b['bankName']} -> {b['partner']} (+{b['bonusPct']}%) "
+                f"expires {b['expiresDate']}"
+            )
 
     except Exception as e:
         print(f"Error: {e}")
