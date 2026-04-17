@@ -1,7 +1,12 @@
 """
-HRT Transfer Bonus Auto-Updater v2.3
+HRT Transfer Bonus Auto-Updater v2.4
 Runs daily via GitHub Actions. Uses Claude + web search to find current
 transfer bonuses from Chase, Amex, Capital One, Bilt, and Citi.
+
+v2.4 adds:
+- Stronger Citi-specific prompting (calls out Avianca, Virgin, Turkish, JetBlue)
+- Reads manual-additions.json for bonuses the AI misses
+- Dedupes manual entries against AI-found ones (manual always wins)
 """
 
 import anthropic
@@ -13,14 +18,14 @@ from datetime import datetime, date, timezone
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
 MODEL = "claude-opus-4-7"
+MANUAL_FILE = "manual-additions.json"
 
 SYSTEM_PROMPT = """You are a credit card points expert for Hawaii Reward Travel (HRT).
 Research current transfer bonuses and return ONLY a valid JSON object.
 
 CRITICAL FORMATTING RULE:
 Your FINAL response must be ONLY raw JSON — no preamble, no markdown fences, no
-explanation sentences like "Based on my research..." — just the JSON object
-starting with { and ending with }. Any text before or after will break the pipeline.
+explanation sentences. Just the JSON object starting with { and ending with }.
 
 Required structure:
 {
@@ -36,8 +41,8 @@ Required structure:
       "bonusPct": 30,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
+      "transferTime": "Instant",
       "expiresDate": "YYYY-MM-DD",
-      "notes": "Hawaii-relevant tip, max 100 chars",
       "sourceUrl": "https://source.com"
     }
   ]
@@ -57,25 +62,41 @@ Rules:
 - expiresDate must be a future YYYY-MM-DD date
 - If no clear expiry, use 30 days from today
 - Only include ACTIVE bonuses that are live right now
-- Return empty bonuses array if none found — never fabricate
-- Your final message must be ONLY the raw JSON object, nothing else"""
+- Return empty bonuses array if none found - never fabricate
+- Your final message must be ONLY the raw JSON object"""
 
 USER_PROMPT = f"""Today is {date.today().isoformat()}.
 
-Search the web for ALL currently active credit card transfer bonuses from:
+Search the web for ALL currently active credit card transfer bonuses from these 5 programs:
+
 1. Chase Ultimate Rewards
 2. American Express Membership Rewards
 3. Capital One Miles
 4. Bilt Rewards
 5. Citi ThankYou Points
 
-Search sources like thepointsguy.com, frequentmiler.com, onemileatatime.com, 10xtravel.com, and monkeymiles.com.
+IMPORTANT — be thorough on Citi. Citi ThankYou Points partners with:
+- Avianca LifeMiles, Virgin Atlantic Flying Club, Turkish Airlines Miles&Smiles,
+  JetBlue TrueBlue, Air France/KLM Flying Blue, Emirates Skywards, Singapore KrisFlyer,
+  Qatar Privilege Club, Etihad Guest, EVA Air, Thai Royal Orchid, Cathay Pacific,
+  Choice Privileges, Wyndham Rewards, Shop Your Way
+Check each of these for active bonuses — Citi runs short-burst promos that are easy to miss.
 
-Find every active bonus with its exact percentage, partner, expiration date, and transfer ratio.
+Search sources:
+- thepointsguy.com/guide/transfer-bonuses (their master tracker)
+- frequentmiler.com (search for "current transfer bonuses")
+- monkeymiles.com (strong Citi coverage)
+- onemileatatime.com
+- 10xtravel.com
+- The official issuer pages: citi.com/thankyou, americanexpress.com/membership-rewards,
+  bilt.com, capitalone.com/rewards, chase.com/ultimate-rewards
 
-Pay special attention to Bilt Rent Day bonuses (1st of each month) and Citi ThankYou bonuses — these are often overlooked.
+Also pay special attention to Bilt Rent Day bonuses on the 1st of each month.
 
-When you're done researching, respond with ONLY the raw JSON object — no preamble, no markdown fences, no explanation."""
+Find every active bonus with exact percentage, partner, expiration date, and transfer ratio.
+If a bonus ends within the next 7 days, include it — those are the most valuable to surface.
+
+When you're done researching, respond with ONLY the raw JSON object."""
 
 
 def call_with_retry(func, max_retries=5):
@@ -112,7 +133,7 @@ def fetch_bonuses():
             tools=[{
                 "type": "web_search_20250305",
                 "name": "web_search",
-                "max_uses": 12,  # bumped from 10 — 5 banks needs more searches
+                "max_uses": 15,  # bumped to 15 for thorough Citi partner coverage
             }],
             messages=[{"role": "user", "content": USER_PROMPT}],
         )
@@ -141,7 +162,7 @@ def fetch_bonuses():
 
 
 def parse_response(raw):
-    """Clean and parse Claude's JSON response. Robust to preamble, fences, postamble."""
+    """Clean and parse Claude's JSON response."""
     if not raw or not raw.strip():
         raise ValueError("Empty response from Claude")
 
@@ -172,38 +193,84 @@ def parse_response(raw):
         raise ValueError(f"JSON parse failed: {e}. Extracted text: {preview!r}") from e
 
 
-def load_existing():
+def load_manual_additions():
+    """Load manual bonus additions from manual-additions.json."""
     try:
-        with open("bonuses.json", "r") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return {"lastUpdated": None, "bonuses": []}
+        with open(MANUAL_FILE, "r") as f:
+            data = json.load(f)
+            bonuses = data.get("bonuses", [])
+            print(f"Loaded {len(bonuses)} manual bonus(es) from {MANUAL_FILE}")
+            return bonuses
+    except FileNotFoundError:
+        print(f"No {MANUAL_FILE} found - skipping manual additions")
+        return []
+    except json.JSONDecodeError as e:
+        print(f"WARNING: {MANUAL_FILE} has invalid JSON ({e}). Skipping manual additions.")
+        return []
 
 
-def merge_bonuses(existing, new_data):
+def dedupe_key(b):
+    """Create a dedup key for a bonus: bank + partner (case-insensitive)."""
+    bank = (b.get("bank") or "").lower().strip()
+    partner = (b.get("partner") or "").lower().strip()
+    return f"{bank}|{partner}"
+
+
+def merge_sources(ai_bonuses, manual_bonuses):
+    """
+    Merge AI-scraped and manual bonuses. Manual entries always win on collision
+    (since Scottie verified them directly).
+    """
     today = date.today()
-    manual = [b for b in existing.get("bonuses", []) if b.get("bank") == "manual"]
 
-    active_new = []
-    for b in new_data.get("bonuses", []):
+    # Start with manual entries (they take priority)
+    seen_keys = set()
+    merged = []
+
+    for b in manual_bonuses:
+        # Skip expired manuals so stale entries auto-clean
         try:
             exp = date.fromisoformat(b["expiresDate"])
-            if exp >= today:
-                active_new.append(b)
+            if exp < today:
+                print(f"  Skipping expired manual entry: {b.get('partner')} "
+                      f"(expired {b['expiresDate']})")
+                continue
         except (KeyError, ValueError):
-            active_new.append(b)
+            pass
+        merged.append(dict(b))  # copy to avoid mutating source
+        seen_keys.add(dedupe_key(b))
 
-    all_bonuses = active_new + manual
-    for i, b in enumerate(all_bonuses, 1):
+    for b in ai_bonuses:
+        key = dedupe_key(b)
+        if key in seen_keys:
+            print(f"  AI found duplicate of manual entry ({key}) - keeping manual version")
+            continue
+        # Filter expired from AI results
+        try:
+            exp = date.fromisoformat(b["expiresDate"])
+            if exp < today:
+                continue
+        except (KeyError, ValueError):
+            pass
+        merged.append(dict(b))
+        seen_keys.add(key)
+
+    # Renumber IDs
+    for i, b in enumerate(merged, 1):
         b["id"] = i
 
+    return merged
+
+
+def build_output(merged_bonuses):
+    """Build the final output structure for bonuses.json."""
     return {
         "lastUpdated": datetime.now(timezone.utc).isoformat(),
-        "bonuses": all_bonuses,
+        "bonuses": merged_bonuses,
         "meta": {
-            "source": "HRT Auto-Updater v2.3",
-            "bonusCount": len(all_bonuses),
-            "banks": list(set(b["bank"] for b in all_bonuses)),
+            "source": "HRT Auto-Updater v2.4",
+            "bonusCount": len(merged_bonuses),
+            "banks": sorted(list(set(b["bank"] for b in merged_bonuses if b.get("bank")))),
         },
     }
 
@@ -216,22 +283,32 @@ def save(data):
 
 def main():
     try:
+        # 1. Pull live bonuses from Claude
         raw = fetch_bonuses()
         print(f"Raw response length: {len(raw)} chars")
         print(f"Raw response preview: {raw[:200]!r}")
 
         new_data = parse_response(raw)
-        print(f"Parsed {len(new_data.get('bonuses', []))} bonuses from response")
+        ai_bonuses = new_data.get("bonuses", [])
+        print(f"Parsed {len(ai_bonuses)} bonuses from AI response")
 
-        existing = load_existing()
-        merged = merge_bonuses(existing, new_data)
-        save(merged)
+        # 2. Load manual additions
+        manual_bonuses = load_manual_additions()
+
+        # 3. Merge (manual wins on collision)
+        merged = merge_sources(ai_bonuses, manual_bonuses)
+        print(f"Final merged count: {len(merged)} active bonuses")
+
+        # 4. Build output and save
+        output = build_output(merged)
+        save(output)
 
         print("\nActive bonuses:")
-        for b in merged["bonuses"]:
+        for b in output["bonuses"]:
+            source_tag = " [manual]" if b in manual_bonuses else ""
             print(
                 f"  {b['bankName']} -> {b['partner']} (+{b['bonusPct']}%) "
-                f"expires {b['expiresDate']}"
+                f"expires {b['expiresDate']}{source_tag}"
             )
 
     except Exception as e:
