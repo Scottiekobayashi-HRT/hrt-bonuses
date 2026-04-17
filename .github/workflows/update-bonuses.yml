@@ -2,18 +2,21 @@ name: Daily Transfer Bonus Update
 
 on:
   schedule:
-    - cron: '0 16 * * *'
-  workflow_dispatch:
+    # Runs daily at 14:00 UTC (04:00 Hawaii Standard Time - "morning refresh")
+    # Adjust this cron if you want a different time. Format: minute hour * * *
+    - cron: '0 14 * * *'
+  workflow_dispatch:  # Enables manual "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write  # Required so the bot can push bonuses.json back to the repo
 
 jobs:
   update-bonuses:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -21,18 +24,54 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install anthropic
+        run: |
+          python -m pip install --upgrade pip
+          pip install anthropic
 
-      - name: Run bonus scraper
+      - name: Run bonus updater
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python update_bonuses.py
 
-      - name: Commit updated bonuses.json
+      - name: Commit and push
         run: |
           git config user.name "HRT Bot"
           git config user.email "bot@hawaiirewardtravel.com"
+
+          # Stash our generated output before touching git state
+          cp bonuses.json /tmp/new-bonuses.json
+
+          # Sync with latest remote — guarantees no divergent history
+          git fetch origin main
+          git reset --hard origin/main
+
+          # Reapply our freshly-generated file on top of the latest main
+          cp /tmp/new-bonuses.json bonuses.json
+
+          # Exit cleanly if nothing actually changed
           git add bonuses.json
-          git diff --cached --quiet || git commit -m "Auto-update transfer bonuses $(date +'%Y-%m-%d')"
-          git pull --rebase origin main
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit — bonuses.json already up to date"
+            exit 0
+          fi
+
+          git commit -m "Auto-update transfer bonuses $(date -u +'%Y-%m-%d %H:%M UTC')"
+
+          # Push with retry — handles rare race conditions with concurrent pushes
+          for attempt in 1 2 3; do
+            if git push origin main; then
+              echo "Push successful on attempt $attempt"
+              exit 0
+            fi
+            echo "Push failed on attempt $attempt — resyncing and retrying..."
+            cp bonuses.json /tmp/new-bonuses.json
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/new-bonuses.json bonuses.json
+            git add bonuses.json
+            git commit -m "Auto-update transfer bonuses $(date -u +'%Y-%m-%d %H:%M UTC')"
+            sleep 3
+          done
+
+          echo "Push failed after 3 attempts — giving up"
+          exit 1
