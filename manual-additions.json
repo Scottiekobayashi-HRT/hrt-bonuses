@@ -1,0 +1,31 @@
+{
+  "_comment": "Manual bonus additions for the HRT Transfer Bonus Tracker. Edit this file directly in GitHub when the AI scraper misses a bonus. Entries here are merged into bonuses.json on every daily run. Expired entries are auto-filtered. Supported banks: chase, amex, capital-one, bilt, citi. partnerType: airline or hotel.",
+  "bonuses": [
+    {
+      "bank": "citi",
+      "bankName": "Citi ThankYou Points",
+      "partner": "Avianca LifeMiles",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "transferTime": "Instant",
+      "expiresDate": "2026-04-18",
+      "sourceUrl": "https://www.citi.com"
+    },
+    {
+      "bank": "citi",
+      "bankName": "Citi ThankYou Points",
+      "partner": "Virgin Atlantic Flying Club",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "transferTime": "Instant",
+      "expiresDate": "2026-04-18",
+      "sourceUrl": "https://www.citi.com"
+    }
+  ]
+}
