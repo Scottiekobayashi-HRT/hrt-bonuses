@@ -1,7 +1,7 @@
 """
-HRT Transfer Bonus Auto-Updater v2.2
+HRT Transfer Bonus Auto-Updater v2.3
 Runs daily via GitHub Actions. Uses Claude + web search to find current
-transfer bonuses from Chase, Amex, Capital One, and Bilt.
+transfer bonuses from Chase, Amex, Capital One, Bilt, and Citi.
 """
 
 import anthropic
@@ -12,8 +12,6 @@ from datetime import datetime, date, timezone
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-# FIX #2: Use a current model. claude-opus-4-5 doesn't exist.
-# Options: claude-opus-4-7 (newest, best), claude-sonnet-4-6 (cheaper, fine for this)
 MODEL = "claude-opus-4-7"
 
 SYSTEM_PROMPT = """You are a credit card points expert for Hawaii Reward Travel (HRT).
@@ -46,7 +44,13 @@ Required structure:
 }
 
 Rules:
-- bank must be: chase, amex, capital-one, or bilt
+- bank must be one of: chase, amex, capital-one, bilt, citi
+- bankName should be the full program name:
+  * chase -> "Chase Ultimate Rewards"
+  * amex -> "American Express Membership Rewards"
+  * capital-one -> "Capital One Miles"
+  * bilt -> "Bilt Rewards"
+  * citi -> "Citi ThankYou Points"
 - partnerType must be: airline or hotel
 - partnerIcon: airplane emoji for airlines, hotel emoji for hotels
 - bonusPct is a number (30 = 30% bonus)
@@ -63,10 +67,13 @@ Search the web for ALL currently active credit card transfer bonuses from:
 2. American Express Membership Rewards
 3. Capital One Miles
 4. Bilt Rewards
+5. Citi ThankYou Points
 
-Search sources like thepointsguy.com, frequentmiler.com, onemileatatime.com, and 10xtravel.com.
+Search sources like thepointsguy.com, frequentmiler.com, onemileatatime.com, 10xtravel.com, and monkeymiles.com.
 
 Find every active bonus with its exact percentage, partner, expiration date, and transfer ratio.
+
+Pay special attention to Bilt Rent Day bonuses (1st of each month) and Citi ThankYou bonuses — these are often overlooked.
 
 When you're done researching, respond with ONLY the raw JSON object — no preamble, no markdown fences, no explanation."""
 
@@ -83,7 +90,6 @@ def call_with_retry(func, max_retries=5):
             print(f"  Rate limited (attempt {attempt}/{max_retries}). Waiting {wait}s...")
             time.sleep(wait)
         except anthropic.APIStatusError as e:
-            # 529 = overloaded, 5xx = server errors. Retry these.
             if e.status_code in (529,) or e.status_code >= 500:
                 if attempt == max_retries:
                     raise
@@ -96,46 +102,35 @@ def call_with_retry(func, max_retries=5):
 
 def fetch_bonuses():
     """Call Claude with web_search enabled and return the final text response."""
-    print("Searching for current transfer bonuses...")
+    print("Searching for current transfer bonuses across 5 banks...")
 
     def make_request():
         return client.messages.create(
             model=MODEL,
-            max_tokens=8192,  # JSON can get long with many bonuses
+            max_tokens=8192,
             system=SYSTEM_PROMPT,
             tools=[{
                 "type": "web_search_20250305",
                 "name": "web_search",
-                "max_uses": 10,  # enough for researching 4 banks thoroughly
+                "max_uses": 12,  # bumped from 10 — 5 banks needs more searches
             }],
             messages=[{"role": "user", "content": USER_PROMPT}],
         )
 
     response = call_with_retry(make_request)
 
-    # FIX #3: web_search is a server-side tool. No client-side tool_use loop needed.
-    # Anthropic runs the searches and returns everything in one response.
-
-    # FIX #1: Collect ALL text blocks, not just the first one.
-    # Claude typically outputs: preamble text → search calls → JSON text.
-    # We want the LAST text block (the final answer), but we'll concatenate all
-    # text blocks so parse_response can robustly extract the JSON from anywhere.
     text_blocks = []
     for block in response.content:
-        # Only grab client-facing text blocks, skip server_tool_use and tool_result blocks
         if getattr(block, "type", None) == "text" and block.text.strip():
             text_blocks.append(block.text.strip())
 
     if not text_blocks:
-        # Dump the whole response for debugging if we somehow got nothing
         print(f"  stop_reason: {response.stop_reason}")
         print(f"  block types: {[getattr(b, 'type', '?') for b in response.content]}")
         raise ValueError("Claude returned no text blocks")
 
-    # Join all text blocks. The JSON should be at the end (Claude's final answer).
     full_text = "\n\n".join(text_blocks)
 
-    # Log how many searches Claude actually did (good for debugging)
     search_count = sum(
         1 for b in response.content if getattr(b, "type", None) == "server_tool_use"
     )
@@ -152,20 +147,16 @@ def parse_response(raw):
 
     text = raw.strip()
 
-    # Strip markdown fences if present
     if "```" in text:
-        # Try to find a fenced json block first
         import re
         fenced = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
         if fenced:
             text = fenced.group(1)
 
-    # Find the outermost JSON object boundaries
     start = text.find("{")
     end = text.rfind("}")
 
     if start == -1 or end == -1 or end <= start:
-        # Give a useful error — show what we actually got so we can debug
         preview = text[:500] if len(text) > 500 else text
         raise ValueError(
             f"No JSON object found in response. "
@@ -177,13 +168,11 @@ def parse_response(raw):
     try:
         return json.loads(json_text)
     except json.JSONDecodeError as e:
-        # On parse failure, include the problematic JSON for debugging
         preview = json_text[:500] if len(json_text) > 500 else json_text
         raise ValueError(f"JSON parse failed: {e}. Extracted text: {preview!r}") from e
 
 
 def load_existing():
-    """Load existing bonuses.json to preserve manually added entries."""
     try:
         with open("bonuses.json", "r") as f:
             return json.load(f)
@@ -192,13 +181,9 @@ def load_existing():
 
 
 def merge_bonuses(existing, new_data):
-    """Keep manual entries, add new AI-found ones, remove expired."""
     today = date.today()
-
-    # Preserve manual entries
     manual = [b for b in existing.get("bonuses", []) if b.get("bank") == "manual"]
 
-    # Filter out expired from new data
     active_new = []
     for b in new_data.get("bonuses", []):
         try:
@@ -212,12 +197,11 @@ def merge_bonuses(existing, new_data):
     for i, b in enumerate(all_bonuses, 1):
         b["id"] = i
 
-    # FIX: Use timezone-aware UTC instead of deprecated utcnow()
     return {
         "lastUpdated": datetime.now(timezone.utc).isoformat(),
         "bonuses": all_bonuses,
         "meta": {
-            "source": "HRT Auto-Updater v2.2",
+            "source": "HRT Auto-Updater v2.3",
             "bonusCount": len(all_bonuses),
             "banks": list(set(b["bank"] for b in all_bonuses)),
         },
@@ -234,7 +218,6 @@ def main():
     try:
         raw = fetch_bonuses()
         print(f"Raw response length: {len(raw)} chars")
-        # Print a preview so future failures are easier to debug
         print(f"Raw response preview: {raw[:200]!r}")
 
         new_data = parse_response(raw)
