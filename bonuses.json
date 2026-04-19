@@ -1,36 +1,8 @@
 {
-  "lastUpdated": "2026-04-18T14:33:53.975751+00:00",
+  "lastUpdated": "2026-04-19T14:33:54.239313+00:00",
   "bonuses": [
     {
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Avianca LifeMiles",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "transferTime": "Instant",
-      "expiresDate": "2026-04-18",
-      "sourceUrl": "https://www.citi.com",
-      "id": 1
-    },
-    {
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Virgin Atlantic Flying Club",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "transferTime": "Instant",
-      "expiresDate": "2026-04-18",
-      "sourceUrl": "https://www.citi.com",
-      "id": 2
-    },
-    {
-      "id": 3,
+      "id": 1,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Air Canada Aeroplan",
@@ -44,7 +16,7 @@
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
-      "id": 4,
+      "id": 2,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "IHG One Rewards",
@@ -58,7 +30,7 @@
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
-      "id": 5,
+      "id": 3,
       "bank": "capital-one",
       "bankName": "Capital One Miles",
       "partner": "Japan Airlines Mileage Bank",
@@ -66,19 +38,18 @@
       "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "2:1.5",
-      "bonusRatio": "100:97.5",
+      "bonusRatio": "1000:975",
       "transferTime": "Instant",
       "expiresDate": "2026-04-30",
-      "sourceUrl": "https://awardwallet.com/news/credit-card-transfer-bonuses/"
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.4",
-    "bonusCount": 5,
+    "bonusCount": 3,
     "banks": [
       "capital-one",
-      "chase",
-      "citi"
+      "chase"
     ]
   }
 }
