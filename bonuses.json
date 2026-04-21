@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T15:08:53.482607+00:00",
+  "lastUpdated": "2026-04-21T15:03:50.562855+00:00",
   "bonuses": [
     {
       "id": 1,
@@ -41,15 +41,30 @@
       "bonusRatio": "2:1.95",
       "transferTime": "Instant",
       "expiresDate": "2026-04-30",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+      "sourceUrl": "https://awardwallet.com/news/credit-card-transfer-bonuses/"
+    },
+    {
+      "id": 4,
+      "bank": "citi",
+      "bankName": "Citi ThankYou Points",
+      "partner": "Leading Hotels of the World Leaders Club",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 25,
+      "transferRatio": "1:0.2",
+      "bonusRatio": "1:0.25",
+      "transferTime": "Instant",
+      "expiresDate": "2026-05-16",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.4",
-    "bonusCount": 3,
+    "bonusCount": 4,
     "banks": [
       "capital-one",
-      "chase"
+      "chase",
+      "citi"
     ]
   }
 }
