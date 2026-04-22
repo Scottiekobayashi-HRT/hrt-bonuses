@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T15:03:50.562855+00:00",
+  "lastUpdated": "2026-04-22T15:03:50.740329+00:00",
   "bonuses": [
     {
       "id": 1,
@@ -25,9 +25,9 @@
       "bonusPct": 70,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
-      "transferTime": "1 day",
+      "transferTime": "Up to 1 day",
       "expiresDate": "2026-04-30",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+      "sourceUrl": "https://frequentmiler.com/you-can-get-a-70-bonus-transferring-chase-ultimate-rewards-to-ihg-but-you-shouldnt/"
     },
     {
       "id": 3,
@@ -41,7 +41,7 @@
       "bonusRatio": "2:1.95",
       "transferTime": "Instant",
       "expiresDate": "2026-04-30",
-      "sourceUrl": "https://awardwallet.com/news/credit-card-transfer-bonuses/"
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
       "id": 4,
@@ -51,11 +51,11 @@
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 25,
-      "transferRatio": "1:0.2",
-      "bonusRatio": "1:0.25",
+      "transferRatio": "5:1",
+      "bonusRatio": "5:1.25",
       "transferTime": "Instant",
       "expiresDate": "2026-05-16",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/"
     }
   ],
   "meta": {
