@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T15:03:50.740329+00:00",
+  "lastUpdated": "2026-04-23T15:30:10.604023+00:00",
   "bonuses": [
     {
       "id": 1,
@@ -13,7 +13,7 @@
       "bonusRatio": "1:1.2",
       "transferTime": "Instant",
       "expiresDate": "2026-04-30",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+      "sourceUrl": "https://frequentmiler.com/get-20-bonus-when-transferring-chase-ultimate-rewards-to-air-canada-aeroplan-stack-with-10-cardholder-bonus/"
     },
     {
       "id": 2,
@@ -25,9 +25,9 @@
       "bonusPct": 70,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
-      "transferTime": "Up to 1 day",
+      "transferTime": "Instant",
       "expiresDate": "2026-04-30",
-      "sourceUrl": "https://frequentmiler.com/you-can-get-a-70-bonus-transferring-chase-ultimate-rewards-to-ihg-but-you-shouldnt/"
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
       "id": 3,
@@ -38,10 +38,10 @@
       "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "2:1.5",
-      "bonusRatio": "2:1.95",
-      "transferTime": "Instant",
+      "bonusRatio": "1:0.975",
+      "transferTime": "Up to 24 hours",
       "expiresDate": "2026-04-30",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+      "sourceUrl": "https://awardwallet.com/news/capital-one-rewards/japan-airlines-transfer-bonus/"
     },
     {
       "id": 4,
@@ -51,11 +51,11 @@
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 25,
-      "transferRatio": "5:1",
-      "bonusRatio": "5:1.25",
+      "transferRatio": "1:0.2",
+      "bonusRatio": "1:0.25",
       "transferTime": "Instant",
       "expiresDate": "2026-05-16",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/"
+      "sourceUrl": "https://loyaltylobby.com/2026/04/19/citi-thankyou-to-lhw-leaders-club-25-conversion-bonus-april-19-may-16-2026/"
     }
   ],
   "meta": {
