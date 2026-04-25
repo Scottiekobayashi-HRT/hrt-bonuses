@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T15:00:50.295940+00:00",
+  "lastUpdated": "2026-04-25T14:35:19.077328+00:00",
   "bonuses": [
     {
       "id": 1,
@@ -25,7 +25,7 @@
       "bonusPct": 70,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
-      "transferTime": "Instant",
+      "transferTime": "1 day",
       "expiresDate": "2026-04-30",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
@@ -38,10 +38,10 @@
       "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "2:1.5",
-      "bonusRatio": "2:1.95",
+      "bonusRatio": "1:0.975",
       "transferTime": "Instant",
       "expiresDate": "2026-04-30",
-      "sourceUrl": "https://awardwallet.com/news/capital-one-rewards/japan-airlines-transfer-bonus/"
+      "sourceUrl": "https://frequentmiler.com/get-a-30-bonus-when-transferring-capital-one-miles-to-japan-airlines-not-quite-11/"
     },
     {
       "id": 4,
@@ -51,11 +51,11 @@
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 25,
-      "transferRatio": "1:0.2",
-      "bonusRatio": "1:0.25",
-      "transferTime": "Instant",
+      "transferRatio": "1000:200",
+      "bonusRatio": "1000:250",
+      "transferTime": "1-2 days",
       "expiresDate": "2026-05-16",
-      "sourceUrl": "https://loyaltylobby.com/2026/04/19/citi-thankyou-to-lhw-leaders-club-25-conversion-bonus-april-19-may-16-2026/"
+      "sourceUrl": "https://frequentmiler.com/25-transfer-bonus-from-citi-to-leaders-hotels-of-the-world-leaders-club/"
     }
   ],
   "meta": {
