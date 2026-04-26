@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T14:35:19.077328+00:00",
+  "lastUpdated": "2026-04-26T14:35:49.347814+00:00",
   "bonuses": [
     {
       "id": 1,
@@ -38,10 +38,10 @@
       "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "2:1.5",
-      "bonusRatio": "1:0.975",
+      "bonusRatio": "2:1.95",
       "transferTime": "Instant",
       "expiresDate": "2026-04-30",
-      "sourceUrl": "https://frequentmiler.com/get-a-30-bonus-when-transferring-capital-one-miles-to-japan-airlines-not-quite-11/"
+      "sourceUrl": "https://awardwallet.com/news/capital-one-rewards/japan-airlines-transfer-bonus/"
     },
     {
       "id": 4,
@@ -53,7 +53,7 @@
       "bonusPct": 25,
       "transferRatio": "1000:200",
       "bonusRatio": "1000:250",
-      "transferTime": "1-2 days",
+      "transferTime": "Instant",
       "expiresDate": "2026-05-16",
       "sourceUrl": "https://frequentmiler.com/25-transfer-bonus-from-citi-to-leaders-hotels-of-the-world-leaders-club/"
     }
