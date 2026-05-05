@@ -1,22 +1,36 @@
 {
-  "lastUpdated": "2026-05-04T15:53:48.788095+00:00",
+  "lastUpdated": "2026-05-05T15:27:50.623725+00:00",
   "bonuses": [
     {
       "id": 1,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Marriott Bonvoy",
+      "bank": "amex",
+      "bankName": "American Express Membership Rewards",
+      "partner": "Hilton Honors",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
-      "bonusPct": 65,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.65",
-      "transferTime": "Up to 2 days",
-      "expiresDate": "2026-05-15",
-      "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
+      "bonusPct": 20,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.4",
+      "transferTime": "Instant",
+      "expiresDate": "2026-05-30",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
       "id": 2,
+      "bank": "amex",
+      "bankName": "American Express Membership Rewards",
+      "partner": "JetBlue TrueBlue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 10,
+      "transferRatio": "250:200",
+      "bonusRatio": "250:220",
+      "transferTime": "Instant",
+      "expiresDate": "2026-05-11",
+      "sourceUrl": "https://frequentmiler.com/transfer-bonus-from-amex-to-jetblue-its-a-bad-deal/"
+    },
+    {
+      "id": 3,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Air France-KLM Flying Blue",
@@ -30,32 +44,18 @@
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
-      "id": 3,
-      "bank": "amex",
-      "bankName": "American Express Membership Rewards",
-      "partner": "Hilton Honors",
+      "id": 4,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Marriott Bonvoy",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
-      "bonusPct": 20,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.4",
+      "bonusPct": 65,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.65",
       "transferTime": "Instant",
-      "expiresDate": "2026-05-30",
-      "sourceUrl": "https://frequentmiler.com/amex-membership-rewards-20-transfer-bonus-to-hilton-honors-1000-2400/"
-    },
-    {
-      "id": 4,
-      "bank": "amex",
-      "bankName": "American Express Membership Rewards",
-      "partner": "JetBlue TrueBlue",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 10,
-      "transferRatio": "1000:800",
-      "bonusRatio": "1000:880",
-      "transferTime": "Instant",
-      "expiresDate": "2026-05-11",
-      "sourceUrl": "https://upgradedpoints.com/news/amex-jetblue-transfer-bonus/"
+      "expiresDate": "2026-05-15",
+      "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
     },
     {
       "id": 5,
@@ -67,42 +67,28 @@
       "bonusPct": 20,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
-      "transferTime": "Up to 36 hours",
+      "transferTime": "Instant",
       "expiresDate": "2026-05-31",
-      "sourceUrl": "https://onemileatatime.com/deals/capital-one-qantas-transfer-bonus/"
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
       "id": 6,
       "bank": "citi",
       "bankName": "Citi ThankYou Points",
-      "partner": "Leading Hotels of the World Leaders Club",
+      "partner": "Leaders Club (Leading Hotels of the World)",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 25,
-      "transferRatio": "5:1",
+      "transferRatio": "1000:200",
       "bonusRatio": "1000:250",
-      "transferTime": "Up to 2 days",
+      "transferTime": "1-2 days",
       "expiresDate": "2026-05-16",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/"
-    },
-    {
-      "id": 7,
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Qantas Frequent Flyer",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "transferTime": "Up to 1 day",
-      "expiresDate": "2026-05-31",
-      "sourceUrl": "https://awardwallet.com/news/credit-card-transfer-bonuses/"
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.4",
-    "bonusCount": 7,
+    "bonusCount": 6,
     "banks": [
       "amex",
       "capital-one",
