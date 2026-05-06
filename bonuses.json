@@ -1,8 +1,36 @@
 {
-  "lastUpdated": "2026-05-05T15:27:50.623725+00:00",
+  "lastUpdated": "2026-05-06T16:01:29.121098+00:00",
   "bonuses": [
     {
       "id": 1,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Marriott Bonvoy",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 65,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.65",
+      "transferTime": "Instant",
+      "expiresDate": "2026-05-15",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+    },
+    {
+      "id": 2,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Air France-KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "transferTime": "Instant",
+      "expiresDate": "2026-05-27",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+    },
+    {
+      "id": 3,
       "bank": "amex",
       "bankName": "American Express Membership Rewards",
       "partner": "Hilton Honors",
@@ -16,7 +44,7 @@
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
-      "id": 2,
+      "id": 4,
       "bank": "amex",
       "bankName": "American Express Membership Rewards",
       "partner": "JetBlue TrueBlue",
@@ -27,35 +55,7 @@
       "bonusRatio": "250:220",
       "transferTime": "Instant",
       "expiresDate": "2026-05-11",
-      "sourceUrl": "https://frequentmiler.com/transfer-bonus-from-amex-to-jetblue-its-a-bad-deal/"
-    },
-    {
-      "id": 3,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Air France-KLM Flying Blue",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "transferTime": "Instant",
-      "expiresDate": "2026-05-27",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
-    },
-    {
-      "id": 4,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Marriott Bonvoy",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 65,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.65",
-      "transferTime": "Instant",
-      "expiresDate": "2026-05-15",
-      "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
+      "sourceUrl": "https://milesforfamily.com/2026/05/05/may-2026-transfer-bonuses-5-new/"
     },
     {
       "id": 5,
@@ -81,7 +81,7 @@
       "bonusPct": 25,
       "transferRatio": "1000:200",
       "bonusRatio": "1000:250",
-      "transferTime": "1-2 days",
+      "transferTime": "Instant",
       "expiresDate": "2026-05-16",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     }
