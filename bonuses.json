@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T15:57:56.228856+00:00",
+  "lastUpdated": "2026-05-08T15:13:15.226200+00:00",
   "bonuses": [
     {
       "id": 1,
@@ -27,7 +27,7 @@
       "bonusRatio": "250:220",
       "transferTime": "Instant",
       "expiresDate": "2026-05-11",
-      "sourceUrl": "https://awardwallet.com/news/credit-card-transfer-bonuses/"
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
       "id": 3,
@@ -39,9 +39,9 @@
       "bonusPct": 20,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
-      "transferTime": "1 day",
+      "transferTime": "Instant",
       "expiresDate": "2026-05-31",
-      "sourceUrl": "https://frequentmiler.com/20-transfer-bonus-from-capital-one-miles-to-qantas/"
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
       "id": 4,
@@ -67,7 +67,7 @@
       "bonusPct": 65,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.65",
-      "transferTime": "2 days",
+      "transferTime": "Instant",
       "expiresDate": "2026-05-15",
       "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
     },
@@ -75,15 +75,15 @@
       "id": 6,
       "bank": "citi",
       "bankName": "Citi ThankYou Points",
-      "partner": "Leaders Club (Leading Hotels of the World)",
+      "partner": "Leading Hotels of the World (Leaders Club)",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 25,
-      "transferRatio": "1000:200",
-      "bonusRatio": "1000:250",
-      "transferTime": "Unknown",
+      "transferRatio": "5:1",
+      "bonusRatio": "5:1.25",
+      "transferTime": "Instant",
       "expiresDate": "2026-05-16",
-      "sourceUrl": "https://awardwallet.com/news/credit-card-transfer-bonuses/"
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     }
   ],
   "meta": {
