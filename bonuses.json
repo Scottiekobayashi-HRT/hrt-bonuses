@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T16:12:38.164864+00:00",
+  "lastUpdated": "2026-05-13T16:13:13.784624+00:00",
   "bonuses": [
     {
       "id": 1,
@@ -17,20 +17,6 @@
     },
     {
       "id": 2,
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Leading Hotels of the World (Leaders Club)",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 25,
-      "transferRatio": "1000:200",
-      "bonusRatio": "1000:250",
-      "transferTime": "Instant",
-      "expiresDate": "2026-05-16",
-      "sourceUrl": "https://awardwallet.com/news/citi-thankyou-rewards/world-leaders-club-transfer-bonus/"
-    },
-    {
-      "id": 3,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Air France-KLM Flying Blue",
@@ -41,10 +27,10 @@
       "bonusRatio": "1:1.2",
       "transferTime": "Instant",
       "expiresDate": "2026-05-27",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
-      "id": 4,
+      "id": 3,
       "bank": "amex",
       "bankName": "American Express Membership Rewards",
       "partner": "Hilton Honors",
@@ -55,10 +41,10 @@
       "bonusRatio": "1:2.4",
       "transferTime": "Instant",
       "expiresDate": "2026-05-30",
-      "sourceUrl": "https://frequentmiler.com/amex-membership-rewards-20-transfer-bonus-to-hilton-honors-1000-2400/"
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
-      "id": 5,
+      "id": 4,
       "bank": "capital-one",
       "bankName": "Capital One Miles",
       "partner": "Qantas Frequent Flyer",
@@ -70,6 +56,20 @@
       "transferTime": "Instant",
       "expiresDate": "2026-05-31",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
+    {
+      "id": 5,
+      "bank": "citi",
+      "bankName": "Citi ThankYou Points",
+      "partner": "Leading Hotels of the World (Leaders Club)",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "transferTime": "Instant",
+      "expiresDate": "2026-05-16",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     }
   ],
   "meta": {
