@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T16:13:13.784624+00:00",
+  "lastUpdated": "2026-05-14T16:03:54.504839+00:00",
   "bonuses": [
     {
       "id": 1,
@@ -41,7 +41,7 @@
       "bonusRatio": "1:2.4",
       "transferTime": "Instant",
       "expiresDate": "2026-05-30",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+      "sourceUrl": "https://frequentmiler.com/amex-membership-rewards-20-transfer-bonus-to-hilton-honors-1000-2400/"
     },
     {
       "id": 4,
@@ -65,11 +65,11 @@
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
+      "transferRatio": "1000:200",
+      "bonusRatio": "1000:250",
       "transferTime": "Instant",
       "expiresDate": "2026-05-16",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+      "sourceUrl": "https://frequentmiler.com/25-transfer-bonus-from-citi-to-leaders-hotels-of-the-world-leaders-club/"
     }
   ],
   "meta": {
