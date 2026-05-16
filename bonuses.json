@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-05-15T15:55:00.505228+00:00",
+  "lastUpdated": "2026-05-16T14:46:48.695520+00:00",
   "bonuses": [
     {
       "id": 1,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Marriott Bonvoy",
+      "bank": "amex",
+      "bankName": "American Express Membership Rewards",
+      "partner": "Hilton Honors",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
-      "bonusPct": 65,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.65",
+      "bonusPct": 20,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.4",
       "transferTime": "Instant",
-      "expiresDate": "2026-05-15",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+      "expiresDate": "2026-05-30",
+      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/hilton-transfer-bonus/"
     },
     {
       "id": 2,
@@ -31,17 +31,17 @@
     },
     {
       "id": 3,
-      "bank": "amex",
-      "bankName": "American Express Membership Rewards",
-      "partner": "Hilton Honors",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 20,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.4",
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Southwest Rapid Rewards",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
       "transferTime": "Instant",
-      "expiresDate": "2026-05-30",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+      "expiresDate": "2026-06-05",
+      "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-from-chase-ultimate-rewards-to-southwest-rapid-rewards/"
     },
     {
       "id": 4,
@@ -65,11 +65,11 @@
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 25,
-      "transferRatio": "1:0.2",
-      "bonusRatio": "1:0.25",
+      "transferRatio": "5:1",
+      "bonusRatio": "1000:250",
       "transferTime": "Instant",
       "expiresDate": "2026-05-16",
-      "sourceUrl": "https://frequentmiler.com/25-transfer-bonus-from-citi-to-leaders-hotels-of-the-world-leaders-club/"
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     }
   ],
   "meta": {
