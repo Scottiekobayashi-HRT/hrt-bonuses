@@ -1,8 +1,50 @@
 {
-  "lastUpdated": "2026-05-17T14:48:57.002957+00:00",
+  "lastUpdated": "2026-05-18T16:42:55.564886+00:00",
   "bonuses": [
     {
       "id": 1,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Air France-KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "transferTime": "Instant",
+      "expiresDate": "2026-05-27",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
+    {
+      "id": 2,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Marriott Bonvoy",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 55,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.55",
+      "transferTime": "Up to 7 days",
+      "expiresDate": "2026-06-30",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
+    {
+      "id": 3,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Southwest Rapid Rewards",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "transferTime": "Instant",
+      "expiresDate": "2026-06-05",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
+    {
+      "id": 4,
       "bank": "amex",
       "bankName": "American Express Membership Rewards",
       "partner": "Hilton Honors",
@@ -16,7 +58,7 @@
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
-      "id": 2,
+      "id": 5,
       "bank": "capital-one",
       "bankName": "Capital One Miles",
       "partner": "Qantas Frequent Flyer",
@@ -25,60 +67,47 @@
       "bonusPct": 20,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
-      "transferTime": "Up to 36 hours",
+      "transferTime": "Instant",
       "expiresDate": "2026-05-31",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
-      "id": 3,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Air France-KLM Flying Blue",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "transferTime": "Instant",
-      "expiresDate": "2026-05-27",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
-    },
-    {
-      "id": 4,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Marriott Bonvoy",
+      "id": 6,
+      "bank": "citi",
+      "bankName": "Citi ThankYou Points",
+      "partner": "I Prefer Hotel Rewards",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
-      "bonusPct": 55,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.55",
-      "transferTime": "Up to 7 days",
-      "expiresDate": "2026-06-30",
-      "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
+      "bonusPct": 30,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.6",
+      "transferTime": "Instant",
+      "expiresDate": "2026-06-13",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
-      "id": 5,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Southwest Rapid Rewards",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
+      "id": 7,
+      "bank": "citi",
+      "bankName": "Citi ThankYou Points",
+      "partner": "Wyndham Rewards",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 25,
       "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
+      "bonusRatio": "1:1.25",
       "transferTime": "Instant",
-      "expiresDate": "2026-06-05",
+      "expiresDate": "2026-06-13",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.4",
-    "bonusCount": 5,
+    "bonusCount": 7,
     "banks": [
       "amex",
       "capital-one",
-      "chase"
+      "chase",
+      "citi"
     ]
   }
 }
