@@ -1,50 +1,8 @@
 {
-  "lastUpdated": "2026-05-21T16:32:50.662696+00:00",
+  "lastUpdated": "2026-05-22T16:13:24.237452+00:00",
   "bonuses": [
     {
       "id": 1,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Air France-KLM Flying Blue",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "transferTime": "Instant",
-      "expiresDate": "2026-05-27",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
-    },
-    {
-      "id": 2,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Southwest Rapid Rewards",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "transferTime": "Instant",
-      "expiresDate": "2026-06-05",
-      "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-from-chase-ultimate-rewards-to-southwest-rapid-rewards/"
-    },
-    {
-      "id": 3,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Marriott Bonvoy",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 55,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.55",
-      "transferTime": "Up to 7 days",
-      "expiresDate": "2026-06-30",
-      "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
-    },
-    {
-      "id": 4,
       "bank": "amex",
       "bankName": "American Express Membership Rewards",
       "partner": "Hilton Honors",
@@ -55,7 +13,49 @@
       "bonusRatio": "1:2.4",
       "transferTime": "Instant",
       "expiresDate": "2026-05-30",
-      "sourceUrl": "https://frequentmiler.com/amex-membership-rewards-20-transfer-bonus-to-hilton-honors-1000-2400/"
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
+    {
+      "id": 2,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Air France-KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "transferTime": "Instant",
+      "expiresDate": "2026-05-27",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+    },
+    {
+      "id": 3,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Southwest Rapid Rewards",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "transferTime": "Instant",
+      "expiresDate": "2026-06-05",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
+    {
+      "id": 4,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Marriott Bonvoy",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 55,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.55",
+      "transferTime": "Instant",
+      "expiresDate": "2026-06-30",
+      "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
     },
     {
       "id": 5,
@@ -75,7 +75,7 @@
       "id": 6,
       "bank": "citi",
       "bankName": "Citi ThankYou Points",
-      "partner": "Preferred Hotels I Prefer",
+      "partner": "Preferred Hotels & Resorts (I Prefer)",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 30,
@@ -83,7 +83,7 @@
       "bonusRatio": "1:2.6",
       "transferTime": "Instant",
       "expiresDate": "2026-06-13",
-      "sourceUrl": "https://frequentmiler.com/transfer-bonus-from-citi-thankyou-to-preferred-hotels-i-prefer/"
+      "sourceUrl": "https://loyaltylobby.com/2026/05/17/citi-thankyou-preferred-hotels-wyndham-rewards-conversion-bonus-until-june-13-2026/"
     },
     {
       "id": 7,
@@ -97,7 +97,7 @@
       "bonusRatio": "1:1.25",
       "transferTime": "Instant",
       "expiresDate": "2026-06-13",
-      "sourceUrl": "https://loyaltylobby.com/2026/05/17/citi-thankyou-preferred-hotels-wyndham-rewards-conversion-bonus-until-june-13-2026/"
+      "sourceUrl": "https://frequentmiler.com/citi-thankyou-transfer-bonus-to-wyndham-rewards/"
     }
   ],
   "meta": {
