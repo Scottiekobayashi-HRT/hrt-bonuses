@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-05-24T14:55:11.259519+00:00",
+  "lastUpdated": "2026-05-25T16:14:06.372815+00:00",
   "bonuses": [
     {
       "id": 1,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Air France-KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "transferTime": "Instant",
+      "expiresDate": "2026-05-27",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/"
+    },
+    {
+      "id": 2,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Marriott Bonvoy",
@@ -16,7 +30,7 @@
       "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
     },
     {
-      "id": 2,
+      "id": 3,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Southwest Rapid Rewards",
@@ -28,20 +42,6 @@
       "transferTime": "Instant",
       "expiresDate": "2026-06-05",
       "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-from-chase-ultimate-rewards-to-southwest-rapid-rewards/"
-    },
-    {
-      "id": 3,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Air France-KLM Flying Blue",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "transferTime": "Instant",
-      "expiresDate": "2026-05-27",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
       "id": 4,
@@ -83,7 +83,7 @@
       "bonusRatio": "1:2.6",
       "transferTime": "Instant",
       "expiresDate": "2026-06-13",
-      "sourceUrl": "https://loyaltylobby.com/2026/05/17/citi-thankyou-preferred-hotels-wyndham-rewards-conversion-bonus-until-june-13-2026/"
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
       "id": 7,
@@ -97,7 +97,7 @@
       "bonusRatio": "1:1.25",
       "transferTime": "Instant",
       "expiresDate": "2026-06-13",
-      "sourceUrl": "https://frequentmiler.com/citi-thankyou-transfer-bonus-to-wyndham-rewards/"
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     }
   ],
   "meta": {
