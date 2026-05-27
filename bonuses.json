@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T17:18:12.316606+00:00",
+  "lastUpdated": "2026-05-27T16:57:07.536994+00:00",
   "bonuses": [
     {
       "id": 1,
@@ -75,7 +75,7 @@
       "id": 6,
       "bank": "citi",
       "bankName": "Citi ThankYou Points",
-      "partner": "Preferred Hotels I Prefer",
+      "partner": "I Prefer Hotel Rewards",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 30,
