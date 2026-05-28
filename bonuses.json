@@ -1,36 +1,22 @@
 {
-  "lastUpdated": "2026-05-27T16:57:07.536994+00:00",
+  "lastUpdated": "2026-05-28T17:31:05.938432+00:00",
   "bonuses": [
     {
       "id": 1,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Air France-KLM Flying Blue",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
+      "bank": "amex",
+      "bankName": "American Express Membership Rewards",
+      "partner": "Hilton Honors",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
       "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.4",
       "transferTime": "Instant",
-      "expiresDate": "2026-05-27",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+      "expiresDate": "2026-05-30",
+      "sourceUrl": "https://frequentmiler.com/amex-membership-rewards-20-transfer-bonus-to-hilton-honors-1000-2400/"
     },
     {
       "id": 2,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Southwest Rapid Rewards",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "transferTime": "Instant",
-      "expiresDate": "2026-06-05",
-      "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-from-chase-ultimate-rewards-to-southwest-rapid-rewards/"
-    },
-    {
-      "id": 3,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Marriott Bonvoy",
@@ -44,21 +30,21 @@
       "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
     },
     {
-      "id": 4,
-      "bank": "amex",
-      "bankName": "American Express Membership Rewards",
-      "partner": "Hilton Honors",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 20,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.4",
+      "id": 3,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Southwest Rapid Rewards",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
       "transferTime": "Instant",
-      "expiresDate": "2026-05-30",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+      "expiresDate": "2026-06-05",
+      "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-from-chase-ultimate-rewards-to-southwest-rapid-rewards/"
     },
     {
-      "id": 5,
+      "id": 4,
       "bank": "capital-one",
       "bankName": "Capital One Miles",
       "partner": "Qantas Frequent Flyer",
@@ -72,10 +58,10 @@
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
-      "id": 6,
+      "id": 5,
       "bank": "citi",
       "bankName": "Citi ThankYou Points",
-      "partner": "I Prefer Hotel Rewards",
+      "partner": "I Prefer Hotel Rewards (Preferred Hotels & Resorts)",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 30,
@@ -86,7 +72,7 @@
       "sourceUrl": "https://frequentmiler.com/transfer-bonus-from-citi-thankyou-to-preferred-hotels-i-prefer/"
     },
     {
-      "id": 7,
+      "id": 6,
       "bank": "citi",
       "bankName": "Citi ThankYou Points",
       "partner": "Wyndham Rewards",
@@ -102,7 +88,7 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.4",
-    "bonusCount": 7,
+    "bonusCount": 6,
     "banks": [
       "amex",
       "capital-one",
