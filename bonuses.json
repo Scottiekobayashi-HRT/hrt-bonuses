@@ -1,22 +1,8 @@
 {
-  "lastUpdated": "2026-05-28T17:31:05.938432+00:00",
+  "lastUpdated": "2026-05-29T17:25:46.398798+00:00",
   "bonuses": [
     {
       "id": 1,
-      "bank": "amex",
-      "bankName": "American Express Membership Rewards",
-      "partner": "Hilton Honors",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 20,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.4",
-      "transferTime": "Instant",
-      "expiresDate": "2026-05-30",
-      "sourceUrl": "https://frequentmiler.com/amex-membership-rewards-20-transfer-bonus-to-hilton-honors-1000-2400/"
-    },
-    {
-      "id": 2,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Marriott Bonvoy",
@@ -30,7 +16,7 @@
       "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
     },
     {
-      "id": 3,
+      "id": 2,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Southwest Rapid Rewards",
@@ -44,6 +30,20 @@
       "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-from-chase-ultimate-rewards-to-southwest-rapid-rewards/"
     },
     {
+      "id": 3,
+      "bank": "amex",
+      "bankName": "American Express Membership Rewards",
+      "partner": "Hilton Honors",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 20,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.4",
+      "transferTime": "Instant",
+      "expiresDate": "2026-05-30",
+      "sourceUrl": "https://upgradedpoints.com/news/amex-hilton-transfer-bonus/"
+    },
+    {
       "id": 4,
       "bank": "capital-one",
       "bankName": "Capital One Miles",
@@ -55,13 +55,13 @@
       "bonusRatio": "1:1.2",
       "transferTime": "Instant",
       "expiresDate": "2026-05-31",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
       "id": 5,
       "bank": "citi",
       "bankName": "Citi ThankYou Points",
-      "partner": "I Prefer Hotel Rewards (Preferred Hotels & Resorts)",
+      "partner": "Preferred Hotels & Resorts (I Prefer)",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 30,
@@ -69,7 +69,7 @@
       "bonusRatio": "1:2.6",
       "transferTime": "Instant",
       "expiresDate": "2026-06-13",
-      "sourceUrl": "https://frequentmiler.com/transfer-bonus-from-citi-thankyou-to-preferred-hotels-i-prefer/"
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
       "id": 6,
@@ -83,14 +83,29 @@
       "bonusRatio": "1:1.25",
       "transferTime": "Instant",
       "expiresDate": "2026-06-13",
-      "sourceUrl": "https://frequentmiler.com/citi-thankyou-transfer-bonus-to-wyndham-rewards/"
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
+    {
+      "id": 7,
+      "bank": "bilt",
+      "bankName": "Bilt Rewards",
+      "partner": "TAP Air Portugal Miles&Go",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 125,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:2.25",
+      "transferTime": "Instant",
+      "expiresDate": "2026-06-02",
+      "sourceUrl": "https://thepointsguy.com/news/bilt-rent-day-promo/"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.4",
-    "bonusCount": 6,
+    "bonusCount": 7,
     "banks": [
       "amex",
+      "bilt",
       "capital-one",
       "chase",
       "citi"
