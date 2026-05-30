@@ -1,31 +1,20 @@
 """
-HRT Transfer Bonus Auto-Updater v2.4
+HRT Transfer Bonus Auto-Updater v2.1
 Runs daily via GitHub Actions. Uses Claude + web search to find current
-transfer bonuses from Chase, Amex, Capital One, Bilt, and Citi.
-
-v2.4 adds:
-- Stronger Citi-specific prompting (calls out Avianca, Virgin, Turkish, JetBlue)
-- Reads manual-additions.json for bonuses the AI misses
-- Dedupes manual entries against AI-found ones (manual always wins)
+transfer bonuses from Chase, Amex, Capital One, and Bilt.
 """
 
 import anthropic
 import json
 import os
 import time
-from datetime import datetime, date, timezone
+from datetime import datetime, date
 
 client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-MODEL = "claude-opus-4-7"
-MANUAL_FILE = "manual-additions.json"
-
 SYSTEM_PROMPT = """You are a credit card points expert for Hawaii Reward Travel (HRT).
 Research current transfer bonuses and return ONLY a valid JSON object.
-
-CRITICAL FORMATTING RULE:
-Your FINAL response must be ONLY raw JSON — no preamble, no markdown fences, no
-explanation sentences. Just the JSON object starting with { and ending with }.
+No preamble, no markdown fences, no explanation — just the raw JSON.
 
 Required structure:
 {
@@ -37,83 +26,66 @@ Required structure:
       "bankName": "American Express",
       "partner": "Air Canada Aeroplan",
       "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
+      "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
-      "transferTime": "Instant",
       "expiresDate": "YYYY-MM-DD",
+      "notes": "Hawaii-relevant tip, max 100 chars",
       "sourceUrl": "https://source.com"
     }
   ]
 }
 
 Rules:
-- bank must be one of: chase, amex, capital-one, bilt, citi
-- bankName should be the full program name:
-  * chase -> "Chase Ultimate Rewards"
-  * amex -> "American Express Membership Rewards"
-  * capital-one -> "Capital One Miles"
-  * bilt -> "Bilt Rewards"
-  * citi -> "Citi ThankYou Points"
+- bank must be: chase, amex, capital-one, or bilt
 - partnerType must be: airline or hotel
-- partnerIcon: airplane emoji for airlines, hotel emoji for hotels
+- partnerIcon: use the airplane emoji for airlines, hotel emoji for hotels
 - bonusPct is a number (30 = 30% bonus)
 - expiresDate must be a future YYYY-MM-DD date
 - If no clear expiry, use 30 days from today
 - Only include ACTIVE bonuses that are live right now
-- Return empty bonuses array if none found - never fabricate
-- Your final message must be ONLY the raw JSON object"""
+- Return empty bonuses array if none found — never fabricate
+- Return ONLY raw JSON, nothing else"""
 
 USER_PROMPT = f"""Today is {date.today().isoformat()}.
 
-Search the web for ALL currently active credit card transfer bonuses from these 5 programs:
-
+Search the web for ALL currently active credit card transfer bonuses from:
 1. Chase Ultimate Rewards
 2. American Express Membership Rewards
 3. Capital One Miles
 4. Bilt Rewards
-5. Citi ThankYou Points
 
-IMPORTANT — be thorough on Citi. Citi ThankYou Points partners with:
-- Avianca LifeMiles, Virgin Atlantic Flying Club, Turkish Airlines Miles&Smiles,
-  JetBlue TrueBlue, Air France/KLM Flying Blue, Emirates Skywards, Singapore KrisFlyer,
-  Qatar Privilege Club, Etihad Guest, EVA Air, Thai Royal Orchid, Cathay Pacific,
-  Choice Privileges, Wyndham Rewards, Shop Your Way
-Check each of these for active bonuses — Citi runs short-burst promos that are easy to miss.
+Search sources like thepointsguy.com, frequentmiler.com, onemileatatime.com, and 10xtravel.com.
 
-Search sources:
-- thepointsguy.com/guide/transfer-bonuses (their master tracker)
-- frequentmiler.com (search for "current transfer bonuses")
-- monkeymiles.com (strong Citi coverage)
-- onemileatatime.com
-- 10xtravel.com
-- The official issuer pages: citi.com/thankyou, americanexpress.com/membership-rewards,
-  bilt.com, capitalone.com/rewards, chase.com/ultimate-rewards
+Find every active bonus with its exact percentage, partner, expiration date, and transfer ratio.
 
-Also pay special attention to Bilt Rent Day bonuses on the 1st of each month.
-
-Find every active bonus with exact percentage, partner, expiration date, and transfer ratio.
-If a bonus ends within the next 7 days, include it — those are the most valuable to surface.
-
-When you're done researching, respond with ONLY the raw JSON object."""
+Return ONLY the raw JSON object described in your instructions."""
 
 
 def call_with_retry(func, max_retries=5):
-    """Retry wrapper with exponential backoff for transient errors."""
+    """
+    Retry wrapper with exponential backoff.
+    Handles 529 Overloaded and 529-like transient errors.
+    """
     for attempt in range(1, max_retries + 1):
         try:
             return func()
-        except anthropic.RateLimitError:
+        except anthropic.OverloadedError as e:
+            if attempt == max_retries:
+                raise
+            wait = 30 * attempt  # 30s, 60s, 90s, 120s
+            print(f"  API overloaded (attempt {attempt}/{max_retries}). Waiting {wait}s before retry...")
+            time.sleep(wait)
+        except anthropic.RateLimitError as e:
             if attempt == max_retries:
                 raise
             wait = 60 * attempt
-            print(f"  Rate limited (attempt {attempt}/{max_retries}). Waiting {wait}s...")
+            print(f"  Rate limited (attempt {attempt}/{max_retries}). Waiting {wait}s before retry...")
             time.sleep(wait)
         except anthropic.APIStatusError as e:
-            if e.status_code in (529,) or e.status_code >= 500:
-                if attempt == max_retries:
-                    raise
+            # Retry on any 5xx server error
+            if e.status_code >= 500 and attempt < max_retries:
                 wait = 30 * attempt
                 print(f"  Server error {e.status_code} (attempt {attempt}/{max_retries}). Waiting {wait}s...")
                 time.sleep(wait)
@@ -122,194 +94,181 @@ def call_with_retry(func, max_retries=5):
 
 
 def fetch_bonuses():
-    """Call Claude with web_search enabled and return the final text response."""
-    print("Searching for current transfer bonuses across 5 banks...")
+    print("Searching for current transfer bonuses...")
 
-    def make_request():
-        return client.messages.create(
-            model=MODEL,
-            max_tokens=8192,
-            system=SYSTEM_PROMPT,
-            tools=[{
-                "type": "web_search_20250305",
-                "name": "web_search",
-                "max_uses": 15,  # bumped to 15 for thorough Citi partner coverage
-            }],
-            messages=[{"role": "user", "content": USER_PROMPT}],
-        )
+    messages = [{"role": "user", "content": USER_PROMPT}]
 
-    response = call_with_retry(make_request)
+    # Agentic loop — keeps going until Claude stops using tools
+    while True:
+        def make_request():
+            return client.messages.create(
+                model="claude-opus-4-5",
+                max_tokens=4096,
+                system=SYSTEM_PROMPT,
+                tools=[{"type": "web_search_20250305", "name": "web_search"}],
+                messages=messages,
+            )
 
-    text_blocks = []
-    for block in response.content:
-        if getattr(block, "type", None) == "text" and block.text.strip():
-            text_blocks.append(block.text.strip())
+        response = call_with_retry(make_request)
 
-    if not text_blocks:
-        print(f"  stop_reason: {response.stop_reason}")
-        print(f"  block types: {[getattr(b, 'type', '?') for b in response.content]}")
-        raise ValueError("Claude returned no text blocks")
+        # Add Claude's response to the conversation history
+        messages.append({"role": "assistant", "content": response.content})
 
-    full_text = "\n\n".join(text_blocks)
+        # Done — extract the final text response
+        if response.stop_reason == "end_turn":
+            for block in response.content:
+                if block.type == "text" and block.text.strip():
+                    return block.text.strip()
+            raise ValueError("Claude returned no text in final response")
 
-    search_count = sum(
-        1 for b in response.content if getattr(b, "type", None) == "server_tool_use"
-    )
-    print(f"  Claude performed {search_count} web searches")
-    print(f"  Collected {len(text_blocks)} text block(s), total {len(full_text)} chars")
+        # Tool use — collect results and continue the loop
+        if response.stop_reason == "tool_use":
+            tool_results = []
+            for block in response.content:
+                if block.type == "tool_use":
+                    print(f"  Searched: {block.input.get('query', 'unknown query')}")
+                    tool_results.append({
+                        "type": "tool_result",
+                        "tool_use_id": block.id,
+                        "content": "Search completed successfully."
+                    })
+            if tool_results:
+                messages.append({"role": "user", "content": tool_results})
+            continue
 
-    return full_text
+        # Fallback — try to get any text from the response
+        for block in response.content:
+            if hasattr(block, "text") and block.text.strip():
+                return block.text.strip()
+        raise ValueError(f"Unexpected stop reason: {response.stop_reason}")
 
 
 def parse_response(raw):
     """Clean and parse Claude's JSON response."""
-    if not raw or not raw.strip():
-        raise ValueError("Empty response from Claude")
-
     text = raw.strip()
 
+    # Strip markdown fences if present
     if "```" in text:
-        import re
-        fenced = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
-        if fenced:
-            text = fenced.group(1)
+        parts = text.split("```")
+        for part in parts:
+            part = part.strip()
+            if part.startswith("json"):
+                part = part[4:].strip()
+            if part.startswith("{"):
+                text = part
+                break
 
+    # Find the JSON object boundaries
     start = text.find("{")
-    end = text.rfind("}")
+    end = text.rfind("}") + 1
+    if start != -1 and end > start:
+        text = text[start:end]
 
-    if start == -1 or end == -1 or end <= start:
-        preview = text[:500] if len(text) > 500 else text
-        raise ValueError(
-            f"No JSON object found in response. "
-            f"Got {len(text)} chars starting with: {preview!r}"
-        )
+    return json.loads(text)
 
-    json_text = text[start:end + 1]
 
+def load_existing():
+    """Load existing bonuses.json to preserve manually added entries."""
     try:
-        return json.loads(json_text)
-    except json.JSONDecodeError as e:
-        preview = json_text[:500] if len(json_text) > 500 else json_text
-        raise ValueError(f"JSON parse failed: {e}. Extracted text: {preview!r}") from e
+        with open("bonuses.json", "r") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {"lastUpdated": None, "bonuses": []}
 
 
-def load_manual_additions():
-    """Load manual bonus additions from manual-additions.json."""
-    try:
-        with open(MANUAL_FILE, "r") as f:
-            data = json.load(f)
-            bonuses = data.get("bonuses", [])
-            print(f"Loaded {len(bonuses)} manual bonus(es) from {MANUAL_FILE}")
-            return bonuses
-    except FileNotFoundError:
-        print(f"No {MANUAL_FILE} found - skipping manual additions")
-        return []
-    except json.JSONDecodeError as e:
-        print(f"WARNING: {MANUAL_FILE} has invalid JSON ({e}). Skipping manual additions.")
-        return []
-
-
-def dedupe_key(b):
-    """Create a dedup key for a bonus: bank + partner (case-insensitive)."""
-    bank = (b.get("bank") or "").lower().strip()
-    partner = (b.get("partner") or "").lower().strip()
-    return f"{bank}|{partner}"
-
-
-def merge_sources(ai_bonuses, manual_bonuses):
-    """
-    Merge AI-scraped and manual bonuses. Manual entries always win on collision
-    (since Scottie verified them directly).
-    """
+def merge_bonuses(existing, new_data):
+    """Keep manual entries, add new AI-found ones, move expired to recentlyExpired log."""
     today = date.today()
+    cutoff = date.fromisoformat((datetime.utcnow().replace(day=1) - __import__("datetime").timedelta(days=30)).strftime("%Y-%m-%d"))
 
-    # Start with manual entries (they take priority)
-    seen_keys = set()
-    merged = []
+    # Preserve manual entries
+    manual = [b for b in existing.get("bonuses", []) if b.get("bank") == "manual"]
 
-    for b in manual_bonuses:
-        # Skip expired manuals so stale entries auto-clean
+    # Split new bonuses into active and newly expired
+    active_new = []
+    newly_expired = []
+    for b in new_data.get("bonuses", []):
         try:
             exp = date.fromisoformat(b["expiresDate"])
-            if exp < today:
-                print(f"  Skipping expired manual entry: {b.get('partner')} "
-                      f"(expired {b['expiresDate']})")
-                continue
+            if exp >= today:
+                active_new.append(b)
+            else:
+                newly_expired.append(b)
         except (KeyError, ValueError):
-            pass
-        merged.append(dict(b))  # copy to avoid mutating source
-        seen_keys.add(dedupe_key(b))
+            active_new.append(b)
 
-    for b in ai_bonuses:
-        key = dedupe_key(b)
-        if key in seen_keys:
-            print(f"  AI found duplicate of manual entry ({key}) - keeping manual version")
+    # Also check previously active bonuses that may have expired since last run
+    for b in existing.get("bonuses", []):
+        if b.get("bank") == "manual":
             continue
-        # Filter expired from AI results
         try:
             exp = date.fromisoformat(b["expiresDate"])
             if exp < today:
-                continue
+                # Check it's not already in newly_expired
+                key = (b.get("bank"), b.get("partner"))
+                if not any((x.get("bank"), x.get("partner")) == key for x in newly_expired):
+                    newly_expired.append(b)
         except (KeyError, ValueError):
             pass
-        merged.append(dict(b))
-        seen_keys.add(key)
 
-    # Renumber IDs
-    for i, b in enumerate(merged, 1):
+    # Merge with existing recentlyExpired log (keep last 30 days, dedupe)
+    existing_expired = existing.get("recentlyExpired", [])
+    seen = set()
+    merged_expired = []
+    for b in (newly_expired + existing_expired):
+        key = (b.get("bank"), b.get("partner"), b.get("expiresDate"))
+        if key not in seen:
+            try:
+                exp = date.fromisoformat(b["expiresDate"])
+                # Keep if expired within last 30 days
+                days_ago = (today - exp).days
+                if days_ago <= 30:
+                    seen.add(key)
+                    merged_expired.append(b)
+            except (KeyError, ValueError):
+                pass
+
+    # Sort expired: most recently expired first
+    merged_expired.sort(key=lambda b: b.get("expiresDate", ""), reverse=True)
+
+    all_bonuses = active_new + manual
+    for i, b in enumerate(all_bonuses, 1):
         b["id"] = i
 
-    return merged
-
-
-def build_output(merged_bonuses):
-    """Build the final output structure for bonuses.json."""
     return {
-        "lastUpdated": datetime.now(timezone.utc).isoformat(),
-        "bonuses": merged_bonuses,
+        "lastUpdated": datetime.utcnow().isoformat() + "Z",
+        "bonuses": all_bonuses,
+        "recentlyExpired": merged_expired,
         "meta": {
-            "source": "HRT Auto-Updater v2.4",
-            "bonusCount": len(merged_bonuses),
-            "banks": sorted(list(set(b["bank"] for b in merged_bonuses if b.get("bank")))),
-        },
+            "source": "HRT Auto-Updater v2.1",
+            "bonusCount": len(all_bonuses),
+            "expiredCount": len(merged_expired),
+            "banks": list(set(b["bank"] for b in all_bonuses))
+        }
     }
 
 
 def save(data):
     with open("bonuses.json", "w") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+        json.dump(data, f, indent=2)
     print(f"Saved {len(data['bonuses'])} active bonuses to bonuses.json")
 
 
 def main():
     try:
-        # 1. Pull live bonuses from Claude
         raw = fetch_bonuses()
         print(f"Raw response length: {len(raw)} chars")
-        print(f"Raw response preview: {raw[:200]!r}")
 
         new_data = parse_response(raw)
-        ai_bonuses = new_data.get("bonuses", [])
-        print(f"Parsed {len(ai_bonuses)} bonuses from AI response")
+        print(f"Found {len(new_data.get('bonuses', []))} bonuses")
 
-        # 2. Load manual additions
-        manual_bonuses = load_manual_additions()
-
-        # 3. Merge (manual wins on collision)
-        merged = merge_sources(ai_bonuses, manual_bonuses)
-        print(f"Final merged count: {len(merged)} active bonuses")
-
-        # 4. Build output and save
-        output = build_output(merged)
-        save(output)
+        existing = load_existing()
+        merged = merge_bonuses(existing, new_data)
+        save(merged)
 
         print("\nActive bonuses:")
-        for b in output["bonuses"]:
-            source_tag = " [manual]" if b in manual_bonuses else ""
-            print(
-                f"  {b['bankName']} -> {b['partner']} (+{b['bonusPct']}%) "
-                f"expires {b['expiresDate']}{source_tag}"
-            )
+        for b in merged["bonuses"]:
+            print(f"  {b['bankName']} -> {b['partner']} (+{b['bonusPct']}%) expires {b['expiresDate']}")
 
     except Exception as e:
         print(f"Error: {e}")
