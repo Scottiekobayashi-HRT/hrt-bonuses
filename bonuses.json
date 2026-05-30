@@ -1,114 +1,88 @@
 {
-  "lastUpdated": "2026-05-29T17:25:46.398798+00:00",
-  "bonuses": [
+  "lastUpdated": "2026-05-29T00:00:00Z",
+  "bonuses": [],
+  "recentlyExpired": [
     {
-      "id": 1,
       "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Marriott Bonvoy",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 55,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.55",
-      "transferTime": "Instant",
-      "expiresDate": "2026-06-30",
-      "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
-    },
-    {
-      "id": 2,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Southwest Rapid Rewards",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "transferTime": "Instant",
-      "expiresDate": "2026-06-05",
-      "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-from-chase-ultimate-rewards-to-southwest-rapid-rewards/"
-    },
-    {
-      "id": 3,
-      "bank": "amex",
-      "bankName": "American Express Membership Rewards",
-      "partner": "Hilton Honors",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 20,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.4",
-      "transferTime": "Instant",
-      "expiresDate": "2026-05-30",
-      "sourceUrl": "https://upgradedpoints.com/news/amex-hilton-transfer-bonus/"
-    },
-    {
-      "id": 4,
-      "bank": "capital-one",
-      "bankName": "Capital One Miles",
-      "partner": "Qantas Frequent Flyer",
+      "bankName": "Chase",
+      "partner": "Flying Blue (Air France / KLM)",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 20,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
-      "transferTime": "Instant",
-      "expiresDate": "2026-05-31",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+      "expiresDate": "2026-05-27"
     },
     {
-      "id": 5,
       "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Preferred Hotels & Resorts (I Prefer)",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 30,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.6",
-      "transferTime": "Instant",
-      "expiresDate": "2026-06-13",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
-    },
-    {
-      "id": 6,
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Wyndham Rewards",
+      "bankName": "Citi",
+      "partner": "Leading Hotels of the World",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 25,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
-      "transferTime": "Instant",
-      "expiresDate": "2026-06-13",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+      "expiresDate": "2026-05-16"
     },
     {
-      "id": 7,
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "Marriott Bonvoy",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 65,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.65",
+      "expiresDate": "2026-05-15"
+    },
+    {
       "bank": "bilt",
       "bankName": "Bilt Rewards",
-      "partner": "TAP Air Portugal Miles&Go",
+      "partner": "British Airways Avios",
       "partnerType": "airline",
       "partnerIcon": "✈️",
-      "bonusPct": 125,
+      "bonusPct": 40,
       "transferRatio": "1:1",
-      "bonusRatio": "1:2.25",
-      "transferTime": "Instant",
-      "expiresDate": "2026-06-02",
-      "sourceUrl": "https://thepointsguy.com/news/bilt-rent-day-promo/"
+      "bonusRatio": "1:1.4",
+      "expiresDate": "2026-05-01"
+    },
+    {
+      "bank": "capital-one",
+      "bankName": "Capital One",
+      "partner": "Japan Airlines Mileage Bank",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-04-30"
+    },
+    {
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "Air Canada Aeroplan",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-04-30"
+    },
+    {
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "IHG One Rewards",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 70,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.7",
+      "expiresDate": "2026-04-30"
     }
   ],
   "meta": {
-    "source": "HRT Auto-Updater v2.4",
-    "bonusCount": 7,
-    "banks": [
-      "amex",
-      "bilt",
-      "capital-one",
-      "chase",
-      "citi"
-    ]
+    "source": "HRT Manual Seed — May 2026",
+    "bonusCount": 0,
+    "expiredCount": 7
   }
 }
