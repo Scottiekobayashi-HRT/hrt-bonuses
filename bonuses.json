@@ -1,22 +1,8 @@
 {
-  "lastUpdated": "2026-05-30T14:57:46.393515Z",
+  "lastUpdated": "2026-06-01T19:15:20.336426Z",
   "bonuses": [
     {
       "id": 1,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Marriott Bonvoy",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 55,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.55",
-      "expiresDate": "2026-06-30",
-      "notes": "Good for topping off Marriott account; transfer to airlines like JAL/Alaska for Hawaii",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
-    },
-    {
-      "id": 2,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Southwest Rapid Rewards",
@@ -26,23 +12,53 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-06-05",
-      "notes": "Southwest flies to Hawaii from many mainland cities; Companion Pass friendly",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+      "notes": "Great for inter-island Hawaii flights; Southwest flies to Maui, Kona, Lihue & Honolulu",
+      "sourceUrl": "https://www.doctorofcredit.com/chase-ultimate-rewards-30-transfer-bonus-to-southwest/"
+    },
+    {
+      "id": 2,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Marriott Bonvoy",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 55,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.55",
+      "expiresDate": "2026-06-30",
+      "notes": "Use for Category 5-7 Hawaii resorts like Wailea Beach Resort or Sheraton Maui",
+      "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
     },
     {
       "id": 3,
       "bank": "amex",
       "bankName": "American Express",
-      "partner": "Hilton Honors",
+      "partner": "Marriott Bonvoy",
       "partnerType": "hotel",
       "partnerIcon": "\ud83c\udfe8",
       "bonusPct": 20,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.4",
-      "expiresDate": "2026-05-30",
-      "notes": "Multiple Hilton properties in Hawaii; good for topping off account",
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-06-30",
+      "notes": "Stack with Marriott Hawaii properties; Chase 55% bonus is better if you have both",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
+    {
+      "id": 4,
+      "bank": "bilt",
+      "bankName": "Bilt Rewards",
+      "partner": "TAP Air Portugal Miles&Go",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 100,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:2",
+      "expiresDate": "2026-06-01",
+      "notes": "Rent Day only (June 1). Up to 125% for Platinum. Limited Hawaii routing value.",
+      "sourceUrl": "https://onemileatatime.com/guides/bilt-rent-day-promotion/"
+    }
+  ],
+  "recentlyExpired": [
     {
       "id": 4,
       "bank": "capital-one",
@@ -58,21 +74,19 @@
       "sourceUrl": "https://onemileatatime.com/deals/capital-one-qantas-transfer-bonus/"
     },
     {
-      "id": 5,
-      "bank": "bilt",
-      "bankName": "Bilt Rewards",
-      "partner": "TAP Air Portugal Miles&Go",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 125,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:2.25",
-      "expiresDate": "2026-06-01",
-      "notes": "June 1 Rent Day only; 25-125% based on status; 100k point cap; Star Alliance",
-      "sourceUrl": "https://thepointsguy.com/news/bilt-rent-day-promo/"
-    }
-  ],
-  "recentlyExpired": [
+      "id": 3,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Hilton Honors",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 20,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.4",
+      "expiresDate": "2026-05-30",
+      "notes": "Multiple Hilton properties in Hawaii; good for topping off account",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
     {
       "bank": "chase",
       "bankName": "Chase",
@@ -105,60 +119,15 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.65",
       "expiresDate": "2026-05-15"
-    },
-    {
-      "bank": "bilt",
-      "bankName": "Bilt Rewards",
-      "partner": "British Airways Avios",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 40,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.4",
-      "expiresDate": "2026-05-01"
-    },
-    {
-      "bank": "capital-one",
-      "bankName": "Capital One",
-      "partner": "Japan Airlines Mileage Bank",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "expiresDate": "2026-04-30"
-    },
-    {
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "Air Canada Aeroplan",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-04-30"
-    },
-    {
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "IHG One Rewards",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 70,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.7",
-      "expiresDate": "2026-04-30"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.1",
-    "bonusCount": 5,
-    "expiredCount": 7,
+    "bonusCount": 4,
+    "expiredCount": 5,
     "banks": [
-      "capital-one",
-      "chase",
       "amex",
+      "chase",
       "bilt"
     ]
   }
