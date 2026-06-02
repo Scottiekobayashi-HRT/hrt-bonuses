@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T01:31:24.934688Z",
+  "lastUpdated": "2026-06-02T02:17:34.036216Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,8 +12,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-06-05",
-      "notes": "Rare SW bonus; good if topping off for specific redemption",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+      "notes": "Great for inter-island Hawaii flights on Southwest",
+      "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-from-chase-ultimate-rewards-to-southwest-rapid-rewards/"
     },
     {
       "id": 2,
@@ -26,8 +26,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.55",
       "expiresDate": "2026-06-30",
-      "notes": "Good for Marriott properties in Hawaii like Wailea Beach Resort",
-      "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/"
+      "notes": "Use for Hawaii Marriott properties; top off points for free nights",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
       "id": 3,
@@ -40,11 +40,95 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-06-30",
-      "notes": "Top off Marriott for Hawaii stays; Chase 55% bonus is better value",
+      "notes": "Good for topping off Marriott stays at Hawaii resorts",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
+    {
+      "id": 4,
+      "bank": "citi",
+      "bankName": "Citi ThankYou Points",
+      "partner": "Qatar Airways Privilege Club",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-06-30",
+      "notes": "Book partner awards via Doha; bonus Avios may post later",
+      "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-to-qatar-avios-from-citi-thankyou/"
+    },
+    {
+      "id": 5,
+      "bank": "citi",
+      "bankName": "Citi ThankYou Points",
+      "partner": "I Prefer (Preferred Hotels)",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 30,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.6",
+      "expiresDate": "2026-06-13",
+      "notes": "Access boutique luxury hotels; limited Hawaii properties",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
+    {
+      "id": 6,
+      "bank": "citi",
+      "bankName": "Citi ThankYou Points",
+      "partner": "Wyndham Rewards",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-06-13",
+      "notes": "Budget-friendly Hawaii stays; simple 3-tier award chart",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
+    {
+      "id": 7,
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Air Canada Aeroplan",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-06-06",
+      "notes": "Book Star Alliance partners to Hawaii; new Rove partner",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
+    {
+      "id": 8,
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Turkish Airlines Miles&Smiles",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 50,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.5",
+      "expiresDate": "2026-06-30",
+      "notes": "Book United flights to Hawaii; excellent 50% bonus",
+      "sourceUrl": "https://dannydealguru.com/rove-transfer-bonus-for-turkish-airlines-milessmiles/"
     }
   ],
   "recentlyExpired": [
+    {
+      "id": 7,
+      "bank": "bilt",
+      "bankName": "Bilt Rewards",
+      "partner": "TAP Air Portugal",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 100,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:2",
+      "expiresDate": "2026-06-01",
+      "notes": "Rent Day only; 25-125% based on status; 100K pts max",
+      "sourceUrl": "https://frequentmiler.com/bilt-rent-day-for-june-25-125-transfer-bonus-to-tap-air-portugal/"
+    },
     {
       "id": 4,
       "bank": "bilt",
@@ -123,11 +207,13 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.1",
-    "bonusCount": 3,
-    "expiredCount": 6,
+    "bonusCount": 8,
+    "expiredCount": 7,
     "banks": [
       "chase",
-      "amex"
+      "rove",
+      "amex",
+      "citi"
     ]
   }
 }
