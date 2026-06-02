@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T00:00:00Z",
+  "lastUpdated": "2026-06-01T00:00:00Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,11 +12,23 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-06-30",
-      "transferTime": "2 days",
-      "startDate": "2026-06-01"
+      "transferTime": "Instant"
     },
     {
       "id": 2,
+      "bank": "bilt",
+      "bankName": "Bilt",
+      "partner": "TAP Air Portugal Miles&Go",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 100,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:2",
+      "expiresDate": "2026-06-01",
+      "transferTime": "Instant"
+    },
+    {
+      "id": 3,
       "bank": "chase",
       "bankName": "Chase",
       "partner": "Southwest Rapid Rewards",
@@ -25,12 +37,11 @@
       "bonusPct": 30,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
-      "expiresDate": "2026-06-05",
-      "transferTime": "Instant",
-      "startDate": "2026-06-01"
+      "expiresDate": "2026-06-06",
+      "transferTime": "Instant"
     },
     {
-      "id": 3,
+      "id": 4,
       "bank": "chase",
       "bankName": "Chase",
       "partner": "Marriott Bonvoy",
@@ -40,11 +51,36 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.55",
       "expiresDate": "2026-06-30",
-      "transferTime": "2 days",
-      "startDate": "2026-06-01"
+      "transferTime": "2 days"
     },
     {
-      "id": 4,
+      "id": 5,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Wyndham Rewards",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-06-13",
+      "transferTime": "Within 24 hours"
+    },
+    {
+      "id": 6,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Preferred Hotels & Resorts",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 30,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.6",
+      "expiresDate": "2026-06-13",
+      "transferTime": "Instant"
+    },
+    {
+      "id": 7,
       "bank": "citi",
       "bankName": "Citi",
       "partner": "Qatar Airways Privilege Club",
@@ -54,11 +90,23 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-06-30",
-      "transferTime": "Within 24 hours",
-      "startDate": "2026-06-01"
+      "transferTime": "Instant"
     },
     {
-      "id": 5,
+      "id": 8,
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Air Canada Aeroplan",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-06-06",
+      "transferTime": "Instant"
+    },
+    {
+      "id": 9,
       "bank": "rove",
       "bankName": "Rove",
       "partner": "Turkish Airlines Miles&Smiles",
@@ -68,26 +116,14 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-06-30",
-      "transferTime": "Within 48 hours",
-      "startDate": "2026-06-01"
+      "transferTime": "Instant"
     }
   ],
   "recentlyExpired": [
     {
-      "bank": "bilt",
-      "bankName": "Bilt",
-      "partner": "TAP Air Portugal Miles&Go",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 125,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:2.25",
-      "expiresDate": "2026-06-01"
-    },
-    {
       "bank": "capital-one",
       "bankName": "Capital One",
-      "partner": "Qantas Frequent Flyer",
+      "partner": "Qantas Airways",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 20,
@@ -116,6 +152,17 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-05-27"
+    },
+    {
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Leading Hotels of the World",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-05-16"
     },
     {
       "bank": "chase",
@@ -152,8 +199,8 @@
     }
   ],
   "meta": {
-    "source": "HRT Manual Workflow — June 2 2026",
-    "bonusCount": 5,
+    "source": "HRT Manual Update — June 1 2026 (verified vs Max Miles)",
+    "bonusCount": 9,
     "expiredCount": 7
   }
 }
