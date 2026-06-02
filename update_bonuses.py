@@ -217,17 +217,29 @@ def merge_bonuses(existing, new_data):
     # Preserve manual entries
     manual = [b for b in existing.get("bonuses", []) if b.get("bank") == "manual"]
 
-    # Split new bonuses into active and newly expired
+    # Build lookup of existing bonuses to preserve startDate
+    existing_keys = {}
+    for b in existing.get("bonuses", []):
+        key = (b.get("bank", ""), b.get("partner", ""))
+        existing_keys[key] = b
+
+    # Split new bonuses into active and newly expired, stamp startDate
     active_new = []
     newly_expired = []
     for b in new_data.get("bonuses", []):
         try:
             exp = date.fromisoformat(b["expiresDate"])
             if exp >= today:
+                key = (b.get("bank", ""), b.get("partner", ""))
+                if key in existing_keys and existing_keys[key].get("startDate"):
+                    b["startDate"] = existing_keys[key]["startDate"]
+                else:
+                    b["startDate"] = today.isoformat()
                 active_new.append(b)
             else:
                 newly_expired.append(b)
         except (KeyError, ValueError):
+            b.setdefault("startDate", today.isoformat())
             active_new.append(b)
 
     # Also check previously active bonuses that may have expired since last run
