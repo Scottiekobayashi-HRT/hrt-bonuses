@@ -1,0 +1,187 @@
+name: Manual Bonus Update
+
+on:
+  workflow_dispatch:
+
+jobs:
+  manual-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4.2.2
+
+      - name: Write bonuses.json directly
+        run: |
+          cat > bonuses.json << 'JSONEOF'
+          {
+            "lastUpdated": "2026-06-02T00:00:00Z",
+            "bonuses": [
+              {
+                "id": 1,
+                "bank": "amex",
+                "bankName": "American Express",
+                "partner": "Marriott Bonvoy",
+                "partnerType": "hotel",
+                "partnerIcon": "🏨",
+                "bonusPct": 20,
+                "transferRatio": "1:1",
+                "bonusRatio": "1:1.2",
+                "expiresDate": "2026-06-30",
+                "transferTime": "2 days",
+                "startDate": "2026-06-01"
+              },
+              {
+                "id": 2,
+                "bank": "chase",
+                "bankName": "Chase",
+                "partner": "Southwest Rapid Rewards",
+                "partnerType": "airline",
+                "partnerIcon": "✈️",
+                "bonusPct": 30,
+                "transferRatio": "1:1",
+                "bonusRatio": "1:1.3",
+                "expiresDate": "2026-06-05",
+                "transferTime": "Instant",
+                "startDate": "2026-06-01"
+              },
+              {
+                "id": 3,
+                "bank": "chase",
+                "bankName": "Chase",
+                "partner": "Marriott Bonvoy",
+                "partnerType": "hotel",
+                "partnerIcon": "🏨",
+                "bonusPct": 55,
+                "transferRatio": "1:1",
+                "bonusRatio": "1:1.55",
+                "expiresDate": "2026-06-30",
+                "transferTime": "2 days",
+                "startDate": "2026-06-01"
+              },
+              {
+                "id": 4,
+                "bank": "citi",
+                "bankName": "Citi",
+                "partner": "Qatar Airways Privilege Club",
+                "partnerType": "airline",
+                "partnerIcon": "✈️",
+                "bonusPct": 30,
+                "transferRatio": "1:1",
+                "bonusRatio": "1:1.3",
+                "expiresDate": "2026-06-30",
+                "transferTime": "Within 24 hours",
+                "startDate": "2026-06-01"
+              },
+              {
+                "id": 5,
+                "bank": "rove",
+                "bankName": "Rove",
+                "partner": "Turkish Airlines Miles&Smiles",
+                "partnerType": "airline",
+                "partnerIcon": "✈️",
+                "bonusPct": 50,
+                "transferRatio": "1:1",
+                "bonusRatio": "1:1.5",
+                "expiresDate": "2026-06-30",
+                "transferTime": "Within 48 hours",
+                "startDate": "2026-06-01"
+              }
+            ],
+            "recentlyExpired": [
+              {
+                "bank": "bilt",
+                "bankName": "Bilt",
+                "partner": "TAP Air Portugal Miles&Go",
+                "partnerType": "airline",
+                "partnerIcon": "✈️",
+                "bonusPct": 125,
+                "transferRatio": "1:1",
+                "bonusRatio": "1:2.25",
+                "expiresDate": "2026-06-01"
+              },
+              {
+                "bank": "capital-one",
+                "bankName": "Capital One",
+                "partner": "Qantas Frequent Flyer",
+                "partnerType": "airline",
+                "partnerIcon": "✈️",
+                "bonusPct": 20,
+                "transferRatio": "1:1",
+                "bonusRatio": "1:1.2",
+                "expiresDate": "2026-05-31"
+              },
+              {
+                "bank": "amex",
+                "bankName": "Amex",
+                "partner": "Hilton Honors",
+                "partnerType": "hotel",
+                "partnerIcon": "🏨",
+                "bonusPct": 20,
+                "transferRatio": "1:2",
+                "bonusRatio": "1:2.4",
+                "expiresDate": "2026-05-30"
+              },
+              {
+                "bank": "chase",
+                "bankName": "Chase",
+                "partner": "Flying Blue (Air France / KLM)",
+                "partnerType": "airline",
+                "partnerIcon": "✈️",
+                "bonusPct": 20,
+                "transferRatio": "1:1",
+                "bonusRatio": "1:1.2",
+                "expiresDate": "2026-05-27"
+              },
+              {
+                "bank": "chase",
+                "bankName": "Chase",
+                "partner": "Marriott Bonvoy",
+                "partnerType": "hotel",
+                "partnerIcon": "🏨",
+                "bonusPct": 65,
+                "transferRatio": "1:1",
+                "bonusRatio": "1:1.65",
+                "expiresDate": "2026-05-15"
+              },
+              {
+                "bank": "bilt",
+                "bankName": "Bilt",
+                "partner": "British Airways Avios",
+                "partnerType": "airline",
+                "partnerIcon": "✈️",
+                "bonusPct": 40,
+                "transferRatio": "1:1",
+                "bonusRatio": "1:1.4",
+                "expiresDate": "2026-05-01"
+              },
+              {
+                "bank": "chase",
+                "bankName": "Chase",
+                "partner": "IHG One Rewards",
+                "partnerType": "hotel",
+                "partnerIcon": "🏨",
+                "bonusPct": 70,
+                "transferRatio": "1:1",
+                "bonusRatio": "1:1.7",
+                "expiresDate": "2026-04-30"
+              }
+            ],
+            "meta": {
+              "source": "HRT Manual Workflow — June 2 2026",
+              "bonusCount": 5,
+              "expiredCount": 7
+            }
+          }
+          JSONEOF
+
+      - name: Commit bonuses.json
+        run: |
+          git config user.name "HRT Bot"
+          git config user.email "bot@hawaiirewardtravel.com"
+          git add bonuses.json
+          git commit -m "Manual bonus update $(date +'%Y-%m-%d')"
+          git pull --rebase origin main
+          git push
