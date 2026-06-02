@@ -13,216 +13,43 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4.2.2
 
-      - name: Write bonuses.json directly
+      - name: Set up Python
+        uses: actions/setup-python@v5.6.0
+        with:
+          python-version: '3.11'
+
+      - name: Write bonuses.json via Python
         run: |
-          cat > bonuses.json << 'JSONEOF'
-{
-  "lastUpdated": "2026-06-01T00:00:00Z",
-  "bonuses": [
-    {
-      "id": 1,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "Marriott Bonvoy",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-06-30",
-      "transferTime": "Instant"
-    },
-    {
-      "id": 2,
-      "bank": "bilt",
-      "bankName": "Bilt",
-      "partner": "TAP Air Portugal Miles&Go",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 100,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:2",
-      "expiresDate": "2026-06-01",
-      "transferTime": "Instant"
-    },
-    {
-      "id": 3,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "Southwest Rapid Rewards",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "expiresDate": "2026-06-06",
-      "transferTime": "Instant"
-    },
-    {
-      "id": 4,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "Marriott Bonvoy",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 55,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.55",
-      "expiresDate": "2026-06-30",
-      "transferTime": "2 days"
-    },
-    {
-      "id": 5,
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Wyndham Rewards",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-06-13",
-      "transferTime": "Within 24 hours"
-    },
-    {
-      "id": 6,
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Preferred Hotels & Resorts",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 30,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.6",
-      "expiresDate": "2026-06-13",
-      "transferTime": "Instant"
-    },
-    {
-      "id": 7,
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Qatar Airways Privilege Club",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "expiresDate": "2026-06-30",
-      "transferTime": "Instant"
-    },
-    {
-      "id": 8,
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "Air Canada Aeroplan",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-06-06",
-      "transferTime": "Instant"
-    },
-    {
-      "id": 9,
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "Turkish Airlines Miles&Smiles",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 50,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.5",
-      "expiresDate": "2026-06-30",
-      "transferTime": "Instant"
-    }
-  ],
-  "recentlyExpired": [
-    {
-      "bank": "capital-one",
-      "bankName": "Capital One",
-      "partner": "Qantas Airways",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-05-31"
-    },
-    {
-      "bank": "amex",
-      "bankName": "Amex",
-      "partner": "Hilton Honors",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 20,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.4",
-      "expiresDate": "2026-05-30"
-    },
-    {
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "Flying Blue (Air France / KLM)",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-05-27"
-    },
-    {
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Leading Hotels of the World",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-05-16"
-    },
-    {
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "Marriott Bonvoy",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 65,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.65",
-      "expiresDate": "2026-05-15"
-    },
-    {
-      "bank": "bilt",
-      "bankName": "Bilt",
-      "partner": "British Airways Avios",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 40,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.4",
-      "expiresDate": "2026-05-01"
-    },
-    {
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "IHG One Rewards",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 70,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.7",
-      "expiresDate": "2026-04-30"
-    }
-  ],
-  "meta": {
-    "source": "HRT Manual Update — June 1 2026 (verified vs Max Miles)",
-    "bonusCount": 9,
-    "expiredCount": 7
-  }
-}
-          JSONEOF
+          python3 - << 'PYEOF'
+          import json
+          data = {
+            "lastUpdated": "2026-06-01T00:00:00Z",
+            "bonuses": [
+              {"id":1,"bank":"amex","bankName":"American Express","partner":"Marriott Bonvoy","partnerType":"hotel","partnerIcon":"\U0001f3e8","bonusPct":20,"transferRatio":"1:1","bonusRatio":"1:1.2","expiresDate":"2026-06-30","transferTime":"Instant"},
+              {"id":2,"bank":"bilt","bankName":"Bilt","partner":"TAP Air Portugal Miles&Go","partnerType":"airline","partnerIcon":"\u2708\ufe0f","bonusPct":100,"transferRatio":"1:1","bonusRatio":"1:2","expiresDate":"2026-06-01","transferTime":"Instant"},
+              {"id":3,"bank":"chase","bankName":"Chase","partner":"Southwest Rapid Rewards","partnerType":"airline","partnerIcon":"\u2708\ufe0f","bonusPct":30,"transferRatio":"1:1","bonusRatio":"1:1.3","expiresDate":"2026-06-06","transferTime":"Instant"},
+              {"id":4,"bank":"chase","bankName":"Chase","partner":"Marriott Bonvoy","partnerType":"hotel","partnerIcon":"\U0001f3e8","bonusPct":55,"transferRatio":"1:1","bonusRatio":"1:1.55","expiresDate":"2026-06-30","transferTime":"2 days"},
+              {"id":5,"bank":"citi","bankName":"Citi","partner":"Wyndham Rewards","partnerType":"hotel","partnerIcon":"\U0001f3e8","bonusPct":25,"transferRatio":"1:1","bonusRatio":"1:1.25","expiresDate":"2026-06-13","transferTime":"Within 24 hours"},
+              {"id":6,"bank":"citi","bankName":"Citi","partner":"Preferred Hotels & Resorts","partnerType":"hotel","partnerIcon":"\U0001f3e8","bonusPct":30,"transferRatio":"1:2","bonusRatio":"1:2.6","expiresDate":"2026-06-13","transferTime":"Instant"},
+              {"id":7,"bank":"citi","bankName":"Citi","partner":"Qatar Airways Privilege Club","partnerType":"airline","partnerIcon":"\u2708\ufe0f","bonusPct":30,"transferRatio":"1:1","bonusRatio":"1:1.3","expiresDate":"2026-06-30","transferTime":"Instant"},
+              {"id":8,"bank":"rove","bankName":"Rove","partner":"Air Canada Aeroplan","partnerType":"airline","partnerIcon":"\u2708\ufe0f","bonusPct":25,"transferRatio":"1:1","bonusRatio":"1:1.25","expiresDate":"2026-06-06","transferTime":"Instant"},
+              {"id":9,"bank":"rove","bankName":"Rove","partner":"Turkish Airlines Miles&Smiles","partnerType":"airline","partnerIcon":"\u2708\ufe0f","bonusPct":50,"transferRatio":"1:1","bonusRatio":"1:1.5","expiresDate":"2026-06-30","transferTime":"Instant"}
+            ],
+            "recentlyExpired": [
+              {"bank":"capital-one","bankName":"Capital One","partner":"Qantas Airways","partnerType":"airline","partnerIcon":"\u2708\ufe0f","bonusPct":20,"transferRatio":"1:1","bonusRatio":"1:1.2","expiresDate":"2026-05-31"},
+              {"bank":"amex","bankName":"Amex","partner":"Hilton Honors","partnerType":"hotel","partnerIcon":"\U0001f3e8","bonusPct":20,"transferRatio":"1:2","bonusRatio":"1:2.4","expiresDate":"2026-05-30"},
+              {"bank":"chase","bankName":"Chase","partner":"Flying Blue (Air France / KLM)","partnerType":"airline","partnerIcon":"\u2708\ufe0f","bonusPct":20,"transferRatio":"1:1","bonusRatio":"1:1.2","expiresDate":"2026-05-27"},
+              {"bank":"citi","bankName":"Citi","partner":"Leading Hotels of the World","partnerType":"hotel","partnerIcon":"\U0001f3e8","bonusPct":25,"transferRatio":"1:1","bonusRatio":"1:1.25","expiresDate":"2026-05-16"},
+              {"bank":"chase","bankName":"Chase","partner":"Marriott Bonvoy","partnerType":"hotel","partnerIcon":"\U0001f3e8","bonusPct":65,"transferRatio":"1:1","bonusRatio":"1:1.65","expiresDate":"2026-05-15"},
+              {"bank":"bilt","bankName":"Bilt","partner":"British Airways Avios","partnerType":"airline","partnerIcon":"\u2708\ufe0f","bonusPct":40,"transferRatio":"1:1","bonusRatio":"1:1.4","expiresDate":"2026-05-01"},
+              {"bank":"chase","bankName":"Chase","partner":"IHG One Rewards","partnerType":"hotel","partnerIcon":"\U0001f3e8","bonusPct":70,"transferRatio":"1:1","bonusRatio":"1:1.7","expiresDate":"2026-04-30"}
+            ],
+            "meta": {"source":"HRT Manual Workflow — June 1 2026","bonusCount":9,"expiredCount":7}
+          }
+          with open("bonuses.json","w",encoding="utf-8") as f:
+              json.dump(data, f, indent=2, ensure_ascii=False)
+          print(f"Wrote {len(data['bonuses'])} active bonuses to bonuses.json")
+          PYEOF
 
       - name: Commit bonuses.json
         run: |
