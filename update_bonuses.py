@@ -38,7 +38,7 @@ Required structure:
 }
 
 Rules:
-- bank must be: chase, amex, capital-one, or bilt
+- bank must be: chase, amex, capital-one, bilt, citi, or rove
 - partnerType must be: airline or hotel
 - partnerIcon: use the airplane emoji for airlines, hotel emoji for hotels
 - bonusPct is a number (30 = 30% bonus)
@@ -50,15 +50,28 @@ Rules:
 
 USER_PROMPT = f"""Today is {date.today().isoformat()}.
 
-Search the web for ALL currently active credit card transfer bonuses from:
+You need to find ALL currently active credit card transfer bonuses. Do this in two steps:
+
+STEP 1 — Fetch these specific pages directly (they track transfer bonuses in real time):
+- https://www.maxmilespoints.com/transfer-bonuses
+- https://frequentmiler.com/transfer-bonuses/
+- https://thepointsguy.com/news/transfer-bonus/
+- https://10xtravel.com/transfer-bonuses/
+
+STEP 2 — Also run web searches for any bonuses you may have missed:
+- "active transfer bonus 2026 chase amex capital one bilt citi rove"
+- "new transfer bonus June 2026"
+
+Look for bonuses from these banks specifically:
 1. Chase Ultimate Rewards
 2. American Express Membership Rewards
 3. Capital One Miles
 4. Bilt Rewards
+5. Citi ThankYou Points
+6. Rove (bank value: "rove")
 
-Search sources like thepointsguy.com, frequentmiler.com, onemileatatime.com, and 10xtravel.com.
-
-Find every active bonus with its exact percentage, partner, expiration date, and transfer ratio.
+For each bonus found, record: bank, partner, bonus %, expiration date, transfer ratio, and transfer time.
+Cross-reference across sources to make sure you have every active bonus.
 
 Return ONLY the raw JSON object described in your instructions."""
 
@@ -103,7 +116,7 @@ def fetch_bonuses():
         def make_request():
             return client.messages.create(
                 model="claude-opus-4-5",
-                max_tokens=4096,
+                max_tokens=8192,
                 system=SYSTEM_PROMPT,
                 tools=[{"type": "web_search_20250305", "name": "web_search"}],
                 messages=messages,
@@ -126,7 +139,12 @@ def fetch_bonuses():
             tool_results = []
             for block in response.content:
                 if block.type == "tool_use":
-                    print(f"  Searched: {block.input.get('query', 'unknown query')}")
+                    if block.name == "web_search":
+                        print(f"  Searched: {block.input.get('query', '')}")
+                    elif block.name == "web_fetch":
+                        print(f"  Fetched:  {block.input.get('url', '')}")
+                    else:
+                        print(f"  Tool: {block.name} — {str(block.input)[:80]}")
                     tool_results.append({
                         "type": "tool_result",
                         "tool_use_id": block.id,
@@ -144,8 +162,12 @@ def fetch_bonuses():
 
 
 def parse_response(raw):
-    """Clean and parse Claude's JSON response."""
+    """Clean and parse Claude's JSON response. Returns empty bonuses if no valid JSON found."""
     text = raw.strip()
+
+    if not text:
+        print("  Warning: Empty response from Claude — returning empty bonuses")
+        return {"lastUpdated": datetime.utcnow().isoformat() + "Z", "bonuses": []}
 
     # Strip markdown fences if present
     if "```" in text:
@@ -161,10 +183,21 @@ def parse_response(raw):
     # Find the JSON object boundaries
     start = text.find("{")
     end = text.rfind("}") + 1
-    if start != -1 and end > start:
-        text = text[start:end]
 
-    return json.loads(text)
+    if start == -1 or end <= start:
+        # Claude returned plain text (e.g. "No active bonuses found") — not a crash
+        print(f"  Note: Claude returned non-JSON response: {text[:200]}")
+        print("  Treating as no active bonuses found.")
+        return {"lastUpdated": datetime.utcnow().isoformat() + "Z", "bonuses": []}
+
+    text = text[start:end]
+
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError as e:
+        print(f"  Warning: JSON parse error ({e}) — returning empty bonuses")
+        print(f"  Raw text was: {text[:300]}")
+        return {"lastUpdated": datetime.utcnow().isoformat() + "Z", "bonuses": []}
 
 
 def load_existing():
@@ -258,6 +291,8 @@ def main():
     try:
         raw = fetch_bonuses()
         print(f"Raw response length: {len(raw)} chars")
+        # Print first 500 chars so we can debug if needed
+        print(f"Response preview: {raw[:500]}")
 
         new_data = parse_response(raw)
         print(f"Found {len(new_data.get('bonuses', []))} bonuses")
