@@ -303,11 +303,22 @@ def main():
     try:
         raw = fetch_bonuses()
         print(f"Raw response length: {len(raw)} chars")
-        # Print first 500 chars so we can debug if needed
         print(f"Response preview: {raw[:500]}")
 
         new_data = parse_response(raw)
-        print(f"Found {len(new_data.get('bonuses', []))} bonuses")
+        found = len(new_data.get("bonuses", []))
+        print(f"Found {found} bonuses")
+
+        # Safety check: never overwrite good existing data with empty results
+        if found == 0:
+            existing = load_existing()
+            existing_active = [b for b in existing.get("bonuses", [])
+                               if b.get("expiresDate") and
+                               date.fromisoformat(b["expiresDate"]) >= date.today()]
+            if existing_active:
+                print(f"WARNING: Script found 0 bonuses but {len(existing_active)} valid ones exist.")
+                print("Keeping existing data. Will retry at next scheduled run.")
+                return
 
         existing = load_existing()
         merged = merge_bonuses(existing, new_data)
