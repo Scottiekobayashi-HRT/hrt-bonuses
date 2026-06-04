@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T18:15:06.220625Z",
+  "lastUpdated": "2026-06-04T16:43:17.930037Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,7 +12,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-06-06",
-      "notes": "Great for inter-island Hawaii flights on Southwest",
+      "notes": "Great for topping off points for Hawaii inter-island flights on Southwest",
       "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-from-chase-ultimate-rewards-to-southwest-rapid-rewards/",
       "startDate": "2026-05-01"
     },
@@ -27,7 +27,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.55",
       "expiresDate": "2026-06-30",
-      "notes": "Useful for topping off Marriott stays in Hawaii resorts",
+      "notes": "Use for Marriott Hawaii properties; transfers take ~2 days",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-05-01"
     },
@@ -35,16 +35,16 @@
       "id": 3,
       "bank": "amex",
       "bankName": "American Express",
-      "partner": "Air France/KLM Flying Blue",
+      "partner": "Air France-KLM Flying Blue",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
       "bonusPct": 25,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-30",
-      "notes": "Book partner flights to Hawaii via Flying Blue sweet spots",
+      "notes": "Flying Blue Promo Rewards can reduce Hawaii-Europe fares further",
       "sourceUrl": "https://frequentmiler.com/get-a-25-bonus-when-transferring-amex-membership-rewards-to-air-france-klm-flying-blue/",
-      "startDate": "2026-06-03"
+      "startDate": "2026-06-04"
     },
     {
       "id": 4,
@@ -57,14 +57,14 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-06-30",
-      "notes": "Top off for Marriott Hawaii properties like Wailea or Sheraton",
-      "sourceUrl": "https://frequentmiler.com/20-transfer-bonus-to-marriott-bonvoy-from-american-express-membership-rewards/",
+      "notes": "Consider for Hawaii Marriotts; instant transfer",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-06-01"
     },
     {
       "id": 5,
       "bank": "citi",
-      "bankName": "Citi ThankYou Points",
+      "bankName": "Citi ThankYou",
       "partner": "Qatar Airways Privilege Club",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -79,22 +79,7 @@
     {
       "id": 6,
       "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Preferred Hotels I Prefer",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 30,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.6",
-      "expiresDate": "2026-06-13",
-      "notes": "Access boutique luxury hotels; niche but useful for Hawaii independents",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-06-02"
-    },
-    {
-      "id": 7,
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
+      "bankName": "Citi ThankYou",
       "partner": "Wyndham Rewards",
       "partnerType": "hotel",
       "partnerIcon": "\ud83c\udfe8",
@@ -102,14 +87,29 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-13",
-      "notes": "Simple award chart; some Hawaii properties available",
+      "notes": "Simple 3-tier award chart; good for budget Hawaii stays",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-05-01"
     },
     {
+      "id": 7,
+      "bank": "citi",
+      "bankName": "Citi ThankYou",
+      "partner": "I Prefer (Preferred Hotels)",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 30,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.6",
+      "expiresDate": "2026-06-13",
+      "notes": "Access to boutique luxury properties; niche but unique",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-06-04"
+    },
+    {
       "id": 8,
       "bank": "rove",
-      "bankName": "Rove Miles",
+      "bankName": "Rove",
       "partner": "Air Canada Aeroplan",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -117,14 +117,14 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-06",
-      "notes": "Book United flights to Hawaii via Aeroplan for great value",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "notes": "Great for Star Alliance partner awards to Hawaii via United",
+      "sourceUrl": "https://thepointsguy.com/news/rove-miles-adds-aeroplan/",
       "startDate": "2026-05-01"
     },
     {
       "id": 9,
       "bank": "rove",
-      "bankName": "Rove Miles",
+      "bankName": "Rove",
       "partner": "Turkish Miles & Smiles",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -132,7 +132,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-06-30",
-      "notes": "Book United domestic/Hawaii flights for 10K-15K miles one-way",
+      "notes": "Book United flights to Hawaii via Turkish for 10K miles in economy",
       "sourceUrl": "https://frequentmiler.com/50-transfer-bonus-to-turkish-miles-smiles-from-rove-miles/",
       "startDate": "2026-06-03"
     }
