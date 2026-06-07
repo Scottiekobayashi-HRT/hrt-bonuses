@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-06-06T15:04:22.932239Z",
+  "lastUpdated": "2026-06-07T15:17:15.620848Z",
   "bonuses": [
     {
       "id": 1,
       "bank": "amex",
       "bankName": "American Express",
-      "partner": "Flying Blue (Air France/KLM)",
+      "partner": "Air France/KLM Flying Blue",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
       "bonusPct": 25,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-30",
-      "notes": "Stack with Flying Blue Promo Rewards for discounted Europe flights",
+      "notes": "Stack with Flying Blue Promo Rewards for flights to Europe from 15K Amex pts",
       "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
-      "startDate": "2026-06-06"
+      "startDate": "2026-06-07"
     },
     {
       "id": 2,
@@ -27,8 +27,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-06-30",
-      "notes": "Best for topping off Marriott balance for specific redemption",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "notes": "Best for topping off Marriott balance; Hawaii has many Marriott properties",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-06-01"
     },
     {
@@ -42,10 +42,72 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.55",
       "expiresDate": "2026-06-30",
-      "notes": "Highest Marriott bonus this year; good for specific high-value stays",
+      "notes": "Highest Chase-Marriott bonus in months; great for Hawaii resort stays",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-05-01"
     },
+    {
+      "id": 4,
+      "bank": "citi",
+      "bankName": "Citi ThankYou",
+      "partner": "Qatar Airways Privilege Club",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-06-30",
+      "notes": "Book QSuites to Doha for 54K Citi pts; bonus Avios credited by July 31",
+      "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-to-qatar-avios-from-citi-thankyou/",
+      "startDate": "2026-06-03"
+    },
+    {
+      "id": 5,
+      "bank": "citi",
+      "bankName": "Citi ThankYou",
+      "partner": "I Prefer (Preferred Hotels)",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 30,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.6",
+      "expiresDate": "2026-06-13",
+      "notes": "Access boutique luxury hotels; check Hawaii properties before transferring",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-06-04"
+    },
+    {
+      "id": 6,
+      "bank": "citi",
+      "bankName": "Citi ThankYou",
+      "partner": "Wyndham Rewards",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-06-13",
+      "notes": "Simple 3-tier award chart; several Wyndham properties in Hawaii",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-05-01"
+    },
+    {
+      "id": 7,
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Turkish Airlines Miles&Smiles",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 50,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.5",
+      "expiresDate": "2026-06-30",
+      "notes": "Book United domestic flights for 7.5K Rove pts in economy with bonus",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "startDate": "2026-06-05"
+    }
+  ],
+  "recentlyExpired": [
     {
       "id": 4,
       "bank": "chase",
@@ -62,51 +124,6 @@
       "startDate": "2026-05-01"
     },
     {
-      "id": 5,
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Qatar Airways Privilege Club",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "expiresDate": "2026-06-30",
-      "notes": "Qatar Qsuites from US to Doha for 54K Citi points with bonus",
-      "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-to-qatar-avios-from-citi-thankyou/",
-      "startDate": "2026-06-03"
-    },
-    {
-      "id": 6,
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Wyndham Rewards",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-06-13",
-      "notes": "Wyndham has some Hawaii properties; best for topping off balance",
-      "sourceUrl": "https://frequentmiler.com/citi-thankyou-transfer-bonus-to-wyndham-rewards/",
-      "startDate": "2026-05-01"
-    },
-    {
-      "id": 7,
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "I Prefer (Preferred Hotels)",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 30,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.6",
-      "expiresDate": "2026-06-13",
-      "notes": "Access to boutique luxury properties worldwide",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-06-04"
-    },
-    {
       "id": 8,
       "bank": "rove",
       "bankName": "Rove",
@@ -121,23 +138,6 @@
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-05-01"
     },
-    {
-      "id": 9,
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "Turkish Airlines Miles&Smiles",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 50,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.5",
-      "expiresDate": "2026-06-30",
-      "notes": "Book United domestic/Hawaii flights for fewer miles via Turkish",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-06-05"
-    }
-  ],
-  "recentlyExpired": [
     {
       "id": 7,
       "bank": "bilt",
@@ -210,13 +210,13 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.1",
-    "bonusCount": 9,
-    "expiredCount": 6,
+    "bonusCount": 7,
+    "expiredCount": 8,
     "banks": [
-      "amex",
-      "rove",
       "chase",
-      "citi"
+      "citi",
+      "amex",
+      "rove"
     ]
   }
 }
