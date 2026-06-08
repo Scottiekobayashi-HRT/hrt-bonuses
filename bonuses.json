@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T15:17:15.620848Z",
+  "lastUpdated": "2026-06-08T17:00:20.645009Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,8 +12,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-30",
-      "notes": "Stack with Flying Blue Promo Rewards for flights to Europe from 15K Amex pts",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "Stack with Flying Blue June Promo Rewards for flights to Europe from 15K Amex pts",
+      "sourceUrl": "https://frequentmiler.com/get-a-25-bonus-when-transferring-amex-membership-rewards-to-air-france-klm-flying-blue/",
       "startDate": "2026-06-07"
     },
     {
@@ -27,8 +27,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-06-30",
-      "notes": "Best for topping off Marriott balance; Hawaii has many Marriott properties",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Best for topping off for a specific Marriott stay; poor value otherwise",
+      "sourceUrl": "https://frequentmiler.com/20-transfer-bonus-to-marriott-bonvoy-from-american-express-membership-rewards/",
       "startDate": "2026-06-01"
     },
     {
@@ -42,14 +42,14 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.55",
       "expiresDate": "2026-06-30",
-      "notes": "Highest Chase-Marriott bonus in months; great for Hawaii resort stays",
+      "notes": "Highest Chase-Marriott bonus in months; use only to top off for specific redemption",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-05-01"
     },
     {
       "id": 4,
       "bank": "citi",
-      "bankName": "Citi ThankYou",
+      "bankName": "Citi ThankYou Points",
       "partner": "Qatar Airways Privilege Club",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -64,22 +64,22 @@
     {
       "id": 5,
       "bank": "citi",
-      "bankName": "Citi ThankYou",
-      "partner": "I Prefer (Preferred Hotels)",
+      "bankName": "Citi ThankYou Points",
+      "partner": "Preferred Hotels I Prefer",
       "partnerType": "hotel",
       "partnerIcon": "\ud83c\udfe8",
       "bonusPct": 30,
       "transferRatio": "1:2",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-06-13",
-      "notes": "Access boutique luxury hotels; check Hawaii properties before transferring",
+      "notes": "Access 400+ boutique luxury properties worldwide; niche but useful",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-06-04"
+      "startDate": "2026-06-08"
     },
     {
       "id": 6,
       "bank": "citi",
-      "bankName": "Citi ThankYou",
+      "bankName": "Citi ThankYou Points",
       "partner": "Wyndham Rewards",
       "partnerType": "hotel",
       "partnerIcon": "\ud83c\udfe8",
@@ -87,7 +87,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-13",
-      "notes": "Simple 3-tier award chart; several Wyndham properties in Hawaii",
+      "notes": "Simple 3-tier award chart: 7.5K, 15K, or 30K pts per night",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-05-01"
     },
@@ -102,8 +102,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-06-30",
-      "notes": "Book United domestic flights for 7.5K Rove pts in economy with bonus",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "notes": "Book US-Turkey biz class from 44K Rove miles; great Star Alliance sweet spots",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-06-05"
     }
   ],
@@ -213,10 +213,10 @@
     "bonusCount": 7,
     "expiredCount": 8,
     "banks": [
-      "chase",
       "citi",
+      "rove",
       "amex",
-      "rove"
+      "chase"
     ]
   }
 }
