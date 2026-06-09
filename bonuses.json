@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T17:00:20.645009Z",
+  "lastUpdated": "2026-06-09T16:24:26.989991Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,8 +12,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-30",
-      "notes": "Stack with Flying Blue June Promo Rewards for flights to Europe from 15K Amex pts",
-      "sourceUrl": "https://frequentmiler.com/get-a-25-bonus-when-transferring-amex-membership-rewards-to-air-france-klm-flying-blue/",
+      "notes": "Stack with Flying Blue June Promo Rewards for discounted Europe flights",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "startDate": "2026-06-07"
     },
     {
@@ -27,8 +27,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-06-30",
-      "notes": "Best for topping off for a specific Marriott stay; poor value otherwise",
-      "sourceUrl": "https://frequentmiler.com/20-transfer-bonus-to-marriott-bonvoy-from-american-express-membership-rewards/",
+      "notes": "Best for topping off specific redemptions; avoid large transfers",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "startDate": "2026-06-01"
     },
     {
@@ -42,14 +42,14 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.55",
       "expiresDate": "2026-06-30",
-      "notes": "Highest Chase-Marriott bonus in months; use only to top off for specific redemption",
+      "notes": "Highest Chase-Marriott bonus; good for specific Maui/Hawaii redemptions",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-05-01"
     },
     {
       "id": 4,
       "bank": "citi",
-      "bankName": "Citi ThankYou Points",
+      "bankName": "Citi ThankYou",
       "partner": "Qatar Airways Privilege Club",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -57,14 +57,14 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-06-30",
-      "notes": "Book QSuites to Doha for 54K Citi pts; bonus Avios credited by July 31",
+      "notes": "Book QSuites to Doha for 54k Citi points; bonus Avios by July 31",
       "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-to-qatar-avios-from-citi-thankyou/",
       "startDate": "2026-06-03"
     },
     {
       "id": 5,
       "bank": "citi",
-      "bankName": "Citi ThankYou Points",
+      "bankName": "Citi ThankYou",
       "partner": "Preferred Hotels I Prefer",
       "partnerType": "hotel",
       "partnerIcon": "\ud83c\udfe8",
@@ -72,14 +72,14 @@
       "transferRatio": "1:2",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-06-13",
-      "notes": "Access 400+ boutique luxury properties worldwide; niche but useful",
+      "notes": "Access to 400+ boutique luxury properties worldwide",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-06-08"
     },
     {
       "id": 6,
       "bank": "citi",
-      "bankName": "Citi ThankYou Points",
+      "bankName": "Citi ThankYou",
       "partner": "Wyndham Rewards",
       "partnerType": "hotel",
       "partnerIcon": "\ud83c\udfe8",
@@ -87,14 +87,14 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-13",
-      "notes": "Simple 3-tier award chart: 7.5K, 15K, or 30K pts per night",
+      "notes": "Simple 3-tier award chart: 7.5k, 15k, or 30k points per night",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-05-01"
     },
     {
       "id": 7,
       "bank": "rove",
-      "bankName": "Rove",
+      "bankName": "Rove Miles",
       "partner": "Turkish Airlines Miles&Smiles",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -102,8 +102,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-06-30",
-      "notes": "Book US-Turkey biz class from 44K Rove miles; great Star Alliance sweet spots",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Book Star Alliance biz class to Europe; 44k Rove for US-Turkey",
+      "sourceUrl": "https://frequentmiler.com/50-transfer-bonus-to-turkish-miles-smiles-from-rove-miles/",
       "startDate": "2026-06-05"
     }
   ],
@@ -213,10 +213,10 @@
     "bonusCount": 7,
     "expiredCount": 8,
     "banks": [
-      "citi",
-      "rove",
       "amex",
-      "chase"
+      "chase",
+      "citi",
+      "rove"
     ]
   }
 }
