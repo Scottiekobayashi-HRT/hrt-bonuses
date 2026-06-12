@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T17:31:14.946039Z",
+  "lastUpdated": "2026-06-12T16:36:44.924861Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,7 +12,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-30",
-      "notes": "Stack with Flying Blue Promo Rewards for flights to Europe from 15K points",
+      "notes": "Stack with Flying Blue Promo Rewards for flights to Europe from 15K Amex points",
       "sourceUrl": "https://frequentmiler.com/get-a-25-bonus-when-transferring-amex-membership-rewards-to-air-france-klm-flying-blue/",
       "startDate": "2026-06-07"
     },
@@ -27,7 +27,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-06-30",
-      "notes": "Best for topping off specific redemptions; poor value for bulk transfers",
+      "notes": "Best for topping off Marriott balance; 7 properties in Hawaii to consider",
       "sourceUrl": "https://frequentmiler.com/20-transfer-bonus-to-marriott-bonvoy-from-american-express-membership-rewards/",
       "startDate": "2026-06-01"
     },
@@ -42,7 +42,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.55",
       "expiresDate": "2026-06-30",
-      "notes": "Highest Marriott bonus available; transfer takes ~2 days",
+      "notes": "Highest Marriott bonus seen; great for Hawaii resorts like Wailea or Waikiki",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-05-01"
     },
@@ -57,7 +57,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-07-14",
-      "notes": "Use for Delta partner awards or ANA flights to Japan via Virgin",
+      "notes": "Use Virgin points for ANA flights to Japan or Delta to Hawaii",
       "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "startDate": "2026-06-10"
     },
@@ -72,7 +72,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-06-30",
-      "notes": "QSuites to Doha for 54K Citi points; bonus Avios credited by Jul 31",
+      "notes": "Book Qatar QSuites US-Doha for 54K Citi points with this bonus",
       "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-to-qatar-avios-from-citi-thankyou/",
       "startDate": "2026-06-03"
     },
@@ -87,7 +87,7 @@
       "transferRatio": "1:2",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-06-13",
-      "notes": "Access 400+ boutique luxury properties worldwide",
+      "notes": "Access boutique luxury properties; some Hawaii options available",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-06-08"
     },
@@ -102,14 +102,14 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-13",
-      "notes": "Simple 3-tier award chart: 7.5K, 15K, or 30K pts/night",
+      "notes": "Simple award chart: 7.5K-30K per night; multiple Hawaii properties",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-05-01"
     },
     {
       "id": 8,
       "bank": "rove",
-      "bankName": "Rove",
+      "bankName": "Rove Miles",
       "partner": "Turkish Airlines Miles&Smiles",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -117,7 +117,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-06-30",
-      "notes": "Book United domestic flights for 7.5K-10K Rove miles after bonus",
+      "notes": "Book United domestic awards for 7.5K-10K Rove miles with bonus",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-06-05"
     }
@@ -228,10 +228,10 @@
     "bonusCount": 8,
     "expiredCount": 8,
     "banks": [
+      "amex",
       "citi",
       "rove",
-      "chase",
-      "amex"
+      "chase"
     ]
   }
 }
