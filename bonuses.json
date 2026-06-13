@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T16:36:44.924861Z",
+  "lastUpdated": "2026-06-13T15:24:18.004247Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,7 +12,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-30",
-      "notes": "Stack with Flying Blue Promo Rewards for flights to Europe from 15K Amex points",
+      "notes": "Stack with Flying Blue Promo Rewards for discounted flights to Europe",
       "sourceUrl": "https://frequentmiler.com/get-a-25-bonus-when-transferring-amex-membership-rewards-to-air-france-klm-flying-blue/",
       "startDate": "2026-06-07"
     },
@@ -27,7 +27,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-06-30",
-      "notes": "Best for topping off Marriott balance; 7 properties in Hawaii to consider",
+      "notes": "Consider Chase 55% bonus instead for better Marriott value",
       "sourceUrl": "https://frequentmiler.com/20-transfer-bonus-to-marriott-bonvoy-from-american-express-membership-rewards/",
       "startDate": "2026-06-01"
     },
@@ -42,8 +42,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.55",
       "expiresDate": "2026-06-30",
-      "notes": "Highest Marriott bonus seen; great for Hawaii resorts like Wailea or Waikiki",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "notes": "Book 5 nights get 5th free for max Hawaii hotel value",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-05-01"
     },
     {
@@ -57,7 +57,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-07-14",
-      "notes": "Use Virgin points for ANA flights to Japan or Delta to Hawaii",
+      "notes": "Use Virgin miles to book ANA or Delta flights to Hawaii",
       "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "startDate": "2026-06-10"
     },
@@ -72,27 +72,12 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-06-30",
-      "notes": "Book Qatar QSuites US-Doha for 54K Citi points with this bonus",
+      "notes": "Bonus Avios credited by July 31; plan bookings accordingly",
       "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-to-qatar-avios-from-citi-thankyou/",
       "startDate": "2026-06-03"
     },
     {
       "id": 6,
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Preferred Hotels I Prefer",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 30,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.6",
-      "expiresDate": "2026-06-13",
-      "notes": "Access boutique luxury properties; some Hawaii options available",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-06-08"
-    },
-    {
-      "id": 7,
       "bank": "citi",
       "bankName": "Citi ThankYou Points",
       "partner": "Wyndham Rewards",
@@ -102,12 +87,12 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-13",
-      "notes": "Simple award chart: 7.5K-30K per night; multiple Hawaii properties",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Good for Wyndham Vacation Club properties in Hawaii",
+      "sourceUrl": "https://frequentmiler.com/citi-thankyou-transfer-bonus-to-wyndham-rewards/",
       "startDate": "2026-05-01"
     },
     {
-      "id": 8,
+      "id": 7,
       "bank": "rove",
       "bankName": "Rove Miles",
       "partner": "Turkish Airlines Miles&Smiles",
@@ -117,8 +102,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-06-30",
-      "notes": "Book United domestic awards for 7.5K-10K Rove miles with bonus",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "notes": "Book United domestic flights to Hawaii for 10K miles economy",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-06-05"
     }
   ],
@@ -225,13 +210,13 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.1",
-    "bonusCount": 8,
+    "bonusCount": 7,
     "expiredCount": 8,
     "banks": [
-      "amex",
       "citi",
-      "rove",
-      "chase"
+      "chase",
+      "amex",
+      "rove"
     ]
   }
 }
