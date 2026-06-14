@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T15:24:18.004247Z",
+  "lastUpdated": "2026-06-14T15:41:29.108585Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,8 +12,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-06-30",
-      "notes": "Stack with Flying Blue Promo Rewards for discounted flights to Europe",
-      "sourceUrl": "https://frequentmiler.com/get-a-25-bonus-when-transferring-amex-membership-rewards-to-air-france-klm-flying-blue/",
+      "notes": "Stack with Flying Blue Promo Rewards for cheap flights to Europe. Instant transfer.",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "startDate": "2026-06-07"
     },
     {
@@ -27,7 +27,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-06-30",
-      "notes": "Consider Chase 55% bonus instead for better Marriott value",
+      "notes": "Transfer in 1,000 pt increments. Consider Marriott's 5th night free benefit.",
       "sourceUrl": "https://frequentmiler.com/20-transfer-bonus-to-marriott-bonvoy-from-american-express-membership-rewards/",
       "startDate": "2026-06-01"
     },
@@ -42,8 +42,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.55",
       "expiresDate": "2026-06-30",
-      "notes": "Book 5 nights get 5th free for max Hawaii hotel value",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Best Chase-Marriott bonus in months. Hawaii properties start at 25k/night. 2-day transfer.",
+      "sourceUrl": "https://www.maxmilespoints.com/transfer-bonuses",
       "startDate": "2026-05-01"
     },
     {
@@ -57,14 +57,14 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-07-14",
-      "notes": "Use Virgin miles to book ANA or Delta flights to Hawaii",
+      "notes": "Book ANA to Japan or Delta flights to Hawaii using Virgin Atlantic miles.",
       "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "startDate": "2026-06-10"
     },
     {
       "id": 5,
       "bank": "citi",
-      "bankName": "Citi ThankYou Points",
+      "bankName": "Citi ThankYou",
       "partner": "Qatar Airways Privilege Club",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -72,29 +72,14 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-06-30",
-      "notes": "Bonus Avios credited by July 31; plan bookings accordingly",
+      "notes": "Qatar-side bonus; bonus Avios credited by July 31. Great for Qsuites to Asia.",
       "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-to-qatar-avios-from-citi-thankyou/",
       "startDate": "2026-06-03"
     },
     {
       "id": 6,
-      "bank": "citi",
-      "bankName": "Citi ThankYou Points",
-      "partner": "Wyndham Rewards",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-06-13",
-      "notes": "Good for Wyndham Vacation Club properties in Hawaii",
-      "sourceUrl": "https://frequentmiler.com/citi-thankyou-transfer-bonus-to-wyndham-rewards/",
-      "startDate": "2026-05-01"
-    },
-    {
-      "id": 7,
       "bank": "rove",
-      "bankName": "Rove Miles",
+      "bankName": "Rove",
       "partner": "Turkish Airlines Miles&Smiles",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -102,12 +87,26 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-06-30",
-      "notes": "Book United domestic flights to Hawaii for 10K miles economy",
+      "notes": "Book United domestic flights for 10k miles. Great Star Alliance sweet spots.",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-06-05"
     }
   ],
   "recentlyExpired": [
+    {
+      "id": 6,
+      "bank": "citi",
+      "bankName": "Citi ThankYou",
+      "partner": "Wyndham Rewards",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-06-13",
+      "notes": "Book Wyndham Vacation Club properties for best value. Instant transfer.",
+      "sourceUrl": "https://frequentmiler.com/citi-thankyou-transfer-bonus-to-wyndham-rewards/"
+    },
     {
       "id": 4,
       "bank": "chase",
@@ -210,13 +209,13 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.1",
-    "bonusCount": 7,
-    "expiredCount": 8,
+    "bonusCount": 6,
+    "expiredCount": 9,
     "banks": [
-      "citi",
       "chase",
-      "amex",
-      "rove"
+      "rove",
+      "citi",
+      "amex"
     ]
   }
 }
