@@ -27,7 +27,7 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-06-30",
       "transferTime": "Instant",
-      "startDate": "2026-06-14"
+      "startDate": "2026-06-01"
     },
     {
       "id": 3,
@@ -41,7 +41,7 @@
       "bonusRatio": "1:1.55",
       "expiresDate": "2026-06-30",
       "transferTime": "2 days",
-      "startDate": "2026-06-14"
+      "startDate": "2026-06-01"
     },
     {
       "id": 4,
@@ -69,7 +69,7 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-06-30",
       "transferTime": "Instant",
-      "startDate": "2026-06-14"
+      "startDate": "2026-06-01"
     },
     {
       "id": 6,
