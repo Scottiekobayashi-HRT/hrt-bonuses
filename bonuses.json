@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T04:18:55.384545Z",
+  "lastUpdated": "2026-06-15T04:26:30.270427Z",
   "bonuses": [
     {
       "id": 1,
@@ -17,6 +17,34 @@
     },
     {
       "id": 2,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Marriott Bonvoy",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-06-30",
+      "transferTime": "Instant",
+      "startDate": "2026-06-14"
+    },
+    {
+      "id": 3,
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "Marriott Bonvoy",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 55,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.55",
+      "expiresDate": "2026-06-30",
+      "transferTime": "2 days",
+      "startDate": "2026-06-14"
+    },
+    {
+      "id": 4,
       "bank": "chase",
       "bankName": "Chase",
       "partner": "Virgin Atlantic",
@@ -30,7 +58,7 @@
       "startDate": "2026-06-14"
     },
     {
-      "id": 3,
+      "id": 5,
       "bank": "citi",
       "bankName": "Citi",
       "partner": "Qatar Airways",
@@ -44,7 +72,7 @@
       "startDate": "2026-06-14"
     },
     {
-      "id": 4,
+      "id": 6,
       "bank": "citi",
       "bankName": "Citi",
       "partner": "Accor Live Limitless",
@@ -58,7 +86,7 @@
       "startDate": "2026-06-14"
     },
     {
-      "id": 5,
+      "id": 7,
       "bank": "rove",
       "bankName": "Rove",
       "partner": "Turkish Airlines",
@@ -189,6 +217,6 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater",
-    "bonusCount": 5
+    "bonusCount": 7
   }
 }
