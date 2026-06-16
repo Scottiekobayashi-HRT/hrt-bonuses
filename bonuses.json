@@ -1,38 +1,8 @@
 {
-  "lastUpdated": "2026-06-15T18:20:10.492575Z",
+  "lastUpdated": "2026-06-16T18:24:09.038935Z",
   "bonuses": [
     {
       "id": 1,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "Air France/KLM Flying Blue",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-06-30",
-      "notes": "Stack with Flying Blue Promo Rewards for discounted Europe flights",
-      "sourceUrl": "https://frequentmiler.com/get-a-25-bonus-when-transferring-amex-membership-rewards-to-air-france-klm-flying-blue/",
-      "startDate": "2026-06-15"
-    },
-    {
-      "id": 2,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "Marriott Bonvoy",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-06-30",
-      "notes": "Convert Marriott points to airline miles for Hawaii flights",
-      "sourceUrl": "https://frequentmiler.com/20-transfer-bonus-to-marriott-bonvoy-from-american-express-membership-rewards/",
-      "startDate": "2026-06-01"
-    },
-    {
-      "id": 3,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Marriott Bonvoy",
@@ -42,12 +12,12 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.55",
       "expiresDate": "2026-06-30",
-      "notes": "Best Chase-Marriott bonus in months; Marriott has Hawaii resorts",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "Top off your Marriott account for a Hawaii hotel redemption",
+      "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-offering-65-transfer-bonus-to-marriott/",
       "startDate": "2026-06-01"
     },
     {
-      "id": 4,
+      "id": 2,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Virgin Atlantic Flying Club",
@@ -57,12 +27,57 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-07-14",
-      "notes": "Use Virgin miles for ANA business class to Hawaii via Tokyo",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "Book ANA first class to Japan or partner awards to Hawaii",
+      "sourceUrl": "https://onemileatatime.com/deals/chase-virgin-atlantic-transfer-bonus/",
       "startDate": "2026-06-15"
     },
     {
+      "id": 3,
+      "bank": "amex",
+      "bankName": "American Express Membership Rewards",
+      "partner": "Air France-KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-06-30",
+      "notes": "Stack with Flying Blue Promo Rewards for cheap Europe flights",
+      "sourceUrl": "https://onemileatatime.com/deals/amex-flying-blue-transfer-bonus/",
+      "startDate": "2026-06-16"
+    },
+    {
+      "id": 4,
+      "bank": "amex",
+      "bankName": "American Express Membership Rewards",
+      "partner": "Marriott Bonvoy",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-06-30",
+      "notes": "Consider only for topping off a specific Hawaii hotel booking",
+      "sourceUrl": "https://loyaltylobby.com/2026/06/02/amex-membership-rewards-us-conversion-bonuses-to-flying-blue-25-marriott-bonvoy-20-until-june-30-2026/",
+      "startDate": "2026-06-01"
+    },
+    {
       "id": 5,
+      "bank": "amex",
+      "bankName": "American Express Membership Rewards",
+      "partner": "Avianca LifeMiles",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 15,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.15",
+      "expiresDate": "2026-07-15",
+      "notes": "Book Star Alliance partners to Hawaii via United or ANA",
+      "sourceUrl": "https://frequentmiler.com/15-transfer-bonus-from-amex-membership-rewards-to-avianca-lifemiles/",
+      "startDate": "2026-06-16"
+    },
+    {
+      "id": 6,
       "bank": "citi",
       "bankName": "Citi ThankYou Points",
       "partner": "Qatar Airways Privilege Club",
@@ -72,14 +87,14 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-06-30",
-      "notes": "Bonus Avios credited by July 31; Qatar partners with JAL for Asia",
+      "notes": "Transfer to Avios for AA Hawaii flights; bonus posts by July 31",
       "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-to-qatar-avios-from-citi-thankyou/",
       "startDate": "2026-06-15"
     },
     {
-      "id": 6,
+      "id": 7,
       "bank": "rove",
-      "bankName": "Rove Miles",
+      "bankName": "Rove",
       "partner": "Turkish Airlines Miles&Smiles",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -87,7 +102,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-06-30",
-      "notes": "Best bonus this month; book United flights or Star Alliance partners",
+      "notes": "Book United domestic flights or Turkish business class to Istanbul",
       "sourceUrl": "https://frequentmiler.com/50-transfer-bonus-to-turkish-miles-smiles-from-rove-miles/",
       "startDate": "2026-06-15"
     }
@@ -183,28 +198,17 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-05-27"
-    },
-    {
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Leading Hotels of the World",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-05-16"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.1",
-    "bonusCount": 6,
-    "expiredCount": 8,
+    "bonusCount": 7,
+    "expiredCount": 7,
     "banks": [
-      "citi",
       "rove",
+      "amex",
       "chase",
-      "amex"
+      "citi"
     ]
   }
 }
