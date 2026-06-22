@@ -1,53 +1,8 @@
 {
-  "lastUpdated": "2026-06-21T15:44:17.064814Z",
+  "lastUpdated": "2026-06-22T18:08:32.960125Z",
   "bonuses": [
     {
       "id": 1,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "Air France/KLM Flying Blue",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-06-30",
-      "notes": "Stack with Flying Blue promo awards for Europe from 15K pts. Transfers instant.",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
-      "startDate": "2026-06-21"
-    },
-    {
-      "id": 2,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "Marriott Bonvoy",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-06-30",
-      "notes": "Good for topping off Marriott balance. Consider value carefully before transferring.",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
-      "startDate": "2026-06-01"
-    },
-    {
-      "id": 3,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "Avianca LifeMiles",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 15,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.15",
-      "expiresDate": "2026-07-15",
-      "notes": "Great for Star Alliance awards. Book United flights for less via LifeMiles.",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
-      "startDate": "2026-06-16"
-    },
-    {
-      "id": 4,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Marriott Bonvoy",
@@ -57,12 +12,12 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.55",
       "expiresDate": "2026-06-30",
-      "notes": "Highest Marriott bonus we've seen. Good for Hawaii resort stays at category 6-8.",
+      "notes": "Consider portal booking instead; 55% bonus still may not beat direct UR value for Hawaii hotels",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-06-01"
     },
     {
-      "id": 5,
+      "id": 2,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
       "partner": "Virgin Atlantic Flying Club",
@@ -72,9 +27,54 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-07-14",
-      "notes": "Book ANA biz to Japan for ~37K pts. Great for Delta Hawaii flights too.",
-      "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-virgin-atlantic-30-percent-transfer-bonus/",
+      "notes": "Great for booking ANA to Japan or Delta partner awards; watch fuel surcharges",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-06-20"
+    },
+    {
+      "id": 3,
+      "bank": "amex",
+      "bankName": "American Express Membership Rewards",
+      "partner": "Air France-KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-06-30",
+      "notes": "Stack with Flying Blue June Promo Rewards for 40% off Europe awards",
+      "sourceUrl": "https://frequentmiler.com/get-a-25-bonus-when-transferring-amex-membership-rewards-to-air-france-klm-flying-blue/",
+      "startDate": "2026-06-22"
+    },
+    {
+      "id": 4,
+      "bank": "amex",
+      "bankName": "American Express Membership Rewards",
+      "partner": "Marriott Bonvoy",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-06-30",
+      "notes": "Poor value in most cases; only use to top off for specific Hawaii Marriott redemption",
+      "sourceUrl": "https://frequentmiler.com/20-transfer-bonus-to-marriott-bonvoy-from-american-express-membership-rewards/",
+      "startDate": "2026-06-01"
+    },
+    {
+      "id": 5,
+      "bank": "amex",
+      "bankName": "American Express Membership Rewards",
+      "partner": "Avianca LifeMiles",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 15,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.15",
+      "expiresDate": "2026-07-15",
+      "notes": "Book Star Alliance partners to Hawaii; bonus on Avianca side, not visible in Amex portal",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "startDate": "2026-06-16"
     },
     {
       "id": 6,
@@ -87,7 +87,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-06-30",
-      "notes": "Qatar-side bonus. Book QSuites for ~54K pts. Avios pool with BA/Iberia.",
+      "notes": "Qatar-side bonus; Avios post by July 31. Transfer Avios between BA/Iberia/Qatar programs",
       "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-to-qatar-avios-from-citi-thankyou/",
       "startDate": "2026-06-20"
     },
@@ -99,17 +99,17 @@
       "partnerType": "hotel",
       "partnerIcon": "\ud83c\udfe8",
       "bonusPct": 50,
-      "transferRatio": "2:1",
-      "bonusRatio": "2:1.5",
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.5",
       "expiresDate": "2026-07-18",
-      "notes": "Fixed value ~1.73cpp. Great for Europe stays at Fairmont, Sofitel, Raffles.",
-      "sourceUrl": "https://frequentmiler.com/50-percent-transfer-bonus-citi-thankyou-accor-all/",
+      "notes": "No Accor properties in Hawaii; only useful for connections or other destinations",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-06-20"
     },
     {
       "id": 8,
       "bank": "rove",
-      "bankName": "Rove",
+      "bankName": "Rove Miles",
       "partner": "Turkish Airlines Miles&Smiles",
       "partnerType": "airline",
       "partnerIcon": "\u2708\ufe0f",
@@ -117,7 +117,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-06-30",
-      "notes": "Book Star Alliance biz class at sweet spot rates. Great for partner awards.",
+      "notes": "Book United domestic/Hawaii flights from 7,500 Rove miles with this bonus",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-06-20"
     }
@@ -220,9 +220,9 @@
     "bonusCount": 8,
     "expiredCount": 7,
     "banks": [
-      "rove",
       "citi",
       "amex",
+      "rove",
       "chase"
     ]
   }
