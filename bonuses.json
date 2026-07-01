@@ -1,6 +1,113 @@
 {
-  "lastUpdated": "2026-06-24T16:06:43.283987Z",
+  "lastUpdated": "2026-07-01T16:14:32.975548Z",
   "bonuses": [
+    {
+      "id": 1,
+      "bank": "chase",
+      "bankName": "Chase Ultimate Rewards",
+      "partner": "Virgin Atlantic Flying Club",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-07-14",
+      "notes": "Book partner awards on Delta, Air France, KLM. Good for Hawaii via LAX connections.",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "startDate": "2026-06-20"
+    },
+    {
+      "id": 2,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Virgin Atlantic Flying Club",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-07-31",
+      "notes": "Use for Delta partner awards to Hawaii or connecting flights to Asia/Europe.",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
+      "startDate": "2026-06-24"
+    },
+    {
+      "id": 3,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Hilton Honors",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 20,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.4",
+      "expiresDate": "2026-07-14",
+      "notes": "Great for Hilton Hawaiian Village or other Hawaii Hilton properties.",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
+      "startDate": "2026-06-24"
+    },
+    {
+      "id": 4,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Avianca LifeMiles",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 15,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.15",
+      "expiresDate": "2026-07-15",
+      "notes": "Book United flights to Hawaii using LifeMiles for lower fees.",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-06-16"
+    },
+    {
+      "id": 5,
+      "bank": "citi",
+      "bankName": "Citi ThankYou",
+      "partner": "Accor Live Limitless",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 50,
+      "transferRatio": "2:1",
+      "bonusRatio": "2:1.5",
+      "expiresDate": "2026-07-18",
+      "notes": "Use at Fairmont Orchid or Fairmont Kea Lani in Hawaii.",
+      "sourceUrl": "https://frequentmiler.com/last-chance-deals/",
+      "startDate": "2026-06-20"
+    },
+    {
+      "id": 6,
+      "bank": "bilt",
+      "bankName": "Bilt Rewards",
+      "partner": "Hilton Honors",
+      "partnerType": "hotel",
+      "partnerIcon": "\ud83c\udfe8",
+      "bonusPct": 200,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:3",
+      "expiresDate": "2026-07-01",
+      "notes": "Rent Day only! Up to 200% for Platinum. 100K point cap. Great for Hawaii Hiltons.",
+      "sourceUrl": "https://onemileatatime.com/guides/bilt-rent-day-promotion/",
+      "startDate": "2026-07-01"
+    },
+    {
+      "id": 7,
+      "bank": "rove",
+      "bankName": "Rove Miles",
+      "partner": "Frontier Airlines",
+      "partnerType": "airline",
+      "partnerIcon": "\u2708\ufe0f",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-07-31",
+      "notes": "New partner! Frontier flies to Hawaii from select mainland cities.",
+      "sourceUrl": "https://frequentmiler.com/frontier-added-as-a-rove-transfer-partner-get-25-transfer-bonus-through-7-31-26/",
+      "startDate": "2026-07-01"
+    }
+  ],
+  "recentlyExpired": [
     {
       "id": 1,
       "bank": "amex",
@@ -32,51 +139,6 @@
       "startDate": "2026-06-01"
     },
     {
-      "id": 3,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "Hilton Honors",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 20,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.4",
-      "expiresDate": "2026-07-14",
-      "notes": "Transfers post in up to 24 hours; use to top off for Hawaii Hilton stays",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-06-24"
-    },
-    {
-      "id": 4,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "Virgin Atlantic Flying Club",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "expiresDate": "2026-07-31",
-      "notes": "Book ANA business/first to Japan or Delta domestic; transfers instant",
-      "sourceUrl": "https://frequentmiler.com/30-percent-transfer-bonus-american-express-membership-rewards-virgin-atlantic/",
-      "startDate": "2026-06-24"
-    },
-    {
-      "id": 5,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "Avianca LifeMiles",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 15,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.15",
-      "expiresDate": "2026-07-15",
-      "notes": "Bonus on Avianca side, not visible in Amex; good for Star Alliance awards",
-      "sourceUrl": "https://frequentmiler.com/15-transfer-bonus-from-amex-membership-rewards-to-avianca-lifemiles/",
-      "startDate": "2026-06-16"
-    },
-    {
       "id": 6,
       "bank": "chase",
       "bankName": "Chase Ultimate Rewards",
@@ -90,21 +152,6 @@
       "notes": "Huge bonus but UR points often more valuable elsewhere; top-off use only",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-06-01"
-    },
-    {
-      "id": 7,
-      "bank": "chase",
-      "bankName": "Chase Ultimate Rewards",
-      "partner": "Virgin Atlantic Flying Club",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "expiresDate": "2026-07-14",
-      "notes": "Great for ANA first class to Japan from Hawaii or West Coast",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
-      "startDate": "2026-06-20"
     },
     {
       "id": 8,
@@ -122,21 +169,6 @@
       "startDate": "2026-06-20"
     },
     {
-      "id": 9,
-      "bank": "citi",
-      "bankName": "Citi ThankYou",
-      "partner": "Accor Live Limitless",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 50,
-      "transferRatio": "2:1",
-      "bonusRatio": "2:1.5",
-      "expiresDate": "2026-07-18",
-      "notes": "Fixed-value system; 1000 pts = \u20ac20 off hotel bill; good for luxury stays",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-06-20"
-    },
-    {
       "id": 10,
       "bank": "rove",
       "bankName": "Rove",
@@ -150,9 +182,7 @@
       "notes": "Book United domestic for 10K miles economy; great Star Alliance sweet spots",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-06-20"
-    }
-  ],
-  "recentlyExpired": [
+    },
     {
       "id": 6,
       "bank": "citi",
@@ -210,50 +240,18 @@
       "expiresDate": "2026-06-01",
       "notes": "Rent Day only (Jun 1); up to 125% for Platinum. Star Alliance for connections",
       "sourceUrl": "https://thepointsguy.com/news/bilt-rent-day-promo/"
-    },
-    {
-      "bank": "capital-one",
-      "bankName": "Capital One",
-      "partner": "Qantas Airways",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-05-31"
-    },
-    {
-      "bank": "amex",
-      "bankName": "Amex",
-      "partner": "Hilton Honors",
-      "partnerType": "hotel",
-      "partnerIcon": "\ud83c\udfe8",
-      "bonusPct": 20,
-      "transferRatio": "1:2",
-      "bonusRatio": "1:2.4",
-      "expiresDate": "2026-05-30"
-    },
-    {
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "Flying Blue (Air France / KLM)",
-      "partnerType": "airline",
-      "partnerIcon": "\u2708\ufe0f",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-05-27"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.1",
-    "bonusCount": 10,
-    "expiredCount": 7,
+    "bonusCount": 7,
+    "expiredCount": 9,
     "banks": [
-      "chase",
+      "citi",
       "rove",
       "amex",
-      "citi"
+      "bilt",
+      "chase"
     ]
   }
 }
