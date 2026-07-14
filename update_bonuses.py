@@ -1,7 +1,10 @@
 """
-HRT Transfer Bonus Auto-Updater v2.1
+HRT Transfer Bonus Auto-Updater v2.2
 Runs daily via GitHub Actions. Uses Claude + web search to find current
 transfer bonuses from Chase, Amex, Capital One, and Bilt.
+
+v2.2 — switched model from Opus to Haiku 4.5 (structured extraction task,
+no need for Opus; ~5-25x cheaper, ~$2-3/month all-in with web search).
 """
 
 import anthropic
@@ -115,7 +118,7 @@ def fetch_bonuses():
     while True:
         def make_request():
             return client.messages.create(
-                model="claude-opus-4-5",
+                model="claude-haiku-4-5",
                 max_tokens=8192,
                 system=SYSTEM_PROMPT,
                 tools=[{"type": "web_search_20250305", "name": "web_search"}],
@@ -287,7 +290,7 @@ def merge_bonuses(existing, new_data):
         "bonuses": all_bonuses,
         "recentlyExpired": merged_expired,
         "meta": {
-            "source": "HRT Auto-Updater v2.1",
+            "source": "HRT Auto-Updater v2.2",
             "bonusCount": len(all_bonuses),
             "expiredCount": len(merged_expired),
             "banks": list(set(b["bank"] for b in all_bonuses))
