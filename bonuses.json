@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T14:43:02.038505Z",
+  "lastUpdated": "2026-07-19T14:45:08.438783Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,42 +12,12 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-07-31",
-      "notes": "Excellent for Hawaii travel via partner redemptions",
+      "notes": "Premium Hawaiian getaways via Amex partnership points",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-06-24"
     },
     {
       "id": 2,
-      "bank": "capital-one",
-      "bankName": "Capital One",
-      "partner": "EVA Air Infinity MileageLands",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
-      "transferRatio": "1:0.75",
-      "bonusRatio": "1:0.975",
-      "expiresDate": "2026-07-31",
-      "notes": "Asian gateway; business class to Asia includes Hawaii",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
-      "startDate": "2026-07-02"
-    },
-    {
-      "id": 3,
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Accor Live Limitless",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 50,
-      "transferRatio": "2:1",
-      "bonusRatio": "4:3",
-      "expiresDate": "2026-07-18",
-      "notes": "Limited Hawaii properties; ends soon",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
-      "startDate": "2026-06-20"
-    },
-    {
-      "id": 4,
       "bank": "chase",
       "bankName": "Chase",
       "partner": "IHG One Rewards",
@@ -57,7 +27,37 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:2",
       "expiresDate": "2026-07-30",
-      "notes": "IHG has limited Hawaii properties; dynamic pricing",
+      "notes": "IHG Hawaii properties available for award bookings",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "startDate": "2026-07-17"
+    },
+    {
+      "id": 3,
+      "bank": "capital-one",
+      "bankName": "Capital One",
+      "partner": "EVA Air Infinity MileageLands",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:0.75",
+      "bonusRatio": "1:0.975",
+      "expiresDate": "2026-07-31",
+      "notes": "EVA Air serves Asia routes; premium cabin access",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-07-02"
+    },
+    {
+      "id": 4,
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Frontier Miles",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-07-31",
+      "notes": "Frontier serves US routes; budget-friendly option",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-07-17"
     },
@@ -72,27 +72,26 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-08-14",
-      "notes": "Oneworld partner; access to American/Alaska to Hawaii",
+      "notes": "Qantas Oneworld partner; Asia-Pacific awards",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-07-15"
-    },
-    {
-      "id": 6,
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "Frontier Miles",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-07-31",
-      "notes": "Limited Hawaii service; mostly domestic focus",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
-      "startDate": "2026-07-17"
     }
   ],
   "recentlyExpired": [
+    {
+      "id": 4,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Accor Live Limitless",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 50,
+      "transferRatio": "2:1",
+      "bonusRatio": "2:1.5",
+      "expiresDate": "2026-07-18",
+      "notes": "Accor hotels worldwide including island destinations",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+    },
     {
       "id": 4,
       "bank": "amex",
@@ -227,13 +226,12 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 6,
-    "expiredCount": 9,
+    "bonusCount": 5,
+    "expiredCount": 10,
     "banks": [
       "amex",
       "capital-one",
       "chase",
-      "citi",
       "rove"
     ]
   }
