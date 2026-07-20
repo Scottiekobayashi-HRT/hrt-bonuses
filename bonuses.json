@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T14:45:08.438783Z",
+  "lastUpdated": "2026-07-20T15:43:10.427530Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,27 +12,12 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-07-31",
-      "notes": "Premium Hawaiian getaways via Amex partnership points",
+      "notes": "Excellent for Delta bookings via VA partners.",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-06-24"
     },
     {
       "id": 2,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "IHG One Rewards",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 100,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:2",
-      "expiresDate": "2026-07-30",
-      "notes": "IHG Hawaii properties available for award bookings",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
-      "startDate": "2026-07-17"
-    },
-    {
-      "id": 3,
       "bank": "capital-one",
       "bankName": "Capital One",
       "partner": "EVA Air Infinity MileageLands",
@@ -42,22 +27,37 @@
       "transferRatio": "1:0.75",
       "bonusRatio": "1:0.975",
       "expiresDate": "2026-07-31",
-      "notes": "EVA Air serves Asia routes; premium cabin access",
+      "notes": "Taiwan & Asia routing at improved ratio.",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-07-02"
     },
     {
-      "id": 4,
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "Frontier Miles",
+      "id": 3,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Flying Blue (Air France/KLM)",
       "partnerType": "airline",
       "partnerIcon": "✈️",
-      "bonusPct": 25,
+      "bonusPct": 20,
       "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-07-31",
-      "notes": "Frontier serves US routes; budget-friendly option",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-08-22",
+      "notes": "Europe SkyTeam awards; check for fuel surcharges.",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-07-20"
+    },
+    {
+      "id": 4,
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "IHG One Rewards",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 100,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:2",
+      "expiresDate": "2026-07-30",
+      "notes": "Dynamic pricing requires high redemption rates.",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-07-17"
     },
@@ -72,12 +72,41 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-08-14",
-      "notes": "Qantas Oneworld partner; Asia-Pacific awards",
+      "notes": "Oneworld awards; recent devaluations noted.",
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
       "startDate": "2026-07-15"
+    },
+    {
+      "id": 6,
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Frontier Miles",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-07-31",
+      "notes": "Limited value; low Frontier redemption rates.",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "startDate": "2026-07-17"
     }
   ],
   "recentlyExpired": [
+    {
+      "id": 6,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Accor Live Limitless (ALL)",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 50,
+      "transferRatio": "2:1",
+      "bonusRatio": "2:1.5",
+      "expiresDate": "2026-07-18",
+      "notes": "Requires Strata Premier or Elite card for full ratio.",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
     {
       "id": 4,
       "bank": "citi",
@@ -93,7 +122,7 @@
       "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
     },
     {
-      "id": 4,
+      "id": 3,
       "bank": "amex",
       "bankName": "American Express",
       "partner": "Avianca LifeMiles",
@@ -103,7 +132,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-07-15",
-      "notes": "Star Alliance partner; useful for United flights to Hawaii",
+      "notes": "Star Alliance awards including United redemptions.",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
@@ -117,8 +146,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-07-14",
-      "notes": "Hawaii to Caribbean redemptions; ends soonest",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/"
+      "notes": "Great for Pacific/Asia routing; book early for seats.",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
     },
     {
       "id": 3,
@@ -226,12 +255,13 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 5,
-    "expiredCount": 10,
+    "bonusCount": 6,
+    "expiredCount": 11,
     "banks": [
       "amex",
       "capital-one",
       "chase",
+      "citi",
       "rove"
     ]
   }
