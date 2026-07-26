@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T14:53:53.900099Z",
+  "lastUpdated": "2026-07-26T14:55:12.829372Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,12 +12,27 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-07-31",
-      "notes": "Great value for Caribbean & European award redemptions via Virgin.",
-      "sourceUrl": "https://point.me/insights/current-transfer-bonuses/",
+      "notes": "Great value for transatlantic redemptions to Caribbean & Europe",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "startDate": "2026-06-24"
     },
     {
       "id": 2,
+      "bank": "capital-one",
+      "bankName": "Capital One",
+      "partner": "EVA Air Infinity MileageLands",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:0.75",
+      "bonusRatio": "1:0.975",
+      "expiresDate": "2026-07-31",
+      "notes": "EVA Air serves Hawaii from West Coast with quality product",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-07-02"
+    },
+    {
+      "id": 3,
       "bank": "chase",
       "bankName": "Chase",
       "partner": "IHG One Rewards",
@@ -27,24 +42,9 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:2",
       "expiresDate": "2026-07-30",
-      "notes": "100% bonus through July 30, then 70% through August 31.",
+      "notes": "Good for Hawaii resorts; verify dynamic pricing before transfer",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-07-23"
-    },
-    {
-      "id": 3,
-      "bank": "capital-one",
-      "bankName": "Capital One",
-      "partner": "EVA Air Infinity MileageLands",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
-      "transferRatio": "4:3",
-      "bonusRatio": "4:3.9",
-      "expiresDate": "2026-07-31",
-      "notes": "Good for Asia-Pacific redemptions; EVA nonstop DFW-Taipei available.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-07-02"
     },
     {
       "id": 4,
@@ -57,27 +57,12 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-08-22",
-      "notes": "Excellent for transatlantic flights; strong sweet spots to Europe.",
+      "notes": "SkyTeam access; decent awards to/from Hawaii via Asia routes",
       "sourceUrl": "https://frequentmiler.com/citi-thankyou-air-france-klm-flying-blue-20-percent-transfer-bonus/",
       "startDate": "2026-07-25"
     },
     {
       "id": 5,
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "Frontier Airlines",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-07-31",
-      "notes": "New partner; limited intrinsic value vs paying cash.",
-      "sourceUrl": "https://awardwallet.com/news/credit-card-transfer-bonuses/",
-      "startDate": "2026-07-22"
-    },
-    {
-      "id": 6,
       "bank": "rove",
       "bankName": "Rove",
       "partner": "Qantas Frequent Flyer",
@@ -87,14 +72,29 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-08-14",
-      "notes": "Highest-ever bonus for Qantas; great for oneworld awards.",
-      "sourceUrl": "https://frequentmiler.com/rove-adds-qantas-as-transfer-partner-launches-with-50-transfer-bonus/",
+      "notes": "Qantas excellent for Australia stopover; Hawaii to Fiji options",
+      "sourceUrl": "https://awardwallet.com/news/credit-card-transfer-bonuses/",
       "startDate": "2026-07-25"
+    },
+    {
+      "id": 6,
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Frontier Airlines",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-07-31",
+      "notes": "Limited use to Hawaii; check award availability before transferring",
+      "sourceUrl": "https://awardwallet.com/news/credit-card-transfer-bonuses/",
+      "startDate": "2026-07-22"
     }
   ],
   "recentlyExpired": [
     {
-      "id": 5,
+      "id": 7,
       "bank": "citi",
       "bankName": "Citi",
       "partner": "Accor Live Limitless (ALL)",
@@ -104,8 +104,8 @@
       "transferRatio": "2:1",
       "bonusRatio": "2:1.5",
       "expiresDate": "2026-07-18",
-      "notes": "Premium hotel stays worldwide; fixed 2.3¢ redemption value.",
-      "sourceUrl": "https://thriftytraveler.com/news/points/current-transfer-bonuses/"
+      "notes": "Fixed 2.32¢ per point; resort options across Asia-Pacific",
+      "sourceUrl": "https://thriftytraveler.com/deals/points/current-transfer-bonuses/"
     },
     {
       "id": 5,
@@ -122,7 +122,7 @@
       "sourceUrl": "https://frequentmiler.com/50-percent-transfer-bonus-citi-thankyou-accor-all/"
     },
     {
-      "id": 4,
+      "id": 8,
       "bank": "amex",
       "bankName": "American Express",
       "partner": "Avianca LifeMiles",
@@ -132,7 +132,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-07-15",
-      "notes": "Partner awards to Hawaii via United & Air New Zealand",
+      "notes": "LifeMiles partner flight value; Caribbean gateway advantage",
       "sourceUrl": "https://milesforfamily.com/2026/07/06/july-2026-transfer-bonuses-4-new/"
     },
     {
