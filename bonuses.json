@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T16:05:48.719490Z",
+  "lastUpdated": "2026-07-28T15:57:03.599216Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,12 +12,27 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-07-31",
-      "notes": "Excellent value for South Pacific & Europe redemptions",
+      "notes": "Top-tier offer for transatlantic business class to Europe",
       "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "startDate": "2026-06-24"
     },
     {
       "id": 2,
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "IHG One Rewards",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 100,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:2",
+      "expiresDate": "2026-08-31",
+      "notes": "Tiered: 70% through July 31, then 100% through August 31",
+      "sourceUrl": "https://point.me/insights/current-transfer-bonuses/",
+      "startDate": "2026-07-23"
+    },
+    {
+      "id": 3,
       "bank": "capital-one",
       "bankName": "Capital One",
       "partner": "EVA Air Infinity MileageLands",
@@ -25,56 +40,56 @@
       "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "4:3",
-      "bonusRatio": "4:3.9",
+      "bonusRatio": "1:1",
       "expiresDate": "2026-07-31",
-      "notes": "Nonstop from US West Coast to Taipei; Asia business class value",
-      "sourceUrl": "https://milesforfamily.com/2026/07/06/july-2026-transfer-bonuses-4-new/",
+      "notes": "30% bonus brings unfavorable 4:3 ratio closer to 1:1",
+      "sourceUrl": "https://point.me/insights/current-transfer-bonuses/",
       "startDate": "2026-07-02"
-    },
-    {
-      "id": 3,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "IHG One Rewards",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 70,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.7",
-      "expiresDate": "2026-08-31",
-      "notes": "100% through 7/30, drops to 70% after. Hotel stays globally.",
-      "sourceUrl": "https://onemileatatime.com/deals/chase-ihg-transfer-bonus/",
-      "startDate": "2026-07-23"
     },
     {
       "id": 4,
       "bank": "citi",
       "bankName": "Citi",
-      "partner": "Flying Blue (Air France/KLM)",
+      "partner": "Air France-KLM Flying Blue",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 20,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-08-22",
-      "notes": "Europe redemptions strong value; SkyTeam partner network",
+      "notes": "Great for transatlantic flights; SkyTeam awards excellent value",
       "sourceUrl": "https://frequentmiler.com/citi-thankyou-air-france-klm-flying-blue-20-percent-transfer-bonus/",
-      "startDate": "2026-07-25"
+      "startDate": "2026-07-28"
     },
     {
       "id": 5,
       "bank": "rove",
       "bankName": "Rove",
-      "partner": "Frontier Airlines",
+      "partner": "Qantas Frequent Flyer",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 50,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.5",
+      "expiresDate": "2026-08-14",
+      "notes": "Strong bonus for oneworld redemptions; book early for best awards",
+      "sourceUrl": "https://awardfares.com/blog/rove-guide/",
+      "startDate": "2026-07-28"
+    },
+    {
+      "id": 6,
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Frontier Miles",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 25,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-07-31",
-      "notes": "Budget carrier; useful for low-cost domestic redemptions",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-07-22"
+      "notes": "Ultra-low-cost carrier; useful for budget domestic positioning flights",
+      "sourceUrl": "https://frequentmiler.com/frontier-added-as-a-rove-transfer-partner-get-25-transfer-bonus-through-7-31-26/",
+      "startDate": "2026-07-28"
     }
   ],
   "recentlyExpired": [
@@ -240,7 +255,7 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 5,
+    "bonusCount": 6,
     "expiredCount": 11,
     "banks": [
       "amex",
