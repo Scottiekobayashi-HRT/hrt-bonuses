@@ -1,8 +1,23 @@
 {
-  "lastUpdated": "2026-07-28T15:57:03.599216Z",
+  "lastUpdated": "2026-07-29T15:42:50.853522Z",
   "bonuses": [
     {
       "id": 1,
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "IHG One Rewards",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 100,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:2",
+      "expiresDate": "2026-07-30",
+      "notes": "Book Park Hyatt properties; convert to IHG then move to airlines",
+      "sourceUrl": "https://point.me/insights/current-transfer-bonuses/",
+      "startDate": "2026-07-23"
+    },
+    {
+      "id": 2,
       "bank": "amex",
       "bankName": "American Express",
       "partner": "Virgin Atlantic Flying Club",
@@ -12,24 +27,9 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-07-31",
-      "notes": "Top-tier offer for transatlantic business class to Europe",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "Fly to Caribbean destinations; transferable to partner airlines",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-06-24"
-    },
-    {
-      "id": 2,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "IHG One Rewards",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 100,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:2",
-      "expiresDate": "2026-08-31",
-      "notes": "Tiered: 70% through July 31, then 100% through August 31",
-      "sourceUrl": "https://point.me/insights/current-transfer-bonuses/",
-      "startDate": "2026-07-23"
     },
     {
       "id": 3,
@@ -40,61 +40,46 @@
       "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "4:3",
-      "bonusRatio": "1:1",
+      "bonusRatio": "1000:975",
       "expiresDate": "2026-07-31",
-      "notes": "30% bonus brings unfavorable 4:3 ratio closer to 1:1",
-      "sourceUrl": "https://point.me/insights/current-transfer-bonuses/",
+      "notes": "Access to Hawaii on partner airlines; 30% bonus helps",
+      "sourceUrl": "https://milesforfamily.com/2026/07/06/july-2026-transfer-bonuses-4-new/",
       "startDate": "2026-07-02"
     },
     {
       "id": 4,
       "bank": "citi",
       "bankName": "Citi",
-      "partner": "Air France-KLM Flying Blue",
+      "partner": "Flying Blue",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 20,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-08-22",
-      "notes": "Great for transatlantic flights; SkyTeam awards excellent value",
-      "sourceUrl": "https://frequentmiler.com/citi-thankyou-air-france-klm-flying-blue-20-percent-transfer-bonus/",
-      "startDate": "2026-07-28"
+      "notes": "SkyTeam partner; fly to Hawaii on Air France, KLM",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-07-29"
     },
     {
       "id": 5,
       "bank": "rove",
       "bankName": "Rove",
-      "partner": "Qantas Frequent Flyer",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 50,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.5",
-      "expiresDate": "2026-08-14",
-      "notes": "Strong bonus for oneworld redemptions; book early for best awards",
-      "sourceUrl": "https://awardfares.com/blog/rove-guide/",
-      "startDate": "2026-07-28"
-    },
-    {
-      "id": 6,
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "Frontier Miles",
+      "partner": "Frontier Airlines",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 25,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-07-31",
-      "notes": "Ultra-low-cost carrier; useful for budget domestic positioning flights",
-      "sourceUrl": "https://frequentmiler.com/frontier-added-as-a-rove-transfer-partner-get-25-transfer-bonus-through-7-31-26/",
-      "startDate": "2026-07-28"
+      "notes": "New partner; budget airline to Hawaii mainland",
+      "sourceUrl": "https://milesforfamily.com/2026/07/06/july-2026-transfer-bonuses-4-new/",
+      "startDate": "2026-07-29"
     }
   ],
   "recentlyExpired": [
     {
-      "id": 7,
+      "id": 6,
       "bank": "citi",
       "bankName": "Citi",
       "partner": "Accor Live Limitless (ALL)",
@@ -104,8 +89,8 @@
       "transferRatio": "2:1",
       "bonusRatio": "2:1.5",
       "expiresDate": "2026-07-18",
-      "notes": "Fixed 2.32¢ per point; resort options across Asia-Pacific",
-      "sourceUrl": "https://thriftytraveler.com/deals/points/current-transfer-bonuses/"
+      "notes": "Strata Premier/Elite only; resorts in Pacific islands",
+      "sourceUrl": "https://thriftytraveler.com/news/points/current-transfer-bonuses/"
     },
     {
       "id": 5,
@@ -136,7 +121,21 @@
       "sourceUrl": "https://milesforfamily.com/2026/07/06/july-2026-transfer-bonuses-4-new/"
     },
     {
-      "id": 1,
+      "id": 3,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Hilton Honors",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 20,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.4",
+      "expiresDate": "2026-07-14",
+      "notes": "Premium resorts in Hawaii; bonus makes ratio 1:2.4",
+      "sourceUrl": "https://milesforfamily.com/2026/07/06/july-2026-transfer-bonuses-4-new/"
+    },
+    {
+      "id": 5,
       "bank": "chase",
       "bankName": "Chase",
       "partner": "Virgin Atlantic Flying Club",
@@ -146,22 +145,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-07-14",
-      "notes": "Great for ANA first/business class to Japan or partner redemptions",
-      "sourceUrl": "https://frequentmiler.com/chase-ultimate-rewards-virgin-atlantic-30-percent-transfer-bonus/"
-    },
-    {
-      "id": 2,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "Hilton Honors",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-07-14",
-      "notes": "Top off account for Hawaii resort stays with bonus value",
-      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/"
+      "notes": "Partner bookings to Hawaii; redeem with Delta, others",
+      "sourceUrl": "https://milesforfamily.com/2026/07/06/july-2026-transfer-bonuses-4-new/"
     },
     {
       "id": 7,
@@ -255,7 +240,7 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 6,
+    "bonusCount": 5,
     "expiredCount": 11,
     "banks": [
       "amex",
