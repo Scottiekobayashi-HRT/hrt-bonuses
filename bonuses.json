@@ -1,8 +1,23 @@
 {
-  "lastUpdated": "2026-08-01T14:51:08.835618Z",
+  "lastUpdated": "2026-08-02T14:52:57.872254Z",
   "bonuses": [
     {
       "id": 1,
+      "bank": "citi",
+      "bankName": "Citibank",
+      "partner": "Air France-KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-08-22",
+      "notes": "Perfect for Hawaii-bound flights via Europe; best promo awards early booking",
+      "sourceUrl": "https://awardwallet.com/news/citi-thankyou-rewards/flying-blue-transfer-bonus/",
+      "startDate": "2026-08-02"
+    },
+    {
+      "id": 2,
       "bank": "chase",
       "bankName": "Chase",
       "partner": "IHG One Rewards",
@@ -12,39 +27,39 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-08-31",
-      "notes": "Perfect for Hawaii-area IHG properties like InterContinental Maui.",
-      "sourceUrl": "https://upgradedpoints.com/news/chase-ihg-bonus/",
+      "notes": "Valid Aug 1-31 after 100% bonus ended July 30; use for Hawaii resorts",
+      "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/ihg-transfer-bonus/",
       "startDate": "2026-07-23"
     },
     {
-      "id": 2,
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Flying Blue (Air France/KLM)",
+      "id": 3,
+      "bank": "capital-one",
+      "bankName": "Capital One",
+      "partner": "Avianca LifeMiles",
       "partnerType": "airline",
       "partnerIcon": "✈️",
-      "bonusPct": 20,
+      "bonusPct": 15,
       "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-08-22",
-      "notes": "Book flights to Hawaii via Paris or Amsterdam with bonus miles.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-08-01"
+      "bonusRatio": "1:1.15",
+      "expiresDate": "2026-08-31",
+      "notes": "Star Alliance access; no fuel surcharges on partner flights to Hawaii",
+      "sourceUrl": "https://loyaltylobby.com/2026/08/01/capital-one-to-avianca-lifemiles-points-to-miles-15-conversion-bonus-august-1-31-2026/",
+      "startDate": "2026-08-02"
     },
     {
-      "id": 3,
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "Qantas Frequent Flyer",
+      "id": 4,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Cathay Pacific Asia Miles",
       "partnerType": "airline",
       "partnerIcon": "✈️",
-      "bonusPct": 50,
+      "bonusPct": 10,
       "transferRatio": "1:1",
-      "bonusRatio": "1:1.5",
-      "expiresDate": "2026-08-14",
-      "notes": "Use Qantas miles for oneworld flights to/from Hawaii.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-08-01"
+      "bonusRatio": "1:1.1",
+      "expiresDate": "2026-08-28",
+      "notes": "Cap 10k miles; good for Asia-Pacific routes including Hawaii connections",
+      "sourceUrl": "https://upgradedpoints.com/news/cathay-pacific-transfer-bonus/",
+      "startDate": "2026-08-02"
     }
   ],
   "recentlyExpired": [
@@ -166,12 +181,13 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 3,
+    "bonusCount": 4,
     "expiredCount": 8,
     "banks": [
+      "amex",
+      "capital-one",
       "chase",
-      "citi",
-      "rove"
+      "citi"
     ]
   }
 }
