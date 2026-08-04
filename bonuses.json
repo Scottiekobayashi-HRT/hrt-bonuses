@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-03T16:13:05.775996Z",
+  "lastUpdated": "2026-08-04T16:04:09.018036Z",
   "bonuses": [
     {
       "id": 1,
       "bank": "amex",
       "bankName": "American Express",
-      "partner": "British Airways Avios",
+      "partner": "British Airways Club",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Transfer to Iberia/Aer Lingus too. Flexible redemptions across Avios network.",
-      "sourceUrl": "https://frequentmiler.com/30-percent-transfer-bonus-american-express-membership-rewards-avios-british-airways-iberia-aer-lingus/",
-      "startDate": "2026-08-03"
+      "notes": "Transfer to Avios; access Qatar for Hawaii awards",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "startDate": "2026-08-04"
     },
     {
       "id": 2,
@@ -27,12 +27,27 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-08-31",
-      "notes": "Good for topping off account. Dynamic pricing requires careful value analysis.",
-      "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/ihg-transfer-bonus/",
+      "notes": "Dynamic pricing; consider topping off for redemptions",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-07-23"
     },
     {
       "id": 3,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Air France/KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-08-22",
+      "notes": "SkyTeam partner; strong for Europe redemptions",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "startDate": "2026-08-04"
+    },
+    {
+      "id": 4,
       "bank": "capital-one",
       "bankName": "Capital One",
       "partner": "Avianca LifeMiles",
@@ -42,23 +57,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-08-31",
-      "notes": "Star Alliance access. Check for devaluations before transferring large amounts.",
-      "sourceUrl": "https://frequentmiler.com/15-transfer-bonus-from-capital-one-to-lifemiles-avianca/",
-      "startDate": "2026-08-02"
-    },
-    {
-      "id": 4,
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Air France-KLM Flying Blue",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-08-22",
-      "notes": "SkyTeam access. Great Europe redemptions. Book early for best value.",
-      "sourceUrl": "https://frequentmiler.com/citi-thankyou-air-france-klm-flying-blue-20-percent-transfer-bonus/",
+      "notes": "Star Alliance; good for United partner awards",
+      "sourceUrl": "https://awardwallet.com/news/avianca-lifemiles/lifemiles-transfer-bonus/",
       "startDate": "2026-08-02"
     },
     {
@@ -72,23 +72,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-08-14",
-      "notes": "Rove is a no-credit-card-required booking platform. Good for Pacific flights.",
-      "sourceUrl": "https://awardwallet.com/news/credit-card-transfer-bonuses/",
-      "startDate": "2026-08-03"
-    },
-    {
-      "id": 6,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "Multiple to Cathay Pacific",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 10,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.1",
-      "expiresDate": "2026-08-28",
-      "notes": "Registration required. Includes Amex, Bilt, Capital One, Citi. Max 10K bonus.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Exclusive Rove launch; book trans-Pacific Asia routes",
+      "sourceUrl": "https://frequentmiler.com/rove-adds-qantas-as-transfer-partner-launches-with-50-transfer-bonus/",
       "startDate": "2026-08-03"
     }
   ],
@@ -211,7 +196,7 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 6,
+    "bonusCount": 5,
     "expiredCount": 8,
     "banks": [
       "amex",
