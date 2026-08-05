@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-04T16:04:09.018036Z",
+  "lastUpdated": "2026-08-05T15:52:25.551638Z",
   "bonuses": [
     {
       "id": 1,
       "bank": "amex",
       "bankName": "American Express",
-      "partner": "British Airways Club",
+      "partner": "British Airways Avios",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Transfer to Avios; access Qatar for Hawaii awards",
+      "notes": "Includes Aer Lingus & Iberia Avios; use for Asia redemptions",
       "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
-      "startDate": "2026-08-04"
+      "startDate": "2026-08-05"
     },
     {
       "id": 2,
@@ -27,27 +27,12 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-08-31",
-      "notes": "Dynamic pricing; consider topping off for redemptions",
+      "notes": "Dynamic pricing; best for topping off points only",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-07-23"
     },
     {
       "id": 3,
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Air France/KLM Flying Blue",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-08-22",
-      "notes": "SkyTeam partner; strong for Europe redemptions",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
-      "startDate": "2026-08-04"
-    },
-    {
-      "id": 4,
       "bank": "capital-one",
       "bankName": "Capital One",
       "partner": "Avianca LifeMiles",
@@ -57,12 +42,42 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-08-31",
-      "notes": "Star Alliance; good for United partner awards",
-      "sourceUrl": "https://awardwallet.com/news/avianca-lifemiles/lifemiles-transfer-bonus/",
+      "notes": "Star Alliance access; book early for best availability",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-08-02"
     },
     {
+      "id": 4,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Air France/KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-08-22",
+      "notes": "Great for SkyTeam flights to Europe; check taxes early",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-08-04"
+    },
+    {
       "id": 5,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Turkish Airlines Miles & Smiles",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 40,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.4",
+      "expiresDate": "2026-08-31",
+      "notes": "Max 50k bonus miles; Istanbul gateway awards valuable",
+      "sourceUrl": "https://frequentmiler.com/40-percent-transfer-bonus-citi-thankyou-turkish-milesandsmiles/",
+      "startDate": "2026-08-05"
+    },
+    {
+      "id": 6,
       "bank": "rove",
       "bankName": "Rove",
       "partner": "Qantas Frequent Flyer",
@@ -72,8 +87,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-08-14",
-      "notes": "Exclusive Rove launch; book trans-Pacific Asia routes",
-      "sourceUrl": "https://frequentmiler.com/rove-adds-qantas-as-transfer-partner-launches-with-50-transfer-bonus/",
+      "notes": "Rove booking platform; Oneworld redemptions viable",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-08-03"
     }
   ],
@@ -196,7 +211,7 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 5,
+    "bonusCount": 6,
     "expiredCount": 8,
     "banks": [
       "amex",
