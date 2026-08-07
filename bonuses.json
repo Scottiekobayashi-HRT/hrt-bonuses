@@ -1,23 +1,8 @@
 {
-  "lastUpdated": "2026-08-05T15:52:25.551638Z",
+  "lastUpdated": "2026-08-07T14:43:19.972872Z",
   "bonuses": [
     {
       "id": 1,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "British Airways Avios",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "expiresDate": "2026-09-27",
-      "notes": "Includes Aer Lingus & Iberia Avios; use for Asia redemptions",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
-      "startDate": "2026-08-05"
-    },
-    {
-      "id": 2,
       "bank": "chase",
       "bankName": "Chase",
       "partner": "IHG One Rewards",
@@ -27,9 +12,24 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-08-31",
-      "notes": "Dynamic pricing; best for topping off points only",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Great for Hawaii resort stays with IHG properties",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
       "startDate": "2026-07-23"
+    },
+    {
+      "id": 2,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Flying Blue (Air France/KLM)",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-08-22",
+      "notes": "Fly SkyTeam partners to/from Hawaii with bonus miles",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
+      "startDate": "2026-08-07"
     },
     {
       "id": 3,
@@ -42,24 +42,24 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-08-31",
-      "notes": "Star Alliance access; book early for best availability",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Book Star Alliance partners to Hawaii with bonus miles",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
       "startDate": "2026-08-02"
     },
     {
       "id": 4,
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Air France/KLM Flying Blue",
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "British Airways, Iberia, Aer Lingus Avios",
       "partnerType": "airline",
       "partnerIcon": "✈️",
-      "bonusPct": 20,
+      "bonusPct": 30,
       "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-08-22",
-      "notes": "Great for SkyTeam flights to Europe; check taxes early",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-08-04"
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-09-27",
+      "notes": "Transfer to Qatar, Finnair for Hawaii-Asia routings",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
+      "startDate": "2026-08-07"
     },
     {
       "id": 5,
@@ -72,8 +72,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-08-31",
-      "notes": "Max 50k bonus miles; Istanbul gateway awards valuable",
-      "sourceUrl": "https://frequentmiler.com/40-percent-transfer-bonus-citi-thankyou-turkish-milesandsmiles/",
+      "notes": "Book Polaris business class to/from Hawaii with bonus",
+      "sourceUrl": "https://upgradedpoints.com/news/citi-points-turkish-airlines-transfer-bonus/",
       "startDate": "2026-08-05"
     },
     {
@@ -87,9 +87,24 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-08-14",
-      "notes": "Rove booking platform; Oneworld redemptions viable",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Book flights to/from Australia and nearby regions",
+      "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/",
       "startDate": "2026-08-03"
+    },
+    {
+      "id": 7,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Cathay Pacific Asia Miles",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 10,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.1",
+      "expiresDate": "2026-08-28",
+      "notes": "Fly to Asia via Hong Kong; registration required",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-08-07"
     }
   ],
   "recentlyExpired": [
@@ -211,7 +226,7 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 6,
+    "bonusCount": 7,
     "expiredCount": 8,
     "banks": [
       "amex",
