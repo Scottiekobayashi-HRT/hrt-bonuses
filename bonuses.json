@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-14T14:43:07.810523Z",
+  "lastUpdated": "2026-08-15T14:10:43.968024Z",
   "bonuses": [
     {
       "id": 1,
       "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Air France/KLM Flying Blue",
+      "bankName": "Citibank",
+      "partner": "Flying Blue",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 20,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-08-22",
-      "notes": "SkyTeam access to Europe & Asia. Great for long-haul premium cabin awards.",
-      "sourceUrl": "https://point.me/insights/current-transfer-bonuses/",
-      "startDate": "2026-08-14"
+      "notes": "Flying Blue serves Asia routes via SkyTeam partnerships",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
+      "startDate": "2026-08-15"
     },
     {
       "id": 2,
@@ -27,7 +27,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-08-31",
-      "notes": "Popular hotel chain. Dynamic pricing means check value before transferring.",
+      "notes": "Dynamic pricing requires checking availability before transfer",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-07-23"
     },
@@ -42,14 +42,14 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-08-31",
-      "notes": "Star Alliance access. Excellent for United & partner premium cabin awards.",
+      "notes": "Star Alliance access great for flights to Asia and beyond",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-08-02"
     },
     {
       "id": 4,
       "bank": "citi",
-      "bankName": "Citi",
+      "bankName": "Citibank",
       "partner": "Turkish Airlines Miles & Smiles",
       "partnerType": "airline",
       "partnerIcon": "✈️",
@@ -57,7 +57,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-08-31",
-      "notes": "OneWorld member. Good for Middle East/Asia routing via Istanbul hub.",
+      "notes": "Capped at 50k bonus; Star Alliance for global reach",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-08-05"
     },
@@ -65,32 +65,64 @@
       "id": 5,
       "bank": "amex",
       "bankName": "American Express",
-      "partner": "British Airways Club / Iberia Plus / Aer Lingus AerClub",
+      "partner": "British Airways Avios",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Avios ecosystem includes Qatar & Finnair. Excellent short-haul & premium value.",
+      "notes": "Transfer freely to Qatar & Finnair; watch for fuel surcharges",
       "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/avios-transfer-bonus/",
-      "startDate": "2026-08-14"
+      "startDate": "2026-08-15"
     },
     {
       "id": 6,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "Air Canada Aeroplan",
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Iberia Avios",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
-      "expiresDate": "2026-09-30",
-      "notes": "Star Alliance partner. Good redemptions to Asia via Toronto & Vancouver.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-08-13"
+      "expiresDate": "2026-09-27",
+      "notes": "Good rates to Europe; transfers between Avios free",
+      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/avios-transfer-bonus/",
+      "startDate": "2026-08-15"
     },
+    {
+      "id": 7,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Aer Lingus Avios",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-09-27",
+      "notes": "Good value to Ireland; Avios flexible within ecosystem",
+      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/avios-transfer-bonus/",
+      "startDate": "2026-08-15"
+    },
+    {
+      "id": 8,
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "Air Canada Aeroplan",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-09-30",
+      "notes": "Star Alliance; no fuel surcharges. Up to 30% for cobranded cardholders",
+      "sourceUrl": "https://upgradedpoints.com/news/chase-aeroplan-transfer-bonus/",
+      "startDate": "2026-08-13"
+    }
+  ],
+  "recentlyExpired": [
     {
       "id": 7,
       "bank": "rove",
@@ -105,9 +137,7 @@
       "notes": "OneWorld member. Access to Australia & premium Qantas cabin awards.",
       "sourceUrl": "https://frequentmiler.com/rove-adds-qantas-as-transfer-partner-launches-with-50-transfer-bonus/",
       "startDate": "2026-08-03"
-    }
-  ],
-  "recentlyExpired": [
+    },
     {
       "id": 11,
       "bank": "rove",
@@ -194,32 +224,17 @@
       "expiresDate": "2026-07-18",
       "notes": "Strata Premier/Elite only; resorts in Pacific islands",
       "sourceUrl": "https://thriftytraveler.com/news/points/current-transfer-bonuses/"
-    },
-    {
-      "id": 9,
-      "bank": "amex",
-      "bankName": "American Express",
-      "partner": "Avianca LifeMiles",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 15,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.15",
-      "expiresDate": "2026-07-15",
-      "notes": "LifeMiles partner airline program; good international access.",
-      "sourceUrl": "https://milesforfamily.com/2026/07/06/july-2026-transfer-bonuses-4-new/"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 7,
+    "bonusCount": 8,
     "expiredCount": 7,
     "banks": [
       "amex",
       "capital-one",
       "chase",
-      "citi",
-      "rove"
+      "citi"
     ]
   }
 }
