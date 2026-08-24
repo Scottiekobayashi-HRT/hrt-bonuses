@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T14:12:20.706701Z",
+  "lastUpdated": "2026-08-24T14:29:58.411941Z",
   "bonuses": [
     {
       "id": 1,
@@ -11,9 +11,9 @@
       "bonusPct": 40,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.4",
-      "expiresDate": "2026-08-30",
-      "notes": "Asia gateway; good premium cabin value for Asia-Pacific routes",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "expiresDate": "2026-08-31",
+      "notes": "Turkish domestic/Star Alliance great value; capped 50K bonus miles",
+      "sourceUrl": "https://www.doctorofcredit.com/citi-thankyou-points-40-transfer-bonus-to-turkish-airlines-miles-smiles-11-4/",
       "startDate": "2026-08-05"
     },
     {
@@ -27,7 +27,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-08-31",
-      "notes": "Hawaii hotel chain; wide availability on islands",
+      "notes": "High-value hotel bonus; dynamic pricing affects real value",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-07-23"
     },
@@ -42,7 +42,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-08-31",
-      "notes": "Star Alliance partner; efficient for Hawaii-US connections",
+      "notes": "Star Alliance access; reasonable award rates to Hawaii via partners",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-08-02"
     },
@@ -57,27 +57,12 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Oneworld carrier; transferable to Qatar, Finnair, other allies",
-      "sourceUrl": "https://point.me/insights/current-transfer-bonuses/",
+      "notes": "Avios transferable to Hawaiian Airlines; long validity",
+      "sourceUrl": "https://pointsyeah.com/insider/deals/current-credit-card-transfer-bonuses",
       "startDate": "2026-08-23"
     },
     {
       "id": 5,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "Air Canada Aeroplan",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-09-30",
-      "notes": "Star Alliance; good value for Canada-Hawaii routing",
-      "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/",
-      "startDate": "2026-08-13"
-    },
-    {
-      "id": 6,
       "bank": "amex",
       "bankName": "American Express",
       "partner": "Aer Lingus AerClub",
@@ -87,12 +72,12 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Oneworld; transferable to Qatar and other partners",
-      "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/",
+      "notes": "Avios transferable to Hawaiian Airlines; long validity",
+      "sourceUrl": "https://pointsyeah.com/insider/deals/current-credit-card-transfer-bonuses",
       "startDate": "2026-08-23"
     },
     {
-      "id": 7,
+      "id": 6,
       "bank": "amex",
       "bankName": "American Express",
       "partner": "Iberia Club",
@@ -102,57 +87,27 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Oneworld; European hub for trans-Pacific connections",
-      "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/",
+      "notes": "Avios transferable to Hawaiian Airlines; long validity",
+      "sourceUrl": "https://pointsyeah.com/insider/deals/current-credit-card-transfer-bonuses",
       "startDate": "2026-08-23"
     },
     {
+      "id": 7,
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "Air Canada Aeroplan",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-09-30",
+      "notes": "Star Alliance access; competitive Hawaii redemptions available",
+      "sourceUrl": "https://pointsyeah.com/insider/deals/current-credit-card-transfer-bonuses",
+      "startDate": "2026-08-13"
+    },
+    {
       "id": 8,
-      "bank": "bilt",
-      "bankName": "Bilt",
-      "partner": "Cathay Pacific Asia Miles",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 10,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.1",
-      "expiresDate": "2026-08-28",
-      "notes": "Hong Kong hub; cap 10k bonus miles; registration required",
-      "sourceUrl": "https://awardsplanner.com/transfer-bonuses/bilt",
-      "startDate": "2026-08-20"
-    },
-    {
-      "id": 9,
-      "bank": "capital-one",
-      "bankName": "Capital One",
-      "partner": "Cathay Pacific Asia Miles",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 10,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.1",
-      "expiresDate": "2026-08-28",
-      "notes": "Hong Kong hub; cap 10k bonus miles; registration required",
-      "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/",
-      "startDate": "2026-08-20"
-    },
-    {
-      "id": 10,
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Cathay Pacific Asia Miles",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 10,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.1",
-      "expiresDate": "2026-08-28",
-      "notes": "Hong Kong hub; cap 10k bonus miles; registration required",
-      "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/",
-      "startDate": "2026-08-20"
-    },
-    {
-      "id": 11,
       "bank": "amex",
       "bankName": "American Express",
       "partner": "Cathay Pacific Asia Miles",
@@ -162,8 +117,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.1",
       "expiresDate": "2026-09-27",
-      "notes": "Hong Kong hub; cap 10k bonus miles; registration required",
-      "sourceUrl": "https://point.me/insights/current-transfer-bonuses/",
+      "notes": "Asia Miles useful for SkyTeam Asia flights; registration required",
+      "sourceUrl": "https://awardwallet.com/news/credit-card-transfer-bonuses/",
       "startDate": "2026-08-20"
     }
   ],
@@ -272,11 +227,10 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 11,
+    "bonusCount": 8,
     "expiredCount": 7,
     "banks": [
       "amex",
-      "bilt",
       "capital-one",
       "chase",
       "citi"
