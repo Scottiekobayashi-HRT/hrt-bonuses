@@ -1,38 +1,23 @@
 {
-  "lastUpdated": "2026-08-27T23:18:15.977416Z",
+  "lastUpdated": "2026-08-28T23:15:16.469249Z",
   "bonuses": [
     {
       "id": 1,
       "bank": "amex",
       "bankName": "American Express",
-      "partner": "British Airways Avios",
+      "partner": "British Airways Club (+ Iberia Plus, Aer Lingus AerClub)",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Transfer to BA, Aer Lingus, or Iberia; move Avios between partners",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
-      "startDate": "2026-08-27"
+      "notes": "Avios transfer freely to Qatar Airways, Finnair for flexible redemptions",
+      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/avios-transfer-bonus/",
+      "startDate": "2026-08-28"
     },
     {
       "id": 2,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "Air Canada Aeroplan",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-09-30",
-      "notes": "Chase Aeroplan card holders can stack additional 10% bonus",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-08-13"
-    },
-    {
-      "id": 3,
       "bank": "chase",
       "bankName": "Chase",
       "partner": "IHG One Rewards",
@@ -42,9 +27,24 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-08-31",
-      "notes": "Hotel chain with global presence; bonus ends soon",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Dynamic pricing applies; verify redemption value before transferring",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
       "startDate": "2026-07-23"
+    },
+    {
+      "id": 3,
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "Air Canada Aeroplan",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-09-30",
+      "notes": "Stack with 10% bonus for Chase Aeroplan cardholders on 50k+ transfers",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
+      "startDate": "2026-08-13"
     },
     {
       "id": 4,
@@ -57,8 +57,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-08-31",
-      "notes": "Star Alliance access; check award availability before transfer",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Star Alliance partner access; miles expire in 12 months without activity",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
       "startDate": "2026-08-02"
     },
     {
@@ -72,12 +72,57 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-08-31",
-      "notes": "Bonus max 50k miles; maintain an award chart for bookings",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Great for domestic US Polaris business class; Turkish posts bonus after",
+      "sourceUrl": "https://upgradedpoints.com/news/citi-points-turkish-airlines-transfer-bonus/",
       "startDate": "2026-08-26"
     },
     {
       "id": 6,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Leaders Club (Leading Hotels of the World)",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 25,
+      "transferRatio": "5:1",
+      "bonusRatio": "4:1",
+      "expiresDate": "2026-09-19",
+      "notes": "Luxury 400+ independent hotels; premium cards get better ratios",
+      "sourceUrl": "https://loyaltylobby.com/2026/08/24/citi-thankyou-to-lhw-leaders-club-25-conversion-bonus-august-23-september-19-2026/",
+      "startDate": "2026-08-28"
+    },
+    {
+      "id": 7,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Cathay Pacific Asia Miles",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 10,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.1",
+      "expiresDate": "2026-08-28",
+      "notes": "Hawaiian redemptions via Asia routing on Cathay; register first",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-08-28"
+    },
+    {
+      "id": 8,
+      "bank": "capital-one",
+      "bankName": "Capital One",
+      "partner": "Cathay Pacific Asia Miles",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 10,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.1",
+      "expiresDate": "2026-08-28",
+      "notes": "One-stop access to Asia pricing for Hawaii and nearby flights",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-08-28"
+    },
+    {
+      "id": 9,
       "bank": "bilt",
       "bankName": "Bilt",
       "partner": "Cathay Pacific Asia Miles",
@@ -87,12 +132,41 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.1",
       "expiresDate": "2026-08-28",
-      "notes": "Capped at 10k bonus; registration required; delays apply",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "Rent payment flexibility pairs well with points transfer strategy",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-08-27"
+    },
+    {
+      "id": 10,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Cathay Pacific Asia Miles",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 10,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.1",
+      "expiresDate": "2026-08-28",
+      "notes": "Last chance today (08/28) for Cathay Pacific bonus from Citi",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-08-28"
     }
   ],
   "recentlyExpired": [
+    {
+      "id": 5,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Flying Blue (Air France/KLM)",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-08-22",
+      "notes": "Premium SkyTeam access; useful for Asia routing via SkyTeam partners",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/"
+    },
     {
       "id": 5,
       "bank": "citi",
@@ -122,6 +196,20 @@
       "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/"
     },
     {
+      "id": 12,
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Qantas",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 50,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.5",
+      "expiresDate": "2026-08-14",
+      "notes": "NOTE: Expired as of Aug 14; included for reference only",
+      "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/"
+    },
+    {
       "id": 8,
       "bank": "rove",
       "bankName": "Rove",
@@ -134,20 +222,6 @@
       "expiresDate": "2026-08-14",
       "notes": "Oneworld alliance access; bonus expires very soon",
       "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/"
-    },
-    {
-      "id": 11,
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "Qantas",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 50,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.5",
-      "expiresDate": "2026-08-14",
-      "notes": "Fly to Australia; Qantas no fuel surcharges",
-      "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/"
     },
     {
       "id": 11,
@@ -211,8 +285,8 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 6,
-    "expiredCount": 8,
+    "bonusCount": 10,
+    "expiredCount": 9,
     "banks": [
       "amex",
       "bilt",
