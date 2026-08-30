@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T17:26:20.116748Z",
+  "lastUpdated": "2026-08-30T17:49:17.315031Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,12 +12,57 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Transfer Avios to partners: Qatar, Finnair. Great for Asia/Pacific routes to/from Hawaii.",
-      "sourceUrl": "https://www.awardwallet.com/news/amex-membership-rewards/avios-transfer-bonus/",
+      "notes": "Avios also available via Iberia Club & Aer Lingus; book inter-island Hawaiian flights",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "startDate": "2026-08-29"
     },
     {
       "id": 2,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Iberia Club",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-09-27",
+      "notes": "Part of Avios program; great for connecting to Hawaii via IAG partners",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "startDate": "2026-08-30"
+    },
+    {
+      "id": 3,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Aer Lingus AerClub",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-09-27",
+      "notes": "Avios program; access oneworld partners for Hawaii routing",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "startDate": "2026-08-30"
+    },
+    {
+      "id": 4,
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "Air Canada Aeroplan",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-09-30",
+      "notes": "Excellent program for Hawaii bookings; Star Alliance partner access",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-08-13"
+    },
+    {
+      "id": 5,
       "bank": "chase",
       "bankName": "Chase",
       "partner": "IHG One Rewards",
@@ -27,42 +72,12 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-08-31",
-      "notes": "Hotel redemptions throughout Hawaii. Dynamic pricing limits value for most travelers.",
-      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
+      "notes": "Dynamic pricing hotel; use for Hawaii Intercontinental or resorts",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-07-23"
     },
     {
-      "id": 3,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "Air Canada Aeroplan",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-09-30",
-      "notes": "Star Alliance partner. Fly to Hawaii on Hawaiian carrier and partners.",
-      "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/",
-      "startDate": "2026-08-13"
-    },
-    {
-      "id": 4,
-      "bank": "capital-one",
-      "bankName": "Capital One",
-      "partner": "Avianca LifeMiles",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 15,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.15",
-      "expiresDate": "2026-08-31",
-      "notes": "Star Alliance access. Book United flights to Hawaii via partner networks.",
-      "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/",
-      "startDate": "2026-08-02"
-    },
-    {
-      "id": 5,
+      "id": 6,
       "bank": "citi",
       "bankName": "Citi",
       "partner": "Turkish Airlines Miles & Smiles",
@@ -72,24 +87,24 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-08-31",
-      "notes": "Star Alliance. Route access to Asia-Pacific with connections to Hawaii.",
+      "notes": "Star Alliance partner; max 50k bonus miles; good for Asia-Hawaii routing",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-08-26"
     },
     {
-      "id": 6,
-      "bank": "bilt",
-      "bankName": "Bilt",
-      "partner": "Virgin Atlantic Flying Club",
+      "id": 7,
+      "bank": "capital-one",
+      "bankName": "Capital One",
+      "partner": "Avianca LifeMiles",
       "partnerType": "airline",
       "partnerIcon": "✈️",
-      "bonusPct": 100,
+      "bonusPct": 15,
       "transferRatio": "1:1",
-      "bonusRatio": "1:2",
-      "expiresDate": "2026-09-01",
-      "notes": "Rent Day only (24hrs). Book transatlantic flights with connections to Hawaii.",
-      "sourceUrl": "https://frequentmiler.com/bilt-rent-day-up-to-100-transfer-bonus-to-virgin/",
-      "startDate": "2026-08-29"
+      "bonusRatio": "1:1.15",
+      "expiresDate": "2026-08-31",
+      "notes": "Star Alliance partner; miles expire in 12 months—book Hawaii soon",
+      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "startDate": "2026-08-02"
     }
   ],
   "recentlyExpired": [
@@ -154,6 +169,20 @@
       "startDate": "2026-08-28"
     },
     {
+      "id": 6,
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Air France/KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-08-22",
+      "notes": "SkyTeam access for Pacific routes; expires soon—act quickly for Hawaii",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/"
+    },
+    {
       "id": 5,
       "bank": "citi",
       "bankName": "Citi",
@@ -196,6 +225,20 @@
       "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/"
     },
     {
+      "id": 9,
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Qantas Frequent Flyer",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 50,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.5",
+      "expiresDate": "2026-08-14",
+      "notes": "Expires TODAY 11:59pm EDT; oneworld carrier; Australia-Hawaii awards",
+      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/"
+    },
+    {
       "id": 12,
       "bank": "rove",
       "bankName": "Rove",
@@ -208,20 +251,6 @@
       "expiresDate": "2026-08-14",
       "notes": "NOTE: Expired as of Aug 14; included for reference only",
       "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/"
-    },
-    {
-      "id": 8,
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "Qantas Frequent Flyer",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 50,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.5",
-      "expiresDate": "2026-08-14",
-      "notes": "Oneworld alliance access; bonus expires very soon",
-      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/"
     },
     {
       "id": 11,
@@ -266,30 +295,14 @@
       "notes": "Taiwan-based carrier; strong value to Asia from Hawaii",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-07-02"
-    },
-    {
-      "id": 2,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "IHG One Rewards",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 100,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:2",
-      "expiresDate": "2026-07-30",
-      "notes": "100% bonus through July 30; drops to 70% after.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-07-23"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 6,
+    "bonusCount": 7,
     "expiredCount": 13,
     "banks": [
       "amex",
-      "bilt",
       "capital-one",
       "chase",
       "citi"
