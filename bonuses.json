@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T16:20:57.918713Z",
+  "lastUpdated": "2026-09-06T16:32:00.513787Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,42 +12,57 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Transfer to Avios; use for Hawaii-adjacent routes via oneworld partners",
+      "notes": "Hawaii-bound travelers can reach Asia via Star Alliance partners or seek premium cabin value.",
       "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/avios-transfer-bonus/",
       "startDate": "2026-09-05"
     },
     {
       "id": 2,
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Hilton Honors",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 30,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.6",
+      "expiresDate": "2026-10-14",
+      "notes": "Hawaii has 6,000+ Hilton properties; top off for Maui/Big Island stays.",
+      "sourceUrl": "https://onemileatatime.com/deals/amex-hilton-transfer-bonus/",
+      "startDate": "2026-09-06"
+    },
+    {
+      "id": 3,
       "bank": "chase",
       "bankName": "Chase",
       "partner": "Air Canada Aeroplan",
       "partnerType": "airline",
       "partnerIcon": "✈️",
-      "bonusPct": 20,
+      "bonusPct": 30,
       "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
+      "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-30",
-      "notes": "Up to 30% for Aeroplan cardholders transferring 50K+; Star Alliance access",
-      "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/aeroplan-transfer-bonus/",
+      "notes": "Aeroplan offers low-cost stopovers & good Hawaii-US mainland redemptions.",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-08-13"
     },
     {
-      "id": 3,
+      "id": 4,
       "bank": "capital-one",
       "bankName": "Capital One",
-      "partner": "Japan Airlines Mileage Bank",
+      "partner": "Japan Airlines",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
-      "transferRatio": "4:3",
+      "transferRatio": "1:0.75",
       "bonusRatio": "1:0.975",
       "expiresDate": "2026-09-30",
-      "notes": "Fly JAL to Japan & Asia; premium cabin sweet spots available",
-      "sourceUrl": "https://awardwallet.com/news/capital-one-rewards/japan-airlines-transfer-bonus/",
-      "startDate": "2026-09-01"
+      "notes": "JAL has excellent premium cabin availability to Hawaii from mainland.",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-09-06"
     },
     {
-      "id": 4,
+      "id": 5,
       "bank": "citi",
       "bankName": "Citi",
       "partner": "Leaders Club",
@@ -57,12 +72,12 @@
       "transferRatio": "5:1",
       "bonusRatio": "4:1",
       "expiresDate": "2026-09-19",
-      "notes": "Leading Hotels luxury portfolio; redeem worldwide including Hawaii resorts",
-      "sourceUrl": "https://frequentmiler.com/citi-thankyou-leading-hotels-of-the-world-lhw-25-percent-transfer-bonus/",
+      "notes": "400+ luxury hotels worldwide; perfect for exclusive Hawaii island escapes.",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-09-01"
     },
     {
-      "id": 5,
+      "id": 6,
       "bank": "rove",
       "bankName": "Rove",
       "partner": "Copa Airlines",
@@ -72,8 +87,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-09-30",
-      "notes": "Star Alliance partner; no surcharges; flights to Hawaii via partner airlines",
-      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
+      "notes": "Copa hub in Panama; good connections to Hawaii via Star Alliance partnerships.",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-09-03"
     }
   ],
@@ -283,7 +298,7 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
-    "bonusCount": 5,
+    "bonusCount": 6,
     "expiredCount": 14,
     "banks": [
       "amex",
