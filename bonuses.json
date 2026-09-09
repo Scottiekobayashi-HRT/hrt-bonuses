@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-09-08T17:38:00.254657Z",
+  "lastUpdated": "2026-09-09T17:23:38.653283Z",
   "bonuses": [
     {
       "id": 1,
       "bank": "amex",
       "bankName": "American Express",
-      "partner": "British Airways/Iberia/Aer Lingus Avios",
+      "partner": "Avios (British Airways, Aer Lingus, Iberia)",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
-      "transferRatio": "1:1",
+      "transferRatio": "1:1.3",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Great for HI stopovers via Iberia or British Airways to South America",
-      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/avios-transfer-bonus/",
-      "startDate": "2026-09-08"
+      "notes": "Qatar Airways redemptions valuable from Hawaiian gateways",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
+      "startDate": "2026-09-09"
     },
     {
       "id": 2,
@@ -24,11 +24,11 @@
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 30,
-      "transferRatio": "1:2",
+      "transferRatio": "1:2.6",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-10-14",
-      "notes": "Top up for Hawaiian resort stays at Hilton properties",
-      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/avios-transfer-bonus/",
+      "notes": "Top-up existing Hilton balances for Hawaii stays",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "startDate": "2026-09-06"
     },
     {
@@ -39,11 +39,11 @@
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 20,
-      "transferRatio": "1:1",
+      "transferRatio": "1:1.2",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-09-30",
-      "notes": "30% bonus available to Aeroplan credit card holders on 50k+",
-      "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/aeroplan-transfer-bonus/",
+      "notes": "Stopovers useful for Pacific island routing to Hawaii",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "startDate": "2026-08-13"
     },
     {
@@ -54,27 +54,27 @@
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
-      "transferRatio": "2:1.5",
-      "bonusRatio": "2:1.95",
+      "transferRatio": "1:0.975",
+      "bonusRatio": "1:0.975",
       "expiresDate": "2026-09-30",
-      "notes": "Book Pacific routes to/from Hawaii; excellent for JAL domestic",
-      "sourceUrl": "https://awardwallet.com/news/loyalty-program-promotions/",
+      "notes": "JAL partner value on Asia-Hawaii routes near parity",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "startDate": "2026-09-07"
     },
     {
       "id": 5,
       "bank": "citi",
       "bankName": "Citi",
-      "partner": "Leaders Club",
+      "partner": "Leaders Club (Leading Hotels of the World)",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 25,
-      "transferRatio": "5:1",
+      "transferRatio": "4:1",
       "bonusRatio": "4:1",
       "expiresDate": "2026-09-19",
-      "notes": "Luxury independent hotels; 400+ properties worldwide",
-      "sourceUrl": "https://frequentmiler.com/last-chance-deals/",
-      "startDate": "2026-09-01"
+      "notes": "Luxury hotel program; limited availability in Hawaii",
+      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
+      "startDate": "2026-09-09"
     },
     {
       "id": 6,
@@ -84,11 +84,11 @@
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 40,
-      "transferRatio": "1:1",
+      "transferRatio": "1:1.4",
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-09-30",
-      "notes": "Star Alliance partner; ideal for Central/South America routes",
-      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
+      "notes": "Star Alliance partner useful for onward connections",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "startDate": "2026-09-07"
     }
   ],
