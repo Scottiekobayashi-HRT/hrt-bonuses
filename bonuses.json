@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-09-09T17:23:38.653283Z",
+  "lastUpdated": "2026-09-10T17:22:00.982478Z",
   "bonuses": [
     {
       "id": 1,
       "bank": "amex",
       "bankName": "American Express",
-      "partner": "Avios (British Airways, Aer Lingus, Iberia)",
+      "partner": "British Airways Club",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
-      "transferRatio": "1:1.3",
+      "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Qatar Airways redemptions valuable from Hawaiian gateways",
+      "notes": "Avios can transfer to Qatar, Finnair, Vueling for Hawaii-bound routing",
       "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
-      "startDate": "2026-09-09"
+      "startDate": "2026-09-10"
     },
     {
       "id": 2,
@@ -24,11 +24,11 @@
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 30,
-      "transferRatio": "1:2.6",
+      "transferRatio": "1:2",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-10-14",
-      "notes": "Top-up existing Hilton balances for Hawaii stays",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "Book stays at Hawaiian Hilton properties or use points for flights",
+      "sourceUrl": "https://milestalk.com/new-transfer-bonuses-virgin-atlantic-hilton-jal-and-copa-september-2026/",
       "startDate": "2026-09-06"
     },
     {
@@ -39,11 +39,11 @@
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 20,
-      "transferRatio": "1:1.2",
+      "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-09-30",
-      "notes": "Stopovers useful for Pacific island routing to Hawaii",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Partner card holders can stack 10% additional bonus. Routes to Hawaii",
+      "sourceUrl": "https://princeoftravel.com/deals/chase-ultimate-rewards-aeroplan-transfer-bonus/",
       "startDate": "2026-08-13"
     },
     {
@@ -54,42 +54,42 @@
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
-      "transferRatio": "1:0.975",
+      "transferRatio": "1:0.75",
       "bonusRatio": "1:0.975",
       "expiresDate": "2026-09-30",
-      "notes": "JAL partner value on Asia-Hawaii routes near parity",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "Premium cabin availability Hawaii-Asia routes often better than Oneworld",
+      "sourceUrl": "https://milestalk.com/new-transfer-bonuses-virgin-atlantic-hilton-jal-and-copa-september-2026/",
       "startDate": "2026-09-07"
     },
     {
       "id": 5,
       "bank": "citi",
       "bankName": "Citi",
-      "partner": "Leaders Club (Leading Hotels of the World)",
+      "partner": "Leading Hotels of the World",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
       "bonusPct": 25,
-      "transferRatio": "4:1",
-      "bonusRatio": "4:1",
+      "transferRatio": "5:1",
+      "bonusRatio": "5:1.25",
       "expiresDate": "2026-09-19",
-      "notes": "Luxury hotel program; limited availability in Hawaii",
-      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
-      "startDate": "2026-09-09"
+      "notes": "Luxury hotel collection; includes premium Hawaiian properties",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "startDate": "2026-09-10"
     },
     {
       "id": 6,
       "bank": "rove",
       "bankName": "Rove",
-      "partner": "Copa Airlines ConnectMiles",
+      "partner": "Copa ConnectMiles",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 40,
-      "transferRatio": "1:1.4",
+      "transferRatio": "1:1",
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-09-30",
-      "notes": "Star Alliance partner useful for onward connections",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
-      "startDate": "2026-09-07"
+      "notes": "New Rove partner. Copa offers connections via Panama hub to Hawaii",
+      "sourceUrl": "https://milestalk.com/new-transfer-bonuses-virgin-atlantic-hilton-jal-and-copa-september-2026/",
+      "startDate": "2026-09-10"
     }
   ],
   "recentlyExpired": [
