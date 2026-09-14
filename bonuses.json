@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-09-13T17:07:02.908584Z",
+  "lastUpdated": "2026-09-14T18:55:57.177411Z",
   "bonuses": [
     {
       "id": 1,
       "bank": "amex",
       "bankName": "American Express",
-      "partner": "British Airways Avios",
+      "partner": "British Airways Club",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Fly Hawaii with Avios; includes Aer Lingus, Iberia partners",
-      "sourceUrl": "https://www.point.me/insights/current-transfer-bonuses/",
-      "startDate": "2026-09-12"
+      "notes": "Also covers Aer Lingus & Iberia Avios; transfers between programs are free.",
+      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/avios-transfer-bonus/",
+      "startDate": "2026-09-14"
     },
     {
       "id": 2,
@@ -27,8 +27,8 @@
       "transferRatio": "1:2",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-10-14",
-      "notes": "Hawaii resorts: Grand Wailea, Fairmont Kea Lani eligible",
-      "sourceUrl": "https://milestalk.boardingarea.com/transfer-bonus-hub/",
+      "notes": "Excellent value for Hilton stays in Hawaii islands and resorts.",
+      "sourceUrl": "https://www.pointsyeah.com/insider/deals/current-credit-card-transfer-bonuses",
       "startDate": "2026-09-06"
     },
     {
@@ -42,8 +42,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-09-30",
-      "notes": "North Pacific routes to Hawaii competitive with premium carriers",
-      "sourceUrl": "https://milesforfamily.com/2026/09/03/september-2026-transfer-bonuses-3-new/",
+      "notes": "Up to 30% if you hold Chase Aeroplan card and transfer 50k+.",
+      "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/aeroplan-transfer-bonus/",
       "startDate": "2026-08-13"
     },
     {
@@ -57,7 +57,7 @@
       "transferRatio": "1:0.75",
       "bonusRatio": "1:0.975",
       "expiresDate": "2026-09-30",
-      "notes": "JAL flies Honolulu-Tokyo; excellent premium cabin awards",
+      "notes": "JAL has excellent availability for premium cabins to Hawaii.",
       "sourceUrl": "https://milesforfamily.com/2026/09/03/september-2026-transfer-bonuses-3-new/",
       "startDate": "2026-09-12"
     },
@@ -72,8 +72,8 @@
       "transferRatio": "5:1",
       "bonusRatio": "4:1",
       "expiresDate": "2026-09-19",
-      "notes": "Luxury independent properties; several on Hawaiian islands",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "400+ luxury hotels worldwide; high-end Hawaii properties included.",
+      "sourceUrl": "https://frequentmiler.com/citi-thankyou-leading-hotels-of-the-world-lhw-25-percent-transfer-bonus/",
       "startDate": "2026-09-13"
     },
     {
@@ -87,8 +87,8 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-09-30",
-      "notes": "Connect through Panama to Hawaii; 40% is strong value",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "notes": "Star Alliance partner with no surcharges on Hawaiian routes.",
+      "sourceUrl": "https://thriftytraveler.com/news/points/current-transfer-bonuses/",
       "startDate": "2026-09-13"
     }
   ],
@@ -266,40 +266,12 @@
       "expiresDate": "2026-08-22",
       "notes": "SkyTeam airline; fly to Europe & Asia",
       "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/"
-    },
-    {
-      "id": 9,
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "Qantas Frequent Flyer",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 50,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.5",
-      "expiresDate": "2026-08-14",
-      "notes": "EXPIRED - included for record. Rove has no credit card; earn via shopping",
-      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/"
-    },
-    {
-      "id": 12,
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "Qantas",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 50,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.5",
-      "expiresDate": "2026-08-14",
-      "notes": "NOTE: Expired as of Aug 14; included for reference only",
-      "sourceUrl": "https://milesforfamily.com/2026/08/03/august-2026-transfer-bonuses/"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v2.3",
     "bonusCount": 6,
-    "expiredCount": 14,
+    "expiredCount": 12,
     "banks": [
       "amex",
       "capital-one",
