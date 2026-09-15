@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T18:55:57.177411Z",
+  "lastUpdated": "2026-09-15T17:48:25.422164Z",
   "bonuses": [
     {
       "id": 1,
@@ -12,7 +12,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
-      "notes": "Also covers Aer Lingus & Iberia Avios; transfers between programs are free.",
+      "notes": "Hawaiian routes available via Oneworld; Avios transfers at 1:1 across BA/Iberia/Aer Lingus",
       "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/avios-transfer-bonus/",
       "startDate": "2026-09-14"
     },
@@ -27,8 +27,8 @@
       "transferRatio": "1:2",
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-10-14",
-      "notes": "Excellent value for Hilton stays in Hawaii islands and resorts.",
-      "sourceUrl": "https://www.pointsyeah.com/insider/deals/current-credit-card-transfer-bonuses",
+      "notes": "Hawaii property redemptions; elevated 1:2 base ratio plus 30% bonus",
+      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/avios-transfer-bonus/",
       "startDate": "2026-09-06"
     },
     {
@@ -42,7 +42,7 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-09-30",
-      "notes": "Up to 30% if you hold Chase Aeroplan card and transfer 50k+.",
+      "notes": "Hawaii-Canada routes; Aeroplan cardmembers get additional 10% stacking",
       "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/aeroplan-transfer-bonus/",
       "startDate": "2026-08-13"
     },
@@ -57,8 +57,8 @@
       "transferRatio": "1:0.75",
       "bonusRatio": "1:0.975",
       "expiresDate": "2026-09-30",
-      "notes": "JAL has excellent availability for premium cabins to Hawaii.",
-      "sourceUrl": "https://milesforfamily.com/2026/09/03/september-2026-transfer-bonuses-3-new/",
+      "notes": "Premium cabin sweet spots to Asia; partner award pricing better than Oneworld",
+      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/capital-one-miles",
       "startDate": "2026-09-12"
     },
     {
@@ -72,24 +72,24 @@
       "transferRatio": "5:1",
       "bonusRatio": "4:1",
       "expiresDate": "2026-09-19",
-      "notes": "400+ luxury hotels worldwide; high-end Hawaii properties included.",
-      "sourceUrl": "https://frequentmiler.com/citi-thankyou-leading-hotels-of-the-world-lhw-25-percent-transfer-bonus/",
+      "notes": "400+ independent luxury hotels; Leaders Club strong Hawaii property selection",
+      "sourceUrl": "https://awardwallet.com/news/citi-thankyou-rewards/world-leaders-club-transfer-bonus/",
       "startDate": "2026-09-13"
     },
     {
       "id": 6,
       "bank": "rove",
       "bankName": "Rove",
-      "partner": "Copa Airlines ConnectMiles",
+      "partner": "Copa ConnectMiles",
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 40,
       "transferRatio": "1:1",
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-09-30",
-      "notes": "Star Alliance partner with no surcharges on Hawaiian routes.",
-      "sourceUrl": "https://thriftytraveler.com/news/points/current-transfer-bonuses/",
-      "startDate": "2026-09-13"
+      "notes": "Star Alliance gateway; excellent for routing through Copa to reach Hawaii",
+      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
+      "startDate": "2026-09-15"
     }
   ],
   "recentlyExpired": [
