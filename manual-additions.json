@@ -1,0 +1,18 @@
+{
+  "_readme": "Bonuses you add by hand. They always show on the tracker, override the automatic search for the same bank and partner, and drop off by themselves after expiresDate. bank must be one of: amex, bilt, capital-one, chase, citi, rove. Edit this file in GitHub, then run the workflow (Actions tab, Run workflow) to publish right away.",
+  "bonuses": [
+    {
+      "bank": "citi",
+      "partner": "Japan Airlines Mileage Bank",
+      "partnerType": "airline",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "startDate": "2026-09-20",
+      "expiresDate": "2026-10-24",
+      "sourceUrl": "https://onemileatatime.com/deals/citi-japan-airlines-transfer-bonus/",
+      "notes": "New Citi partner. 1:1 from annual fee cards, lower ratio from no fee cards.",
+      "verifiedBy": "HRT",
+      "verifiedAt": "2026-09-21"
+    }
+  ]
+}
