@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T00:07:27.986139Z",
+  "lastUpdated": "2026-09-22T17:47:30.948578Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -12,8 +12,8 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
       "startDate": "2026-08-03",
-      "notes": "Shared bonus with British Airways and Iberia Avios. All three programs use same Avios currency.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Bonus runs through September 27, 2026",
+      "sourceUrl": "https://awardtravelfinder.com/credit-card-transfers/amex-membership-rewards",
       "method": "auto",
       "lastConfirmed": "2026-09-22",
       "id": 1
@@ -29,8 +29,8 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
       "startDate": "2026-08-03",
-      "notes": "Shared bonus with Aer Lingus and Iberia Avios. All three programs use same Avios currency.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Bonus runs through September 27, 2026",
+      "sourceUrl": "https://awardtravelfinder.com/credit-card-transfers/amex-membership-rewards",
       "method": "auto",
       "lastConfirmed": "2026-09-22",
       "id": 2
@@ -46,8 +46,8 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
       "startDate": "2026-08-03",
-      "notes": "Shared bonus with British Airways and Aer Lingus Avios. All three programs use same Avios currency.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "Bonus runs through September 27, 2026",
+      "sourceUrl": "https://awardtravelfinder.com/credit-card-transfers/amex-membership-rewards",
       "method": "auto",
       "lastConfirmed": "2026-09-22",
       "id": 3
@@ -63,8 +63,8 @@
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-10-14",
       "startDate": "2026-09-06",
-      "notes": "Standard transfer ratio is 1:2 (higher than typical airline 1:1). Bonus makes ratio 1:2.6.",
-      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
+      "notes": "Bonus runs through October 14, 2026; base 1:2 ratio",
+      "sourceUrl": "https://awardtravelfinder.com/credit-card-transfers/amex-membership-rewards",
       "method": "auto",
       "lastConfirmed": "2026-09-22",
       "id": 4
@@ -80,8 +80,8 @@
       "bonusRatio": "4:3.9",
       "expiresDate": "2026-09-30",
       "startDate": "2026-09-01",
-      "notes": "Normal ratio 4:3 (750 JAL miles per 1,000 Capital One miles). With 30% bonus: 975 JAL miles per 1,000 Capital One miles.",
-      "sourceUrl": "https://upgradedpoints.com/news/capital-one-jal-transfer-bonus/",
+      "notes": "30% bonus makes effective ratio 1000:975; base ratio 4:3 (750 JAL miles per 1000 CO)",
+      "sourceUrl": "https://onemileatatime.com/deals/capital-one-japan-airlines-mileage-bank-transfer-bonus/",
       "method": "auto",
       "lastConfirmed": "2026-09-22",
       "id": 5
@@ -96,9 +96,9 @@
       "transferRatio": "1:1",
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-09-30",
-      "startDate": "2026-09-18",
-      "notes": "20% bonus through September 30, 2026",
-      "sourceUrl": "https://thepointsguy.com/loyalty-programs/current-transfer-bonuses/",
+      "startDate": "2026-08-12",
+      "notes": "20% base; up to 30% for Aeroplan card holders on transfers 50k+",
+      "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/aeroplan-transfer-bonus/",
       "method": "auto",
       "lastConfirmed": "2026-09-22",
       "id": 6
@@ -114,8 +114,8 @@
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-10-15",
       "startDate": "2026-09-16",
-      "notes": "70% bonus until October 15, 2026",
-      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/chase-ultimate-rewards-to-marriott-bonvoy",
+      "notes": "Highest-ever Marriott transfer bonus rate",
+      "sourceUrl": "https://thepointsguy.com/news/chase-marriott-70-percent-transfer-bonus/",
       "method": "auto",
       "lastConfirmed": "2026-09-22",
       "id": 7
@@ -131,7 +131,7 @@
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-10-24",
       "startDate": "2026-09-20",
-      "notes": "Premium cards receive 1.25 miles per point; no-fee cards receive 0.7 miles per point.",
+      "notes": "Premium cards 1:1.25 ratio with bonus, no-fee cards 1:0.7 with bonus",
       "sourceUrl": "https://loyaltylobby.com/2026/09/20/citi-thankyou-to-avianca-lifemiles-25-points-to-miles-conversion-bonus-september-20-october-24-2026/",
       "method": "auto",
       "lastConfirmed": "2026-09-22",
@@ -167,7 +167,7 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-09-30",
       "startDate": "2026-09-01",
-      "notes": "Launch bonus. Min 2,000 miles per transfer, max 999,000 miles. 1,000 Rove Miles = 1,400 ConnectMiles with bonus.",
+      "notes": "New transfer partner launch bonus. Min 2,000 miles, max 999,000 miles per transfer.",
       "sourceUrl": "https://www.rove.com/blog/rove-miles-now-transfer-to-copa-airlines-connectmiles-with-a-40-launch-bonus",
       "method": "auto",
       "lastConfirmed": "2026-09-22",
@@ -329,37 +329,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-09-22T00:07:27.986139Z",
+        "checked": "2026-09-22T17:47:30.948578Z",
         "ok": true,
         "found": 4,
         "live": 4
       },
       "bilt": {
-        "checked": "2026-09-22T00:07:27.986139Z",
+        "checked": "2026-09-22T17:47:30.948578Z",
         "ok": true,
         "found": 0,
         "live": 0
       },
       "capital-one": {
-        "checked": "2026-09-22T00:07:27.986139Z",
+        "checked": "2026-09-22T17:47:30.948578Z",
         "ok": true,
         "found": 1,
         "live": 1
       },
       "chase": {
-        "checked": "2026-09-22T00:07:27.986139Z",
+        "checked": "2026-09-22T17:47:30.948578Z",
         "ok": true,
         "found": 2,
         "live": 2
       },
       "citi": {
-        "checked": "2026-09-22T00:07:27.986139Z",
+        "checked": "2026-09-22T17:47:30.948578Z",
         "ok": true,
         "found": 1,
         "live": 2
       },
       "rove": {
-        "checked": "2026-09-22T00:07:27.986139Z",
+        "checked": "2026-09-22T17:47:30.948578Z",
         "ok": true,
         "found": 1,
         "live": 1
