@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T18:07:16.236825Z",
+  "lastUpdated": "2026-09-26T17:26:57.934171Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -12,10 +12,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
       "startDate": "2026-08-03",
-      "notes": "30% bonus through September 27, 2026",
-      "sourceUrl": "https://awardtravelfinder.com/credit-card-transfers/amex-membership-rewards",
+      "notes": "30% bonus until September 27 (expires tomorrow). Transfer ratio becomes 1:1.3 with bonus.",
+      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
       "method": "auto",
-      "lastConfirmed": "2026-09-25",
+      "lastConfirmed": "2026-09-26",
       "id": 1
     },
     {
@@ -29,10 +29,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
       "startDate": "2026-08-03",
-      "notes": "30% bonus through September 27, 2026",
-      "sourceUrl": "https://awardtravelfinder.com/credit-card-transfers/amex-membership-rewards",
+      "notes": "30% bonus until September 27 (expires tomorrow). Transfer ratio becomes 1:1.3 with bonus.",
+      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
       "method": "auto",
-      "lastConfirmed": "2026-09-25",
+      "lastConfirmed": "2026-09-26",
       "id": 2
     },
     {
@@ -46,10 +46,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-09-27",
       "startDate": "2026-08-03",
-      "notes": "30% bonus through September 27, 2026",
-      "sourceUrl": "https://awardtravelfinder.com/credit-card-transfers/amex-membership-rewards",
+      "notes": "30% bonus until September 27 (expires tomorrow). Transfer ratio becomes 1:1.3 with bonus.",
+      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
       "method": "auto",
-      "lastConfirmed": "2026-09-25",
+      "lastConfirmed": "2026-09-26",
       "id": 3
     },
     {
@@ -63,11 +63,45 @@
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-10-14",
       "startDate": "2026-09-01",
-      "notes": "Base ratio 1:2, with bonus becomes 1:2.6 (launched Sep 1)",
-      "sourceUrl": "https://awardtravelfinder.com/credit-card-transfers/amex-membership-rewards",
+      "notes": "30% bonus until October 14. Transfer ratio becomes 1:2.6 with bonus.",
+      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/amex-membership-rewards",
       "method": "auto",
-      "lastConfirmed": "2026-09-25",
+      "lastConfirmed": "2026-09-26",
       "id": 4
+    },
+    {
+      "bank": "bilt",
+      "bankName": "Bilt",
+      "partner": "Amtrak Guest Rewards",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 125,
+      "transferRatio": "2:1",
+      "bonusRatio": "2:2.25",
+      "expiresDate": "2026-10-01",
+      "startDate": "2026-10-01",
+      "notes": "Status-based 25-125%; Platinum+$400 Bilt Cash=125%; Max 100k Bilt points",
+      "sourceUrl": "https://onemileatatime.com/guides/bilt-rent-day-promotion/",
+      "method": "auto",
+      "lastConfirmed": "2026-09-26",
+      "id": 5
+    },
+    {
+      "bank": "bilt",
+      "bankName": "Bilt",
+      "partner": "Hilton Honors",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 200,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:3",
+      "expiresDate": "2026-10-01",
+      "startDate": "2026-10-01",
+      "notes": "Status-based 75-200%; Platinum+$200 Bilt Cash=200%; Max 100k Bilt points; Instant Hilton elite status",
+      "sourceUrl": "https://onemileatatime.com/guides/bilt-rent-day-promotion/",
+      "method": "auto",
+      "lastConfirmed": "2026-09-26",
+      "id": 6
     },
     {
       "bank": "capital-one",
@@ -80,11 +114,11 @@
       "bonusRatio": "2:1.95",
       "expiresDate": "2026-09-30",
       "startDate": "2026-09-01",
-      "notes": "30% bonus lifts 2:1.5 ratio to 1:0.975 (975 JAL miles per 1,000 Capital One miles)",
+      "notes": "Base ratio 2:1.5 (1000→750). With 30% bonus: 1000→975 miles. Premium card holders.",
       "sourceUrl": "https://upgradedpoints.com/news/capital-one-jal-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-09-25",
-      "id": 5
+      "lastConfirmed": "2026-09-26",
+      "id": 7
     },
     {
       "bank": "chase",
@@ -97,11 +131,11 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-09-30",
       "startDate": "2026-08-12",
-      "notes": "Base 20% for all; stacks to 30% for Aeroplan card on 50k+ transfers.",
+      "notes": "Aeroplan cobranded card holders get additional 10% on 50k+ transfers",
       "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/aeroplan-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-09-25",
-      "id": 6
+      "lastConfirmed": "2026-09-26",
+      "id": 8
     },
     {
       "bank": "chase",
@@ -114,11 +148,11 @@
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-10-15",
       "startDate": "2026-09-16",
-      "notes": "70% bonus: 1,000 UR → 1,700 Marriott points. Standard ratio 1:1.",
+      "notes": "Standard 1:1 ratio becomes 1:1.7 with bonus",
       "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/chase-ultimate-rewards-to-marriott-bonvoy",
       "method": "auto",
-      "lastConfirmed": "2026-09-25",
-      "id": 7
+      "lastConfirmed": "2026-09-26",
+      "id": 9
     },
     {
       "bank": "citi",
@@ -131,11 +165,11 @@
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-10-24",
       "startDate": "2026-09-20",
-      "notes": "Premium cards receive 1.25:1 ratio; standard cards receive different ratio. Bonus auto-applies at transfer. Recurring promotion.",
-      "sourceUrl": "https://loyaltylobby.com/2026/09/20/citi-thankyou-to-avianca-lifemiles-25-points-to-miles-conversion-bonus-september-20-october-24-2026/",
+      "notes": "Premium cards only. No-annual-fee cards transfer at 1:0.7 ratio.",
+      "sourceUrl": "https://www.pointscrowd.com/blog/citi-thankyou-rewards-offers-25-transfer-bonus-to-avianca-lifemiles/",
       "method": "auto",
-      "lastConfirmed": "2026-09-25",
-      "id": 8
+      "lastConfirmed": "2026-09-26",
+      "id": 10
     },
     {
       "bank": "citi",
@@ -151,10 +185,10 @@
       "notes": "New Citi partner. 1:1 from annual fee cards, lower ratio from no fee cards.",
       "sourceUrl": "https://onemileatatime.com/deals/citi-japan-airlines-transfer-bonus/",
       "method": "manual",
-      "lastConfirmed": "2026-09-25",
+      "lastConfirmed": "2026-09-26",
       "verifiedBy": "HRT",
       "verifiedAt": "2026-09-21",
-      "id": 9
+      "id": 11
     },
     {
       "bank": "rove",
@@ -167,11 +201,11 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-09-30",
       "startDate": "2026-09-01",
-      "notes": "Launch bonus. 1,000 Rove Miles become 1,400 ConnectMiles with bonus.",
+      "notes": "New transfer partner launch bonus. Min 2,000 miles, max 999,000 miles, increments of 100.",
       "sourceUrl": "https://www.rove.com/blog/rove-miles-now-transfer-to-copa-airlines-connectmiles-with-a-40-launch-bonus",
       "method": "auto",
-      "lastConfirmed": "2026-09-25",
-      "id": 10
+      "lastConfirmed": "2026-09-26",
+      "id": 12
     }
   ],
   "recentlyExpired": [
@@ -310,10 +344,11 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v3.0",
-    "bonusCount": 10,
+    "bonusCount": 12,
     "expiredCount": 9,
     "banks": [
       "amex",
+      "bilt",
       "capital-one",
       "chase",
       "citi",
@@ -329,37 +364,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-09-25T18:07:16.236825Z",
+        "checked": "2026-09-26T17:26:57.934171Z",
         "ok": true,
         "found": 4,
         "live": 4
       },
       "bilt": {
-        "checked": "2026-09-25T18:07:16.236825Z",
+        "checked": "2026-09-26T17:26:57.934171Z",
         "ok": true,
-        "found": 0,
-        "live": 0
+        "found": 2,
+        "live": 2
       },
       "capital-one": {
-        "checked": "2026-09-25T18:07:16.236825Z",
+        "checked": "2026-09-26T17:26:57.934171Z",
         "ok": true,
         "found": 1,
         "live": 1
       },
       "chase": {
-        "checked": "2026-09-25T18:07:16.236825Z",
+        "checked": "2026-09-26T17:26:57.934171Z",
         "ok": true,
         "found": 2,
         "live": 2
       },
       "citi": {
-        "checked": "2026-09-25T18:07:16.236825Z",
+        "checked": "2026-09-26T17:26:57.934171Z",
         "ok": true,
         "found": 1,
         "live": 2
       },
       "rove": {
-        "checked": "2026-09-25T18:07:16.236825Z",
+        "checked": "2026-09-26T17:26:57.934171Z",
         "ok": true,
         "found": 1,
         "live": 1
