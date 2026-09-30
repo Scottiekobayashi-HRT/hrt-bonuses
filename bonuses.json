@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T18:57:27.566107Z",
+  "lastUpdated": "2026-09-30T18:38:50.841369Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -12,10 +12,10 @@
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-10-14",
       "startDate": "2026-09-01",
-      "notes": "1,000 Amex points = 2,600 Hilton points with bonus. Base ratio 1:2.",
+      "notes": "Live through Oct 14. Base ratio 1:2, with bonus 1:2.6",
       "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/hilton-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-09-29",
+      "lastConfirmed": "2026-09-30",
       "id": 1
     },
     {
@@ -63,10 +63,10 @@
       "bonusRatio": "1:0.975",
       "expiresDate": "2026-09-30",
       "startDate": "2026-09-01",
-      "notes": "New partner added September 1, 2026. With bonus: 1,000 Capital One miles = 975 JAL miles",
-      "sourceUrl": "https://frequentmiler.com/capital-one-miles-jal-japan-airlines-30-percent-transfer-bonus/",
+      "notes": "Standard ratio 1,000:750 becomes 1,000:975 with bonus. New JAL accounts require 7-day waiting period before redemption.",
+      "sourceUrl": "https://frequentist.com/capital-one-miles-jal-japan-airlines-30-percent-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-09-29",
+      "lastConfirmed": "2026-09-30",
       "id": 4
     },
     {
@@ -80,10 +80,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-09-30",
       "startDate": "2026-08-12",
-      "notes": "20% bonus; stacks to 30% for Aeroplan cardholders",
+      "notes": "20% base bonus; up to 30% for Chase Air Canada Aeroplan cardholders with 50k+ transfers",
       "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/aeroplan-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-09-29",
+      "lastConfirmed": "2026-09-30",
       "id": 5
     },
     {
@@ -97,10 +97,10 @@
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-10-15",
       "startDate": "2026-09-15",
-      "notes": "70% transfer bonus; highest ever Marriott bonus",
+      "notes": "No transfer cap; newly launched September 15, 2026",
       "sourceUrl": "https://frequentmiler.com/70-percent-transfer-bonus-chase-ultimate-rewards-marriott-bonvoy/",
       "method": "auto",
-      "lastConfirmed": "2026-09-29",
+      "lastConfirmed": "2026-09-30",
       "id": 6
     },
     {
@@ -114,10 +114,10 @@
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-10-24",
       "startDate": "2026-09-20",
-      "notes": "All eligible cards transfer at 1:1 base ratio",
-      "sourceUrl": "https://awardwallet.com/credit-cards/citi-thankyou-rewards/citi-transfer-partners/",
+      "notes": "Eligible cards: Strata Elite, Strata Premier, Prestige, AT&T Access More",
+      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/citi-thankyou-rewards",
       "method": "auto",
-      "lastConfirmed": "2026-09-29",
+      "lastConfirmed": "2026-09-30",
       "id": 7
     },
     {
@@ -134,7 +134,7 @@
       "notes": "New Citi partner. 1:1 from annual fee cards, lower ratio from no fee cards.",
       "sourceUrl": "https://onemileatatime.com/deals/citi-japan-airlines-transfer-bonus/",
       "method": "manual",
-      "lastConfirmed": "2026-09-29",
+      "lastConfirmed": "2026-09-30",
       "verifiedBy": "HRT",
       "verifiedAt": "2026-09-21",
       "id": 8
@@ -150,10 +150,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-09-30",
       "startDate": "2026-09-01",
-      "notes": "Launch bonus. Transfer minimum 2,000 miles, max 999,000 in increments of 100. Expires 11:59 pm EST.",
-      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
+      "notes": "Launch bonus, min 2,000 miles, max 999,000 miles, increments of 100",
+      "sourceUrl": "https://www.rove.com/blog/rove-miles-now-transfer-to-copa-airlines-connectmiles-with-a-40-launch-bonus",
       "method": "auto",
-      "lastConfirmed": "2026-09-29",
+      "lastConfirmed": "2026-09-30",
       "id": 9
     }
   ],
@@ -305,37 +305,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-09-29T18:57:27.566107Z",
+        "checked": "2026-09-30T18:38:50.841369Z",
         "ok": true,
         "found": 1,
         "live": 1
       },
       "bilt": {
-        "checked": "2026-09-29T18:57:27.566107Z",
+        "checked": "2026-09-30T18:38:50.841369Z",
         "ok": true,
         "found": 0,
         "live": 2
       },
       "capital-one": {
-        "checked": "2026-09-29T18:57:27.566107Z",
+        "checked": "2026-09-30T18:38:50.841369Z",
         "ok": true,
         "found": 1,
         "live": 1
       },
       "chase": {
-        "checked": "2026-09-29T18:57:27.566107Z",
+        "checked": "2026-09-30T18:38:50.841369Z",
         "ok": true,
         "found": 2,
         "live": 2
       },
       "citi": {
-        "checked": "2026-09-29T18:57:27.566107Z",
+        "checked": "2026-09-30T18:38:50.841369Z",
         "ok": true,
         "found": 1,
         "live": 2
       },
       "rove": {
-        "checked": "2026-09-29T18:57:27.566107Z",
+        "checked": "2026-09-30T18:38:50.841369Z",
         "ok": true,
         "found": 1,
         "live": 1
