@@ -1,22 +1,56 @@
 {
-  "lastUpdated": "2026-09-30T18:38:50.841369Z",
+  "lastUpdated": "2026-10-01T19:05:50.957873Z",
   "bonuses": [
+    {
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Aeromexico Rewards",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1.6",
+      "bonusRatio": "1:1.92",
+      "expiresDate": "2026-10-30",
+      "startDate": "2026-10-01",
+      "notes": "Bonus rate 1:1.92. New October 2026 offer.",
+      "sourceUrl": "https://milesforfamily.com/2026/10/01/october-2026-transfer-bonuses/",
+      "method": "auto",
+      "lastConfirmed": "2026-10-01",
+      "id": 1
+    },
+    {
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Air France-KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-10-31",
+      "startDate": "2026-10-01",
+      "notes": "Bonus rate 1:1.25. New October 2026 offer.",
+      "sourceUrl": "https://milesforfamily.com/2026/10/01/october-2026-transfer-bonuses/",
+      "method": "auto",
+      "lastConfirmed": "2026-10-01",
+      "id": 2
+    },
     {
       "bank": "amex",
       "bankName": "American Express",
       "partner": "Hilton Honors",
       "partnerType": "hotel",
       "partnerIcon": "🏨",
-      "bonusPct": 30,
+      "bonusPct": 40,
       "transferRatio": "1:2",
-      "bonusRatio": "1:2.6",
-      "expiresDate": "2026-10-14",
+      "bonusRatio": "1:2.8",
+      "expiresDate": "2026-11-24",
       "startDate": "2026-09-01",
-      "notes": "Live through Oct 14. Base ratio 1:2, with bonus 1:2.6",
-      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/hilton-transfer-bonus/",
+      "notes": "40% bonus, standard rate 1:2, bonus rate 1:2.8. Min 200, max 499,950 points per transfer. Targeted offer.",
+      "sourceUrl": "https://www.americanexpress.com/en-gb/rewards/membership-rewards/partner/Hilton-Honors/HH",
       "method": "auto",
-      "lastConfirmed": "2026-09-30",
-      "id": 1
+      "lastConfirmed": "2026-10-01",
+      "id": 3
     },
     {
       "bank": "bilt",
@@ -29,11 +63,11 @@
       "bonusRatio": "2:2.25",
       "expiresDate": "2026-10-01",
       "startDate": "2026-10-01",
-      "notes": "Status-based 25-125%; Platinum+$400 Bilt Cash=125%; Max 100k Bilt points",
-      "sourceUrl": "https://onemileatatime.com/guides/bilt-rent-day-promotion/",
+      "notes": "Tiered by Bilt status (25%-100%), 125% with Platinum+$400 Bilt Cash buy-up. Max 100k bonus points. New partner.",
+      "sourceUrl": "https://frequentmiler.com/bilt-rent-day-for-october-2026-transfer-bonuses-for-amtrak-hilton-free-hilton-status-challenge/",
       "method": "auto",
-      "lastConfirmed": "2026-09-26",
-      "id": 2
+      "lastConfirmed": "2026-10-01",
+      "id": 4
     },
     {
       "bank": "bilt",
@@ -46,12 +80,135 @@
       "bonusRatio": "1:3",
       "expiresDate": "2026-10-01",
       "startDate": "2026-10-01",
-      "notes": "Status-based 75-200%; Platinum+$200 Bilt Cash=200%; Max 100k Bilt points; Instant Hilton elite status",
-      "sourceUrl": "https://onemileatatime.com/guides/bilt-rent-day-promotion/",
+      "notes": "Tiered by Bilt status (75%-175%), 200% with Platinum+$200 Bilt Cash buy-up. Max 100k bonus points. Includes instant Hilton status.",
+      "sourceUrl": "https://frequentmiler.com/bilt-rent-day-for-october-2026-transfer-bonuses-for-amtrak-hilton-free-hilton-status-challenge/",
       "method": "auto",
-      "lastConfirmed": "2026-09-26",
-      "id": 3
+      "lastConfirmed": "2026-10-01",
+      "id": 5
     },
+    {
+      "bank": "capital-one",
+      "bankName": "Capital One",
+      "partner": "British Airways Avios",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-10-31",
+      "startDate": "2026-10-01",
+      "notes": "No registration required, transfers instant, 1,000 Capital One miles become 1,200 Avios",
+      "sourceUrl": "https://onemileatatime.com/deals/capital-one-british-airways-transfer-bonus/",
+      "method": "auto",
+      "lastConfirmed": "2026-10-01",
+      "id": 6
+    },
+    {
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "Marriott Bonvoy",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 70,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.7",
+      "expiresDate": "2026-10-15",
+      "startDate": "2026-09-15",
+      "notes": "Bonus points awarded by Marriott within 7 days. Transfers expire Oct 15, 2026.",
+      "sourceUrl": "https://frequentmiler.com/70-percent-transfer-bonus-chase-ultimate-rewards-marriott-bonvoy/",
+      "method": "auto",
+      "lastConfirmed": "2026-10-01",
+      "id": 7
+    },
+    {
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Avianca LifeMiles",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-10-24",
+      "startDate": "2026-09-20",
+      "notes": "Premium cards only. Transfers in 1,000 point increments.",
+      "sourceUrl": "https://onemileatatime.com/deals/citi-lifemiles-transfer-bonus/",
+      "method": "auto",
+      "lastConfirmed": "2026-10-01",
+      "id": 8
+    },
+    {
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Japan Airlines Mileage Bank",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-10-24",
+      "startDate": "2026-09-20",
+      "notes": "New Citi partner. 1:1 from annual fee cards, lower ratio from no fee cards.",
+      "sourceUrl": "https://onemileatatime.com/deals/citi-japan-airlines-transfer-bonus/",
+      "method": "manual",
+      "lastConfirmed": "2026-10-01",
+      "verifiedBy": "HRT",
+      "verifiedAt": "2026-09-21",
+      "id": 9
+    },
+    {
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Air France-KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 40,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.4",
+      "expiresDate": "2026-10-31",
+      "startDate": "2026-10-01",
+      "notes": "40% bonus through October 31, 2026 at 11:59pm UTC+1",
+      "sourceUrl": "https://www.doctorofcredit.com/rove-transfer-bonuses-50-to-jal-40-to-flying-blue-35-to-qatar/",
+      "method": "auto",
+      "lastConfirmed": "2026-10-01",
+      "id": 10
+    },
+    {
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Japan Airlines Mileage Bank",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 50,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.5",
+      "expiresDate": "2026-10-31",
+      "startDate": "2026-10-01",
+      "notes": "50% bonus through October 31, 2026 at 11:59pm EDT",
+      "sourceUrl": "https://www.doctorofcredit.com/rove-transfer-bonuses-50-to-jal-40-to-flying-blue-35-to-qatar/",
+      "method": "auto",
+      "lastConfirmed": "2026-10-01",
+      "id": 11
+    },
+    {
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "Qatar Airways Privilege Club",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 35,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.35",
+      "expiresDate": "2026-10-31",
+      "startDate": "2026-10-01",
+      "notes": "Tiered: 15% (up to 49,999), 25% (50,000-99,999), 35% (100,000+) through Oct 31 11:59pm GMT+3",
+      "sourceUrl": "https://www.doctorofcredit.com/rove-transfer-bonuses-50-to-jal-40-to-flying-blue-35-to-qatar/",
+      "method": "auto",
+      "lastConfirmed": "2026-10-01",
+      "id": 12
+    }
+  ],
+  "recentlyExpired": [
     {
       "bank": "capital-one",
       "bankName": "Capital One",
@@ -87,59 +244,6 @@
       "id": 5
     },
     {
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "Marriott Bonvoy",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 70,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.7",
-      "expiresDate": "2026-10-15",
-      "startDate": "2026-09-15",
-      "notes": "No transfer cap; newly launched September 15, 2026",
-      "sourceUrl": "https://frequentmiler.com/70-percent-transfer-bonus-chase-ultimate-rewards-marriott-bonvoy/",
-      "method": "auto",
-      "lastConfirmed": "2026-09-30",
-      "id": 6
-    },
-    {
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Avianca LifeMiles",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-10-24",
-      "startDate": "2026-09-20",
-      "notes": "Eligible cards: Strata Elite, Strata Premier, Prestige, AT&T Access More",
-      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/citi-thankyou-rewards",
-      "method": "auto",
-      "lastConfirmed": "2026-09-30",
-      "id": 7
-    },
-    {
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Japan Airlines Mileage Bank",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "expiresDate": "2026-10-24",
-      "startDate": "2026-09-20",
-      "notes": "New Citi partner. 1:1 from annual fee cards, lower ratio from no fee cards.",
-      "sourceUrl": "https://onemileatatime.com/deals/citi-japan-airlines-transfer-bonus/",
-      "method": "manual",
-      "lastConfirmed": "2026-09-30",
-      "verifiedBy": "HRT",
-      "verifiedAt": "2026-09-21",
-      "id": 8
-    },
-    {
       "bank": "rove",
       "bankName": "Rove",
       "partner": "Copa ConnectMiles",
@@ -155,9 +259,7 @@
       "method": "auto",
       "lastConfirmed": "2026-09-30",
       "id": 9
-    }
-  ],
-  "recentlyExpired": [
+    },
     {
       "bank": "amex",
       "bankName": "American Express",
@@ -236,56 +338,11 @@
       "expiresDate": "2026-09-01",
       "notes": "Rent Day promotional - limited time, transatlantic routes",
       "sourceUrl": "https://thepointsguy.com/news/bilt-rent-day-promo/"
-    },
-    {
-      "id": 3,
-      "bank": "chase",
-      "bankName": "Chase",
-      "partner": "IHG One Rewards",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 70,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.7",
-      "expiresDate": "2026-08-31",
-      "notes": "Expires today. Good for chain hotels but Chase Hyatt/airlines typically better value",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-07-23"
-    },
-    {
-      "id": 4,
-      "bank": "capital-one",
-      "bankName": "Capital One",
-      "partner": "Avianca LifeMiles",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 15,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.15",
-      "expiresDate": "2026-08-31",
-      "notes": "Expires today. Star Alliance access including United to Hawaii and beyond",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-08-02"
-    },
-    {
-      "id": 5,
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Turkish Airlines Miles&Smiles",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 40,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.4",
-      "expiresDate": "2026-08-31",
-      "notes": "Capped at 50K bonus miles. Best for Istanbul routing; bonus posts after expiry",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
-      "startDate": "2026-08-26"
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v3.0",
-    "bonusCount": 9,
+    "bonusCount": 12,
     "expiredCount": 8,
     "banks": [
       "amex",
@@ -305,40 +362,40 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-09-30T18:38:50.841369Z",
+        "checked": "2026-10-01T19:05:50.957873Z",
         "ok": true,
-        "found": 1,
-        "live": 1
+        "found": 3,
+        "live": 3
       },
       "bilt": {
-        "checked": "2026-09-30T18:38:50.841369Z",
+        "checked": "2026-10-01T19:05:50.957873Z",
         "ok": true,
-        "found": 0,
+        "found": 2,
         "live": 2
       },
       "capital-one": {
-        "checked": "2026-09-30T18:38:50.841369Z",
+        "checked": "2026-10-01T19:05:50.957873Z",
         "ok": true,
         "found": 1,
         "live": 1
       },
       "chase": {
-        "checked": "2026-09-30T18:38:50.841369Z",
+        "checked": "2026-10-01T19:05:50.957873Z",
         "ok": true,
-        "found": 2,
-        "live": 2
+        "found": 1,
+        "live": 1
       },
       "citi": {
-        "checked": "2026-09-30T18:38:50.841369Z",
+        "checked": "2026-10-01T19:05:50.957873Z",
         "ok": true,
         "found": 1,
         "live": 2
       },
       "rove": {
-        "checked": "2026-09-30T18:38:50.841369Z",
+        "checked": "2026-10-01T19:05:50.957873Z",
         "ok": true,
-        "found": 1,
-        "live": 1
+        "found": 3,
+        "live": 3
       }
     }
   }
