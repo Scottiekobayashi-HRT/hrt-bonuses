@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T17:40:09.569256Z",
+  "lastUpdated": "2026-10-04T17:53:36.886155Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -12,10 +12,10 @@
       "bonusRatio": "1:2.6",
       "expiresDate": "2026-10-14",
       "startDate": "2026-09-01",
-      "notes": "1000 Amex points = 2600 Hilton points. May be targeted offer.",
+      "notes": "Offer may be targeted; log in to Amex account to verify eligibility.",
       "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/hilton-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-03",
+      "lastConfirmed": "2026-10-04",
       "id": 1
     },
     {
@@ -29,10 +29,10 @@
       "bonusRatio": "5:9.6",
       "expiresDate": "2026-10-30",
       "startDate": "2026-10-01",
-      "notes": "1000 Amex points = 1920 Aeromexico points. New October 2026.",
+      "notes": "New bonus launched October 2026.",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-10-03",
+      "lastConfirmed": "2026-10-04",
       "id": 2
     },
     {
@@ -46,10 +46,10 @@
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "1000 Amex points = 1250 Flying Blue miles. Enrollment required.",
+      "notes": "New bonus launched October 2026; requires Flying Blue account enrollment.",
       "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/flying-blue-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-03",
+      "lastConfirmed": "2026-10-04",
       "id": 3
     },
     {
@@ -63,10 +63,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "No registration required. Transfers are instant to 48 hours. Avios can be transferred to Iberia, Finnair, Aer Lingus, Qatar.",
+      "notes": "No registration required, no limit on bonus earnings, instant transfer",
       "sourceUrl": "https://onemileatatime.com/deals/capital-one-british-airways-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-03",
+      "lastConfirmed": "2026-10-04",
       "id": 4
     },
     {
@@ -80,10 +80,10 @@
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-10-15",
       "startDate": "2026-09-15",
-      "notes": "Unlimited transfers allowed. Base points transfer instantly, bonus posts within 7 days.",
-      "sourceUrl": "https://frequentmiler.com/70-percent-transfer-bonus-chase-ultimate-rewards-marriott-bonvoy/",
+      "notes": "Bonus points awarded by Marriott within 7 days of transfer completion",
+      "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/marriott-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-03",
+      "lastConfirmed": "2026-10-04",
       "id": 5
     },
     {
@@ -97,10 +97,10 @@
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-10-24",
       "startDate": "2026-09-20",
-      "notes": "Star Alliance partner. Automatic bonus at transfer.",
+      "notes": "Transfer in 1,000 point increments",
       "sourceUrl": "https://onemileatatime.com/deals/citi-lifemiles-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-03",
+      "lastConfirmed": "2026-10-04",
       "id": 6
     },
     {
@@ -117,7 +117,7 @@
       "notes": "New Citi partner. 1:1 from annual fee cards, lower ratio from no fee cards.",
       "sourceUrl": "https://onemileatatime.com/deals/citi-japan-airlines-transfer-bonus/",
       "method": "manual",
-      "lastConfirmed": "2026-10-03",
+      "lastConfirmed": "2026-10-04",
       "verifiedBy": "HRT",
       "verifiedAt": "2026-09-21",
       "id": 7
@@ -133,10 +133,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "Tiered bonus: 15% (0-49.9k), 25% (50-99.9k), 35% (100k+). Bonus from airline, posted by 11/30/26.",
+      "notes": "Tiered bonus: 15% (0-49.9k points), 25% (50-99.9k), 35% (100k+). Bonus awarded by 11/30",
       "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-to-qatar-avios-from-citi-thankyou/",
       "method": "auto",
-      "lastConfirmed": "2026-10-03",
+      "lastConfirmed": "2026-10-04",
       "id": 8
     },
     {
@@ -150,10 +150,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "40% bonus through October 31, 2026 at 11:59 p.m. UTC +1",
+      "notes": "40% bonus through Oct 31, 2026, 11:59 p.m. UTC+1. 1,000 Rove Miles = 1,400 Flying Blue miles.",
       "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-03",
+      "lastConfirmed": "2026-10-04",
       "id": 9
     },
     {
@@ -167,10 +167,10 @@
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "50% bonus through October 31, 2026 at 11:59 p.m. EDT",
+      "notes": "50% bonus through Oct 31, 2026, 11:59 p.m. EDT. 1,000 Rove Miles = 1,500 JAL miles.",
       "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-03",
+      "lastConfirmed": "2026-10-04",
       "id": 10
     },
     {
@@ -184,10 +184,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "Tiered: 15% (up to 49,999 miles), 25% (50,000-99,999), 35% (100,000+) through Oct 31 GMT+3",
+      "notes": "Tiered bonus up to 35% through Oct 31, 2026: 15% (up to 49,999 miles), 25% (50K-99,999), 35% (100K+).",
       "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-03",
+      "lastConfirmed": "2026-10-04",
       "id": 11
     }
   ],
@@ -364,37 +364,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-10-03T17:40:09.569256Z",
+        "checked": "2026-10-04T17:53:36.886155Z",
         "ok": true,
         "found": 3,
         "live": 3
       },
       "bilt": {
-        "checked": "2026-10-03T17:40:09.569256Z",
+        "checked": "2026-10-04T17:53:36.886155Z",
         "ok": true,
         "found": 0,
         "live": 0
       },
       "capital-one": {
-        "checked": "2026-10-03T17:40:09.569256Z",
+        "checked": "2026-10-04T17:53:36.886155Z",
         "ok": true,
         "found": 1,
         "live": 1
       },
       "chase": {
-        "checked": "2026-10-03T17:40:09.569256Z",
+        "checked": "2026-10-04T17:53:36.886155Z",
         "ok": true,
         "found": 1,
         "live": 1
       },
       "citi": {
-        "checked": "2026-10-03T17:40:09.569256Z",
+        "checked": "2026-10-04T17:53:36.886155Z",
         "ok": true,
         "found": 2,
         "live": 3
       },
       "rove": {
-        "checked": "2026-10-03T17:40:09.569256Z",
+        "checked": "2026-10-04T17:53:36.886155Z",
         "ok": true,
         "found": 3,
         "live": 3
