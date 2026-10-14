@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T21:25:51.865186Z",
+  "lastUpdated": "2026-10-14T18:55:10.254069Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -29,10 +29,10 @@
       "bonusRatio": "5:9.6",
       "expiresDate": "2026-10-30",
       "startDate": "2026-10-01",
-      "notes": "20% bonus on 1:1.6 base ratio. No registration required.",
-      "sourceUrl": "https://frequentmiler.com/american-express-membership-rewards-offering-20-transfer-bonus-to-aeromexico/",
+      "notes": "Automatic bonus applied at transfer. Base ratio 5:8 becomes 1:1.92 with bonus.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-10-05",
+      "lastConfirmed": "2026-10-14",
       "id": 2
     },
     {
@@ -46,10 +46,10 @@
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "Must be enrolled in Flying Blue. Ends October 31, 2026.",
-      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/flying-blue-transfer-bonus/",
+      "notes": "Must be enrolled in Flying Blue. Minimum transfer 1,000 points. Automatic bonus.",
+      "sourceUrl": "https://upgradedpoints.com/news/amex-flying-blue-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-05",
+      "lastConfirmed": "2026-10-14",
       "id": 3
     },
     {
@@ -63,10 +63,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "20% bonus valid Oct 1-31, 2026. Standard transfer ratio 1:1 becomes 1:1.2 with bonus.",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "Transfer rate improves from 1:1 to 1:1.2 with bonus",
+      "sourceUrl": "https://onemileatatime.com/deals/capital-one-british-airways-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-05",
+      "lastConfirmed": "2026-10-14",
       "id": 4
     },
     {
@@ -80,10 +80,10 @@
       "bonusRatio": "1:1.7",
       "expiresDate": "2026-10-15",
       "startDate": "2026-09-15",
-      "notes": "Expires Oct 15, 2026 at 11:59pm ET. Bonus awarded by Marriott within 7 days.",
-      "sourceUrl": "https://frequentmiler.com/70-percent-transfer-bonus-chase-ultimate-rewards-marriott-bonvoy/",
+      "notes": "70% bonus ends Oct 15, 2026 at 11:59 PM ET. Bonus points credited within 7 days.",
+      "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/marriott-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-05",
+      "lastConfirmed": "2026-10-14",
       "id": 5
     },
     {
@@ -97,10 +97,10 @@
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-10-24",
       "startDate": "2026-09-20",
-      "notes": "Premium cards 1:1 base; no-fee cards 1:0.7.",
+      "notes": "1,000 ThankYou points = 1,250 Lifemiles. Star Alliance access.",
       "sourceUrl": "https://onemileatatime.com/deals/citi-lifemiles-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-05",
+      "lastConfirmed": "2026-10-14",
       "id": 6
     },
     {
@@ -117,7 +117,7 @@
       "notes": "New Citi partner. 1:1 from annual fee cards, lower ratio from no fee cards.",
       "sourceUrl": "https://onemileatatime.com/deals/citi-japan-airlines-transfer-bonus/",
       "method": "manual",
-      "lastConfirmed": "2026-10-05",
+      "lastConfirmed": "2026-10-14",
       "verifiedBy": "HRT",
       "verifiedAt": "2026-09-21",
       "id": 7
@@ -133,10 +133,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "Tiered bonus: 15% up to 49k, 25% for 50-99k, 35% for 100k+. Per-transaction calculation. Bonus posts by Nov 30.",
-      "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-to-qatar-avios-from-citi-thankyou/",
+      "notes": "Up to 35% tiered by amount: 15% (under 50k), 25% (50k-99k), 35% (100k+). Per transaction.",
+      "sourceUrl": "https://awardwallet.com/news/airlines/qatar-airways-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-05",
+      "lastConfirmed": "2026-10-14",
       "id": 8
     },
     {
@@ -150,10 +150,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "40% bonus through Oct 31, 2026 at 11:59pm UTC+1",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "Expires Oct 31 at 11:59 p.m. UTC+1.",
+      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-05",
+      "lastConfirmed": "2026-10-14",
       "id": 9
     },
     {
@@ -167,10 +167,10 @@
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "50% bonus through Oct 31, 2026 at 11:59pm EDT",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "Tiered bonus cap at 50%. Expires Oct 31 at 11:59 p.m. EDT.",
+      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-05",
+      "lastConfirmed": "2026-10-14",
       "id": 10
     },
     {
@@ -184,10 +184,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "Tiered: 15% (up to 49,999 miles), 25% (50k-99,999), 35% (100k+) through Oct 31",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "Tiered: 15% (up to 49,999), 25% (50k-99,999), 35% (100k+). Expires Oct 31 11:59 p.m. GMT+3",
+      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-05",
+      "lastConfirmed": "2026-10-14",
       "id": 11
     }
   ],
@@ -364,37 +364,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-10-05T21:25:51.865186Z",
+        "checked": "2026-10-14T18:55:10.254069Z",
         "ok": true,
-        "found": 3,
+        "found": 2,
         "live": 3
       },
       "bilt": {
-        "checked": "2026-10-05T21:25:51.865186Z",
+        "checked": "2026-10-14T18:55:10.254069Z",
         "ok": true,
         "found": 0,
         "live": 0
       },
       "capital-one": {
-        "checked": "2026-10-05T21:25:51.865186Z",
+        "checked": "2026-10-14T18:55:10.254069Z",
         "ok": true,
         "found": 1,
         "live": 1
       },
       "chase": {
-        "checked": "2026-10-05T21:25:51.865186Z",
+        "checked": "2026-10-14T18:55:10.254069Z",
         "ok": true,
         "found": 1,
         "live": 1
       },
       "citi": {
-        "checked": "2026-10-05T21:25:51.865186Z",
+        "checked": "2026-10-14T18:55:10.254069Z",
         "ok": true,
         "found": 2,
         "live": 3
       },
       "rove": {
-        "checked": "2026-10-05T21:25:51.865186Z",
+        "checked": "2026-10-14T18:55:10.254069Z",
         "ok": true,
         "found": 3,
         "live": 3
