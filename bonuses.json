@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T18:17:11.502587Z",
+  "lastUpdated": "2026-10-22T18:11:32.285218Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -8,14 +8,14 @@
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 20,
-      "transferRatio": "5:8",
-      "bonusRatio": "5:9.6",
+      "transferRatio": "1:1.6",
+      "bonusRatio": "1:1.92",
       "expiresDate": "2026-10-30",
       "startDate": "2026-10-01",
-      "notes": "US-based cardmembers only. Normal ratio 1:1.6, with bonus 1:1.92",
+      "notes": "US-based Amex cardmembers. Standard ratio 1:1.6, with bonus becomes 1:1.92",
       "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/aeromexico-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-21",
+      "lastConfirmed": "2026-10-22",
       "id": 1
     },
     {
@@ -29,10 +29,10 @@
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "Must be enrolled in Flying Blue to participate",
+      "notes": "Standard ratio 1:1, with bonus becomes 1:1.25. No registration required.",
       "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/flying-blue-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-21",
+      "lastConfirmed": "2026-10-22",
       "id": 2
     },
     {
@@ -46,10 +46,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-12-10",
       "startDate": "2026-10-20",
-      "notes": "Newly launched Oct 20, 2026. Normal ratio 2:3",
-      "sourceUrl": "https://frequentmiler.com/35-percent-transfer-bonus-american-express-membership-rewards-marriott-bonvoy/",
+      "notes": "Standard ratio 1:1, with bonus becomes 1:1.35. Transfers in 1,000 point increments.",
+      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/marriott-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-21",
+      "lastConfirmed": "2026-10-22",
       "id": 3
     },
     {
@@ -80,10 +80,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "Standard transfer ratio 1:1 with 20% bonus becomes 1:1.2",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "20% bonus ends Oct 31, 2026. Base ratio 1:1 becomes 1:1.2 with bonus.",
+      "sourceUrl": "https://onemileatatime.com/deals/capital-one-british-airways-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-21",
+      "lastConfirmed": "2026-10-22",
       "id": 5
     },
     {
@@ -97,10 +97,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-20",
       "startDate": "2026-10-21",
-      "notes": "New bonus launched today. 1,000 mile minimum, 100 point increments thereafter.",
-      "sourceUrl": "https://frequentmiler.com/30-percent-transfer-bonus-capital-one-virgin-atlantic/",
+      "notes": "30% bonus through Nov 20, 2026. Launched Oct 21, 2026. Same points as Flying Club.",
+      "sourceUrl": "https://www.doctorofcredit.com/capital-one-transfer-bonus-30-virgin-red-virgin-atlantic/",
       "method": "auto",
-      "lastConfirmed": "2026-10-21",
+      "lastConfirmed": "2026-10-22",
       "id": 6
     },
     {
@@ -114,10 +114,10 @@
       "bonusRatio": "1:1.25",
       "expiresDate": "2026-10-24",
       "startDate": "2026-09-20",
-      "notes": "Transfers in 1,000 point increments",
+      "notes": "1,000 ThankYou = 1,250 LifeMiles during promo. Minimum 1,000 points.",
       "sourceUrl": "https://onemileatatime.com/deals/citi-lifemiles-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-21",
+      "lastConfirmed": "2026-10-22",
       "id": 7
     },
     {
@@ -134,7 +134,7 @@
       "notes": "New Citi partner. 1:1 from annual fee cards, lower ratio from no fee cards.",
       "sourceUrl": "https://onemileatatime.com/deals/citi-japan-airlines-transfer-bonus/",
       "method": "manual",
-      "lastConfirmed": "2026-10-21",
+      "lastConfirmed": "2026-10-22",
       "verifiedBy": "HRT",
       "verifiedAt": "2026-09-21",
       "id": 8
@@ -150,10 +150,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "Up to 35% tiered: 15% for <50k, 25% for 50-99k, 35% for 100k+ Avios. Qatar-side bonus",
+      "notes": "Tiered: 15% (under 50k), 25% (50-99.9k), 35% (100k+). Qatar-side bonus.",
       "sourceUrl": "https://onemileatatime.com/deals/qatar-airways-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-21",
+      "lastConfirmed": "2026-10-22",
       "id": 9
     },
     {
@@ -167,10 +167,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "40% bonus active October 1-31, 2026; expires 11:59 p.m. UTC+1",
-      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/rove-miles",
+      "notes": "40% bonus through Oct 31, 2026 at 11:59 p.m. UTC+1",
+      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-21",
+      "lastConfirmed": "2026-10-22",
       "id": 10
     },
     {
@@ -201,10 +201,10 @@
       "bonusRatio": "1:1.5",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "50% bonus active October 1-31, 2026; expires 11:59 p.m. EDT",
-      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/rove-miles",
+      "notes": "50% bonus through Oct 31, 2026 at 11:59 p.m. EDT",
+      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-21",
+      "lastConfirmed": "2026-10-22",
       "id": 12
     },
     {
@@ -218,10 +218,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-10-31",
       "startDate": "2026-10-01",
-      "notes": "Tiered bonus: 15% (up to 49,999 miles), 25% (50,000-99,999), 35% (100,000+); expires 11:59 p.m. GMT+3",
-      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/rove-miles",
+      "notes": "Tiered bonus: 15% up to 49,999 miles, 25% for 50k-99,999, 35% for 100k+",
+      "sourceUrl": "https://awardwallet.com/news/rove-miles/rove-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-21",
+      "lastConfirmed": "2026-10-22",
       "id": 13
     },
     {
@@ -235,10 +235,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-11-14",
       "startDate": "2026-10-15",
-      "notes": "Launch bonus; new partner added October 15, 2026; expires 11:59 p.m. ET",
-      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/rove-miles",
+      "notes": "New partner launched Oct 15 with 20% launch bonus through Nov 14, 2026",
+      "sourceUrl": "https://www.doctorofcredit.com/rove-miles-adds-jetblue-as-11-transfer-partners-20-launch-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-21",
+      "lastConfirmed": "2026-10-22",
       "id": 14
     }
   ],
@@ -435,37 +435,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-10-21T18:17:11.502587Z",
+        "checked": "2026-10-22T18:11:32.285218Z",
         "ok": true,
         "found": 3,
         "live": 3
       },
       "bilt": {
-        "checked": "2026-10-21T18:17:11.502587Z",
+        "checked": "2026-10-22T18:11:32.285218Z",
         "ok": true,
         "found": 0,
         "live": 1
       },
       "capital-one": {
-        "checked": "2026-10-21T18:17:11.502587Z",
+        "checked": "2026-10-22T18:11:32.285218Z",
         "ok": true,
-        "found": 2,
+        "found": 3,
         "live": 2
       },
       "chase": {
-        "checked": "2026-10-21T18:17:11.502587Z",
+        "checked": "2026-10-22T18:11:32.285218Z",
         "ok": true,
         "found": 0,
         "live": 0
       },
       "citi": {
-        "checked": "2026-10-21T18:17:11.502587Z",
+        "checked": "2026-10-22T18:11:32.285218Z",
         "ok": true,
         "found": 2,
         "live": 3
       },
       "rove": {
-        "checked": "2026-10-21T18:17:11.502587Z",
+        "checked": "2026-10-22T18:11:32.285218Z",
         "ok": true,
         "found": 4,
         "live": 5
