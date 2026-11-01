@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-10-31T17:59:49.034597Z",
+  "lastUpdated": "2026-11-01T18:38:56.834888Z",
   "bonuses": [
     {
       "bank": "amex",
       "bankName": "American Express",
-      "partner": "Air France-KLM Flying Blue",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 25,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.25",
-      "expiresDate": "2026-10-31",
-      "startDate": "2026-10-01",
-      "notes": "Max transfer 999,000 points. Bonus expires today 11:59 PM MT.",
-      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/flying-blue-transfer-bonus/",
+      "partner": "Hilton Honors",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 40,
+      "transferRatio": "1:2",
+      "bonusRatio": "1:2.8",
+      "expiresDate": "2026-11-24",
+      "startDate": "2026-09-29",
+      "notes": "Min 200 points, max 499,950 per transfer. Bonus points may take up to 20 business days to arrive.",
+      "sourceUrl": "https://awardwallet.com/news/credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-10-31",
+      "lastConfirmed": "2026-11-01",
       "id": 1
     },
     {
@@ -29,10 +29,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-12-10",
       "startDate": "2026-10-20",
-      "notes": "35% bonus through December 10, 2026. 1:1.35 ratio with bonus.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "1,000 Amex MR = 1,350 Marriott Bonvoy with bonus. Effective ratio 1:1.35",
+      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/marriott-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-10-31",
+      "lastConfirmed": "2026-11-01",
       "id": 2
     },
     {
@@ -55,6 +55,144 @@
     {
       "bank": "capital-one",
       "bankName": "Capital One",
+      "partner": "Virgin Atlantic Flying Club",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-11-20",
+      "startDate": "2026-10-21",
+      "notes": "Also valid for Virgin Red loyalty program. No registration required.",
+      "sourceUrl": "https://frequentmiler.com/30-percent-transfer-bonus-capital-one-virgin-atlantic/",
+      "method": "auto",
+      "lastConfirmed": "2026-11-01",
+      "id": 4
+    },
+    {
+      "bank": "capital-one",
+      "bankName": "Capital One",
+      "partner": "Air France-KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-11-30",
+      "startDate": "2026-11-01",
+      "notes": "No registration required. Transfers process immediately. No stated cap.",
+      "sourceUrl": "https://onemileatatime.com/deals/capital-one-flying-blue-transfer-bonus/",
+      "method": "auto",
+      "lastConfirmed": "2026-11-01",
+      "id": 5
+    },
+    {
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "British Airways Avios",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-12-01",
+      "startDate": "2026-11-01",
+      "notes": "Also applies to Iberia Club and Aer Lingus AerClub",
+      "sourceUrl": "https://www.doctorofcredit.com/chase-ultimate-rewards-30-transfer-bonus-to-avios-11-3/",
+      "method": "auto",
+      "lastConfirmed": "2026-11-01",
+      "id": 6
+    },
+    {
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "IHG One Rewards",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 80,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.8",
+      "expiresDate": "2026-12-03",
+      "startDate": "2026-11-01",
+      "notes": "Unlimited transfers allowed",
+      "sourceUrl": "https://www.doctorofcredit.com/chase-ultimate-rewards-80-transfer-bonus-to-ihg-11-8-5/",
+      "method": "auto",
+      "lastConfirmed": "2026-11-01",
+      "id": 7
+    },
+    {
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "Wyndham Rewards",
+      "partnerType": "hotel",
+      "partnerIcon": "🏨",
+      "bonusPct": 30,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.3",
+      "expiresDate": "2026-12-03",
+      "startDate": "2026-11-01",
+      "notes": "Transfer ratio becomes 1:1.3 with bonus",
+      "sourceUrl": "https://www.doctorofcredit.com/chase-ultimate-rewards-30-transfer-bonus-to-wyndham-11-3-2/",
+      "method": "auto",
+      "lastConfirmed": "2026-11-01",
+      "id": 8
+    },
+    {
+      "bank": "citi",
+      "bankName": "Citi",
+      "partner": "Cathay Pacific Asia Miles",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 10,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.1",
+      "expiresDate": "2026-11-14",
+      "startDate": "2026-10-25",
+      "notes": "Premium cards only. Transfer 1,000 ThankYou = 1,100 Asia Miles. Eligible: Citi Strata Elite/Premier, Prestige, AT&T Access More",
+      "sourceUrl": "https://onemileatatime.com/deals/cathay-pacific-asia-miles-transfer-bonus/",
+      "method": "auto",
+      "lastConfirmed": "2026-11-01",
+      "id": 9
+    },
+    {
+      "bank": "rove",
+      "bankName": "Rove",
+      "partner": "JetBlue TrueBlue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 20,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.2",
+      "expiresDate": "2026-11-14",
+      "startDate": "2026-10-15",
+      "notes": "20% bonus through Nov 14, 2026 at 11:59 p.m. ET. Minimum transfer 2,000 Rove Miles.",
+      "sourceUrl": "https://www.doctorofcredit.com/rove-miles-adds-jetblue-as-11-transfer-partners-20-launch-bonus/",
+      "method": "auto",
+      "lastConfirmed": "2026-11-01",
+      "id": 10
+    }
+  ],
+  "recentlyExpired": [
+    {
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Air France-KLM Flying Blue",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 25,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.25",
+      "expiresDate": "2026-10-31",
+      "startDate": "2026-10-01",
+      "notes": "Max transfer 999,000 points. Bonus expires today 11:59 PM MT.",
+      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/flying-blue-transfer-bonus/",
+      "method": "auto",
+      "lastConfirmed": "2026-10-31",
+      "id": 1
+    },
+    {
+      "bank": "capital-one",
+      "bankName": "Capital One",
       "partner": "British Airways Avios",
       "partnerType": "airline",
       "partnerIcon": "✈️",
@@ -68,23 +206,6 @@
       "method": "auto",
       "lastConfirmed": "2026-10-31",
       "id": 4
-    },
-    {
-      "bank": "capital-one",
-      "bankName": "Capital One",
-      "partner": "Virgin Atlantic Flying Club",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 30,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.3",
-      "expiresDate": "2026-11-20",
-      "startDate": "2026-10-21",
-      "notes": "Bonus rate 1:1.3. Launched Oct 21. Lifestyle rewards for cruises, hotels, and more.",
-      "sourceUrl": "https://awardwallet.com/news/capital-one-rewards/virgin-red-transfer-bonus/",
-      "method": "auto",
-      "lastConfirmed": "2026-10-31",
-      "id": 5
     },
     {
       "bank": "citi",
@@ -102,23 +223,6 @@
       "method": "auto",
       "lastConfirmed": "2026-10-31",
       "id": 6
-    },
-    {
-      "bank": "citi",
-      "bankName": "Citi",
-      "partner": "Cathay Pacific Asia Miles",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 10,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.1",
-      "expiresDate": "2026-11-14",
-      "startDate": "2026-10-25",
-      "notes": "New transfer bonus. Premium cards get 1:1.1, standard cards get 1:0.77 with bonus.",
-      "sourceUrl": "https://onemileatatime.com/deals/cathay-pacific-asia-miles-transfer-bonus/",
-      "method": "auto",
-      "lastConfirmed": "2026-10-31",
-      "id": 7
     },
     {
       "bank": "rove",
@@ -189,25 +293,6 @@
       "id": 11
     },
     {
-      "bank": "rove",
-      "bankName": "Rove",
-      "partner": "JetBlue TrueBlue",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 20,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:1.2",
-      "expiresDate": "2026-11-14",
-      "startDate": "2026-10-15",
-      "notes": "Launch bonus on newest partner added Oct 15. Expires Nov 14, 2026.",
-      "sourceUrl": "https://www.doctorofcredit.com/rove-miles-adds-jetblue-as-11-transfer-partners-20-launch-bonus/",
-      "method": "auto",
-      "lastConfirmed": "2026-10-31",
-      "id": 12
-    }
-  ],
-  "recentlyExpired": [
-    {
       "bank": "amex",
       "bankName": "American Express",
       "partner": "Aeromexico Rewards",
@@ -274,50 +359,17 @@
       "method": "auto",
       "lastConfirmed": "2026-10-05",
       "id": 1
-    },
-    {
-      "bank": "bilt",
-      "bankName": "Bilt",
-      "partner": "Amtrak Guest Rewards",
-      "partnerType": "airline",
-      "partnerIcon": "✈️",
-      "bonusPct": 125,
-      "transferRatio": "2:1",
-      "bonusRatio": "2:2.25",
-      "expiresDate": "2026-10-01",
-      "startDate": "2026-10-01",
-      "notes": "Tiered by Bilt status (25%-100%), 125% with Platinum+$400 Bilt Cash buy-up. Max 100k bonus points. New partner.",
-      "sourceUrl": "https://frequentmiler.com/bilt-rent-day-for-october-2026-transfer-bonuses-for-amtrak-hilton-free-hilton-status-challenge/",
-      "method": "auto",
-      "lastConfirmed": "2026-10-01",
-      "id": 4
-    },
-    {
-      "bank": "bilt",
-      "bankName": "Bilt",
-      "partner": "Hilton Honors",
-      "partnerType": "hotel",
-      "partnerIcon": "🏨",
-      "bonusPct": 200,
-      "transferRatio": "1:1",
-      "bonusRatio": "1:3",
-      "expiresDate": "2026-10-01",
-      "startDate": "2026-10-01",
-      "notes": "Tiered by Bilt status (75%-175%), 200% with Platinum+$200 Bilt Cash buy-up. Max 100k bonus points. Includes instant Hilton status.",
-      "sourceUrl": "https://frequentmiler.com/bilt-rent-day-for-october-2026-transfer-bonuses-for-amtrak-hilton-free-hilton-status-challenge/",
-      "method": "auto",
-      "lastConfirmed": "2026-10-01",
-      "id": 5
     }
   ],
   "meta": {
     "source": "HRT Auto-Updater v3.0",
-    "bonusCount": 12,
-    "expiredCount": 6,
+    "bonusCount": 10,
+    "expiredCount": 11,
     "banks": [
       "amex",
       "bilt",
       "capital-one",
+      "chase",
       "citi",
       "rove"
     ],
@@ -331,40 +383,40 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-10-31T17:59:49.034597Z",
+        "checked": "2026-11-01T18:38:56.834888Z",
         "ok": true,
         "found": 2,
         "live": 2
       },
       "bilt": {
-        "checked": "2026-10-31T17:59:49.034597Z",
+        "checked": "2026-11-01T18:38:56.834888Z",
         "ok": true,
         "found": 0,
         "live": 1
       },
       "capital-one": {
-        "checked": "2026-10-31T17:59:49.034597Z",
-        "ok": true,
-        "found": 3,
-        "live": 2
-      },
-      "chase": {
-        "checked": "2026-10-31T17:59:49.034597Z",
-        "ok": true,
-        "found": 0,
-        "live": 0
-      },
-      "citi": {
-        "checked": "2026-10-31T17:59:49.034597Z",
+        "checked": "2026-11-01T18:38:56.834888Z",
         "ok": true,
         "found": 2,
         "live": 2
       },
-      "rove": {
-        "checked": "2026-10-31T17:59:49.034597Z",
+      "chase": {
+        "checked": "2026-11-01T18:38:56.834888Z",
         "ok": true,
-        "found": 4,
-        "live": 5
+        "found": 3,
+        "live": 3
+      },
+      "citi": {
+        "checked": "2026-11-01T18:38:56.834888Z",
+        "ok": true,
+        "found": 1,
+        "live": 1
+      },
+      "rove": {
+        "checked": "2026-11-01T18:38:56.834888Z",
+        "ok": true,
+        "found": 1,
+        "live": 1
       }
     }
   }
