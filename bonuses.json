@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T22:29:50.390812Z",
+  "lastUpdated": "2026-11-03T20:18:53.899125Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -29,10 +29,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-02",
-      "notes": "New bonus launched today; transfers in 1,000 point increments",
+      "notes": "30% bonus on transfers; ratio becomes 1:1.3 with bonus. Transfers in 1,000-point increments.",
       "sourceUrl": "https://onemileatatime.com/deals/amex-virgin-atlantic-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-02",
+      "lastConfirmed": "2026-11-03",
       "id": 2
     },
     {
@@ -46,10 +46,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-12-10",
       "startDate": "2026-10-20",
-      "notes": "Standard rate is 1:1; with bonus you receive 1,350 points per 1,000 transferred",
-      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/marriott-transfer-bonus/",
+      "notes": "35% bonus on transfers; ratio becomes 1:1.35 with bonus. Transfers in 1,000-point increments.",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-02",
+      "lastConfirmed": "2026-11-03",
       "id": 3
     },
     {
@@ -80,10 +80,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-20",
       "startDate": "2026-10-21",
-      "notes": "Applies to both Virgin Atlantic Flying Club and Virgin Red lifestyle program.",
+      "notes": "Also applies to Virgin Red (lifestyle program). No registration required, no limit.",
       "sourceUrl": "https://frequentmiler.com/30-percent-transfer-bonus-capital-one-virgin-atlantic/",
       "method": "auto",
-      "lastConfirmed": "2026-11-02",
+      "lastConfirmed": "2026-11-03",
       "id": 5
     },
     {
@@ -97,10 +97,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "No registration required. No limit on bonus earning.",
-      "sourceUrl": "https://awardwallet.com/news/capital-one-rewards/flying-blue-transfer-bonus/",
+      "notes": "Effective ratio 1:1.2 with bonus. No registration required, no limit.",
+      "sourceUrl": "https://onemileatatime.com/deals/capital-one-flying-blue-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-02",
+      "lastConfirmed": "2026-11-03",
       "id": 6
     },
     {
@@ -114,10 +114,10 @@
       "bonusRatio": "2:1.95",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-02",
-      "notes": "New transfer partner launched with bonus. Base ratio 2:1.5, effective with bonus 1,000:975.",
-      "sourceUrl": "https://viewfromthewing.com/capital-one-adds-new-airline-partner-with-30-bonus-book-emirates-business-class-without-fuel-surcharges/",
+      "notes": "New partner launched Nov 2. With 30% bonus, effective ratio is 1,000:975.",
+      "sourceUrl": "https://frequentmiler.com/copa-added-as-new-capital-one-transfer-partner-21-5-30-launch-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-02",
+      "lastConfirmed": "2026-11-03",
       "id": 7
     },
     {
@@ -131,10 +131,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "Minimum transfer 1,000 points. Instant transfers.",
-      "sourceUrl": "https://loyaltylobby.com/2026/11/02/chase-ultimate-rewards-to-iag-ba-ib-ei-wyndham-ihg-conversion-bonuses-november-1-december-3-2026/",
+      "notes": "Minimum transfer 1,000 points. Transfers are instant.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-02",
+      "lastConfirmed": "2026-11-03",
       "id": 8
     },
     {
@@ -148,10 +148,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "Minimum transfer 1,000 points. Instant transfers.",
-      "sourceUrl": "https://onemileatatime.com/deals/chase-british-airways-transfer-bonus/",
+      "notes": "Minimum transfer 1,000 points. Transfers are instant.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-02",
+      "lastConfirmed": "2026-11-03",
       "id": 9
     },
     {
@@ -165,10 +165,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "Minimum transfer 1,000 points. Instant transfers.",
-      "sourceUrl": "https://travelupdate.com/chase-transfer-bonuses-current-2026/",
+      "notes": "Minimum transfer 1,000 points. Transfers are instant.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-02",
+      "lastConfirmed": "2026-11-03",
       "id": 10
     },
     {
@@ -182,10 +182,10 @@
       "bonusRatio": "1:1.8",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "Minimum transfer 1,000 points. Unlimited uses. Instant transfers.",
-      "sourceUrl": "https://onemileatatime.com/deals/chase-ihg-transfer-bonus/",
+      "notes": "Minimum transfer 1,000 points. Unlimited transfers allowed.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-02",
+      "lastConfirmed": "2026-11-03",
       "id": 11
     },
     {
@@ -199,10 +199,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "Minimum transfer 1,000 points. Instant transfers.",
-      "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/wyndham-transfer-bonus/",
+      "notes": "Minimum transfer 1,000 points.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-02",
+      "lastConfirmed": "2026-11-03",
       "id": 12
     },
     {
@@ -216,10 +216,10 @@
       "bonusRatio": "1:1.1",
       "expiresDate": "2026-11-14",
       "startDate": "2026-10-25",
-      "notes": "Premium Citi cards transfer at 1:1. No registration required; bonus applied automatically.",
-      "sourceUrl": "https://awardwallet.com/news/citi-thankyou-rewards/cathay-pacific-transfer-bonus/",
+      "notes": "Premium cards 1:1 ratio, standard cards 1:0.7. Min 1,000 pts per transfer",
+      "sourceUrl": "https://onemileatatime.com/deals/cathay-pacific-asia-miles-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-02",
+      "lastConfirmed": "2026-11-03",
       "id": 13
     },
     {
@@ -233,10 +233,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-11-14",
       "startDate": "2026-10-15",
-      "notes": "Launch bonus through Nov 14, 2026 at 11:59 PM ET. Transfers at 1:1 ratio (1000:1200 with bonus).",
+      "notes": "Launch bonus for new JetBlue partnership added Oct 15, 2026",
       "sourceUrl": "https://www.doctorofcredit.com/rove-miles-adds-jetblue-as-11-transfer-partners-20-launch-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-02",
+      "lastConfirmed": "2026-11-03",
       "id": 14
     }
   ],
@@ -451,37 +451,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-11-02T22:29:50.390812Z",
+        "checked": "2026-11-03T20:18:53.899125Z",
         "ok": true,
-        "found": 3,
+        "found": 2,
         "live": 3
       },
       "bilt": {
-        "checked": "2026-11-02T22:29:50.390812Z",
+        "checked": "2026-11-03T20:18:53.899125Z",
         "ok": true,
         "found": 0,
         "live": 1
       },
       "capital-one": {
-        "checked": "2026-11-02T22:29:50.390812Z",
+        "checked": "2026-11-03T20:18:53.899125Z",
         "ok": true,
         "found": 3,
         "live": 3
       },
       "chase": {
-        "checked": "2026-11-02T22:29:50.390812Z",
+        "checked": "2026-11-03T20:18:53.899125Z",
         "ok": true,
         "found": 5,
         "live": 5
       },
       "citi": {
-        "checked": "2026-11-02T22:29:50.390812Z",
+        "checked": "2026-11-03T20:18:53.899125Z",
         "ok": true,
         "found": 1,
         "live": 1
       },
       "rove": {
-        "checked": "2026-11-02T22:29:50.390812Z",
+        "checked": "2026-11-03T20:18:53.899125Z",
         "ok": true,
         "found": 1,
         "live": 1
