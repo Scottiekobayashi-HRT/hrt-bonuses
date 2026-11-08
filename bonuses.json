@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T18:22:18.079442Z",
+  "lastUpdated": "2026-11-08T18:32:57.501616Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -12,10 +12,10 @@
       "bonusRatio": "1:2.8",
       "expiresDate": "2026-11-24",
       "startDate": "2026-09-29",
-      "notes": "Rare 40% bonus; standard 1:2 ratio becomes 1:2.8 with bonus",
-      "sourceUrl": "https://www.insideflyer.com/posts/amex-offers-40-bonus-for-hilton-honors-transfers/",
+      "notes": "Rare 40% bonus through November 24, 2026; minimum 200 points per transfer",
+      "sourceUrl": "https://www.headforpoints.com/2026/10/01/american-express-hilton-honors-40-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-04",
+      "lastConfirmed": "2026-11-08",
       "id": 1
     },
     {
@@ -29,10 +29,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-02",
-      "notes": "Transfers in 1,000-point increments. Expired Air France offer (ended Oct 31).",
+      "notes": "30% bonus through November 30, 2026; minimum transfer 1,000 points",
       "sourceUrl": "https://frequentmiler.com/30-percent-transfer-bonus-american-express-membership-rewards-virgin-atlantic/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 2
     },
     {
@@ -46,10 +46,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-12-10",
       "startDate": "2026-10-20",
-      "notes": "No end date published by Amex; per sources Dec 10 is confirmed end date.",
-      "sourceUrl": "https://frequentmiler.com/35-percent-transfer-bonus-american-express-membership-rewards-marriott-bonvoy/",
+      "notes": "35% bonus through December 10, 2026",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 3
     },
     {
@@ -80,10 +80,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-20",
       "startDate": "2026-10-21",
-      "notes": "30% bonus through November 20, 2026. Transfer ratio 1:1.3 with bonus.",
+      "notes": "Lifestyle program for cruises, hotels; 1:1.3 ratio with bonus through Nov 20",
       "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 5
     },
     {
@@ -97,10 +97,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "20% bonus through November 30, 2026. Transfer ratio 1:1.2 with bonus.",
+      "notes": "Transfer at 1:1.2 ratio with bonus through Nov 30",
       "sourceUrl": "https://onemileatatime.com/deals/capital-one-flying-blue-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 6
     },
     {
@@ -114,10 +114,10 @@
       "bonusRatio": "2:1.95",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-02",
-      "notes": "New partner launched November 2, 2026 with 30% launch bonus through December 1.",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "New partner launched Nov 2; 30% bonus brings ratio to 10:9.75 (975 Copa per 1000 CO)",
+      "sourceUrl": "https://frequentist.com/copa-added-as-new-capital-one-transfer-partner/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 7
     },
     {
@@ -131,10 +131,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus on Avios transfers; minimum 1,000 points",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "Minimum transfer 1,000 points. Transfers instant.",
+      "sourceUrl": "https://loyaltylobby.com/2026/11/02/chase-ultimate-rewards-to-iag-ba-ib-ei-wyndham-ihg-conversion-bonuses-november-1-december-3-2026/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 8
     },
     {
@@ -148,10 +148,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus on Avios transfers; minimum 1,000 points",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "Minimum transfer 1,000 points. Transfers instant.",
+      "sourceUrl": "https://loyaltylobby.com/2026/11/02/chase-ultimate-rewards-to-iag-ba-ib-ei-wyndham-ihg-conversion-bonuses-november-1-december-3-2026/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 9
     },
     {
@@ -165,10 +165,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus on Avios transfers; minimum 1,000 points",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "Minimum transfer 1,000 points. Transfers instant.",
+      "sourceUrl": "https://loyaltylobby.com/2026/11/02/chase-ultimate-rewards-to-iag-ba-ib-ei-wyndham-ihg-conversion-bonuses-november-1-december-3-2026/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 10
     },
     {
@@ -182,10 +182,10 @@
       "bonusRatio": "1:1.8",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "80% bonus; 1,000 Chase points becomes 1,800 IHG points",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "Minimum transfer 1,000 points. Dynamic pricing.",
+      "sourceUrl": "https://loyaltylobby.com/2026/11/02/chase-ultimate-rewards-to-iag-ba-ib-ei-wyndham-ihg-conversion-bonuses-november-1-december-3-2026/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 11
     },
     {
@@ -199,10 +199,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "30% bonus; minimum 1,000 points transfer",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "Newest hotel partner. Minimum transfer 1,000 points.",
+      "sourceUrl": "https://loyaltylobby.com/2026/11/02/chase-ultimate-rewards-to-iag-ba-ib-ei-wyndham-ihg-conversion-bonuses-november-1-december-3-2026/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 12
     },
     {
@@ -216,10 +216,10 @@
       "bonusRatio": "1:1.1",
       "expiresDate": "2026-11-14",
       "startDate": "2026-10-25",
-      "notes": "Premium Citi cards transfer at 1:1 ratio. No-annual-fee cards transfer at 0.7:1 ratio.",
-      "sourceUrl": "https://onemileatatime.com/deals/cathay-pacific-asia-miles-transfer-bonus/",
+      "notes": "Premium cards transfer 1:1 base; in 1,000 point increments",
+      "sourceUrl": "https://www.doctorofcredit.com/citi-thankyou-points-10-transfer-bonus-to-cathay-pacific-asia-miles-11-10/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 13
     },
     {
@@ -233,10 +233,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "Bonus capped at 50,000 miles. Offered by Turkish Airlines, not displayed on Citi site.",
-      "sourceUrl": "https://milestomemories.com/get-40-bonus-when-you-transfer-citi-thankyou-points-to-turkish-airlines/",
+      "notes": "Capped at 50,000 bonus miles per member; administered by Turkish, not Citi",
+      "sourceUrl": "https://frequentmiler.com/40-percent-transfer-bonus-citi-thankyou-turkish-milesandsmiles/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 14
     },
     {
@@ -250,10 +250,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-11-14",
       "startDate": "2026-10-15",
-      "notes": "New partner launched October 15, 2026 with 20% launch bonus. Expires 11:59 p.m. ET.",
+      "notes": "Launch bonus for new transfer partner. Expires 11:59 p.m. ET Nov 14, 2026",
       "sourceUrl": "https://www.doctorofcredit.com/rove-miles-adds-jetblue-as-11-transfer-partners-20-launch-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-07",
+      "lastConfirmed": "2026-11-08",
       "id": 15
     }
   ],
@@ -468,37 +468,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-11-07T18:22:18.079442Z",
+        "checked": "2026-11-08T18:32:57.501616Z",
         "ok": true,
-        "found": 2,
+        "found": 3,
         "live": 3
       },
       "bilt": {
-        "checked": "2026-11-07T18:22:18.079442Z",
+        "checked": "2026-11-08T18:32:57.501616Z",
         "ok": true,
         "found": 0,
         "live": 1
       },
       "capital-one": {
-        "checked": "2026-11-07T18:22:18.079442Z",
+        "checked": "2026-11-08T18:32:57.501616Z",
         "ok": true,
         "found": 4,
         "live": 3
       },
       "chase": {
-        "checked": "2026-11-07T18:22:18.079442Z",
+        "checked": "2026-11-08T18:32:57.501616Z",
         "ok": true,
         "found": 5,
         "live": 5
       },
       "citi": {
-        "checked": "2026-11-07T18:22:18.079442Z",
+        "checked": "2026-11-08T18:32:57.501616Z",
         "ok": true,
         "found": 2,
         "live": 2
       },
       "rove": {
-        "checked": "2026-11-07T18:22:18.079442Z",
+        "checked": "2026-11-08T18:32:57.501616Z",
         "ok": true,
         "found": 1,
         "live": 1
