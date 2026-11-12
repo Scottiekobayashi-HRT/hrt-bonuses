@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T20:57:19.875099Z",
+  "lastUpdated": "2026-11-12T21:11:36.377478Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -12,10 +12,10 @@
       "bonusRatio": "1:2.8",
       "expiresDate": "2026-11-24",
       "startDate": "2026-09-29",
-      "notes": "Standard 1:2 rate becomes 1:2.8. Min 200 pts, max 499,950. Bonus points up to 20 days.",
+      "notes": "40% bonus through Nov 24. Transfer 50 MR = 140 Hilton points. Min 200 MR, max 499,950 per transaction.",
       "sourceUrl": "https://www.insideflyer.com/posts/amex-offers-40-bonus-for-hilton-honors-transfers/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 1
     },
     {
@@ -29,10 +29,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-02",
-      "notes": "Transfers in 1,000 point increments. Bonus hardcoded. Immediate transfer.",
+      "notes": "30% bonus through Nov 30. Transfer 1,000 MR = 1,300 Flying Club points. Minimum 1,000 point transfers.",
       "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/virgin-atlantic-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 2
     },
     {
@@ -46,10 +46,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-12-10",
       "startDate": "2026-10-20",
-      "notes": "1,000 Amex points become 1,350 Marriott points. Immediate transfer.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "35% bonus through Dec 10. Transfer 1,000 MR = 1,350 Marriott points. Minimum 1,000 point transfers.",
+      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/marriott-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 3
     },
     {
@@ -80,10 +80,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-20",
       "startDate": "2026-10-21",
-      "notes": "Also applies to Virgin Red lifestyle program for cruises and hotels",
+      "notes": "Lifestyle program for cruises, hotels, more. Elevated ratio 1:1.3.",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 5
     },
     {
@@ -97,10 +97,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "No enrollment required, no stated cap, transfers process immediately",
+      "notes": "No enrollment required. Applies to all Capital One miles-earning cards.",
       "sourceUrl": "https://onemileatatime.com/deals/capital-one-flying-blue-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 6
     },
     {
@@ -110,14 +110,14 @@
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
-      "transferRatio": "2:1.5",
-      "bonusRatio": "2:1.95",
+      "transferRatio": "0.75:1",
+      "bonusRatio": "0.75:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-02",
-      "notes": "Brand new transfer partner launched Nov 2, 2026 with launch bonus",
-      "sourceUrl": "https://frequentmiler.com/copa-added-as-new-capital-one-transfer-partner-21-5-30-launch-transfer-bonus/",
+      "notes": "New partner launched Nov 2, 2026. Standard ratio 2:1.5 (0.75:1). With 30% bonus, 1000 miles = 975 ConnectMiles.",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 7
     },
     {
@@ -131,10 +131,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus, 1,000 Chase → 1,300 Avios. Valid through Dec 1, 2026.",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "30% bonus valid 11/1/26-12/1/26. Transfers to Avios.",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 8
     },
     {
@@ -148,10 +148,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus, 1,000 Chase → 1,300 Avios. Valid through Dec 1, 2026.",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "30% bonus valid 11/1/26-12/1/26. Transfers to Avios.",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 9
     },
     {
@@ -165,10 +165,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus, 1,000 Chase → 1,300 Avios. Valid through Dec 1, 2026.",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "30% bonus valid 11/1/26-12/1/26. Transfers to Avios.",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 10
     },
     {
@@ -182,10 +182,10 @@
       "bonusRatio": "1:1.8",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "80% bonus, 1,000 Chase → 1,800 IHG points. Valid through Dec 3, 2026.",
-      "sourceUrl": "https://travelupdate.com/chase-transfer-bonuses-current-2026/",
+      "notes": "80% bonus valid 11/1/26-12/3/26. Dynamic pricing applies.",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 11
     },
     {
@@ -199,10 +199,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "30% bonus, 1,000 Chase → 1,300 Wyndham points. Valid through Dec 3, 2026.",
-      "sourceUrl": "https://travelupdate.com/chase-transfer-bonuses-current-2026/",
+      "notes": "30% bonus valid 11/1/26-12/3/26. Wyndham added as new transfer partner.",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 12
     },
     {
@@ -216,10 +216,10 @@
       "bonusRatio": "1:1.1",
       "expiresDate": "2026-11-14",
       "startDate": "2026-10-25",
-      "notes": "Premium Citi cards (Strata Premier, Strata Elite, Prestige) get 1:1.1 ratio",
-      "sourceUrl": "https://onemileatatime.com/deals/cathay-pacific-asia-miles-transfer-bonus/",
+      "notes": "Minimum 1,000 point transfer in 1,000 point increments. Transfers instantly.",
+      "sourceUrl": "https://awardwallet.com/news/citi-thankyou-rewards/cathay-pacific-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 13
     },
     {
@@ -233,10 +233,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "Max 50,000 bonus miles; bonus posts after campaign ends, not immediately",
+      "notes": "Bonus capped at 50,000 miles. Turkish Airlines administers bonus; posts after Nov 30, not immediately.",
       "sourceUrl": "https://frequentmiler.com/40-percent-transfer-bonus-citi-thankyou-turkish-milesandsmiles/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 14
     },
     {
@@ -267,10 +267,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-11-14",
       "startDate": "2026-10-15",
-      "notes": "20% bonus through Nov 14, 2026 at 11:59 p.m. ET. 10,000 Rove Miles = 12,000 TrueBlue points.",
-      "sourceUrl": "https://awardwallet.com/news/rove-miles/jetblue-transfer-partner",
+      "notes": "New transfer partner. Bonus expires Nov 14, 2026 at 11:59 PM ET. 2,000 mile minimum transfer.",
+      "sourceUrl": "https://frequentmiler.com/rove-adds-jetblue-as-its-newest-transfer-partner/",
       "method": "auto",
-      "lastConfirmed": "2026-11-11",
+      "lastConfirmed": "2026-11-12",
       "id": 16
     }
   ],
@@ -485,37 +485,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-11-11T20:57:19.875099Z",
+        "checked": "2026-11-12T21:11:36.377478Z",
         "ok": true,
         "found": 3,
         "live": 3
       },
       "bilt": {
-        "checked": "2026-11-11T20:57:19.875099Z",
+        "checked": "2026-11-12T21:11:36.377478Z",
         "ok": true,
         "found": 0,
         "live": 1
       },
       "capital-one": {
-        "checked": "2026-11-11T20:57:19.875099Z",
+        "checked": "2026-11-12T21:11:36.377478Z",
         "ok": true,
-        "found": 3,
+        "found": 4,
         "live": 3
       },
       "chase": {
-        "checked": "2026-11-11T20:57:19.875099Z",
+        "checked": "2026-11-12T21:11:36.377478Z",
         "ok": true,
         "found": 5,
         "live": 5
       },
       "citi": {
-        "checked": "2026-11-11T20:57:19.875099Z",
+        "checked": "2026-11-12T21:11:36.377478Z",
         "ok": true,
-        "found": 3,
+        "found": 2,
         "live": 3
       },
       "rove": {
-        "checked": "2026-11-11T20:57:19.875099Z",
+        "checked": "2026-11-12T21:11:36.377478Z",
         "ok": true,
         "found": 1,
         "live": 1
