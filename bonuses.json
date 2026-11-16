@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T19:29:15.619466Z",
+  "lastUpdated": "2026-11-16T23:04:49.651335Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -29,10 +29,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-02",
-      "notes": "30% bonus active through Nov 30, 2026. Transfer 1,000 Amex points to get 1,300 Virgin Atlantic points.",
-      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/virgin-atlantic-transfer-bonus/",
+      "notes": "1,000 Amex points become 1,300 Virgin Atlantic points with bonus",
+      "sourceUrl": "https://onemileatatime.com/deals/amex-virgin-atlantic-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-15",
+      "lastConfirmed": "2026-11-16",
       "id": 2
     },
     {
@@ -46,11 +46,28 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-12-10",
       "startDate": "2026-10-20",
-      "notes": "35% bonus through December 10, 2026. Transfer 1,000 Amex points to get 1,350 Marriott Bonvoy points.",
+      "notes": "1,000 Amex points become 1,350 Marriott points with bonus",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-15",
+      "lastConfirmed": "2026-11-16",
       "id": 3
+    },
+    {
+      "bank": "amex",
+      "bankName": "American Express",
+      "partner": "Avianca LifeMiles",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 10,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.1",
+      "expiresDate": "2026-12-16",
+      "startDate": "2026-11-16",
+      "notes": "1,000 Amex points become 1,100 Lifemiles with bonus. Min 1,000, max 750,000.",
+      "sourceUrl": "https://frequentmiler.com/10-transfer-bonus-to-avianca-lifemiles-from-amex-membership-rewards/",
+      "method": "auto",
+      "lastConfirmed": "2026-11-16",
+      "id": 4
     },
     {
       "bank": "capital-one",
@@ -63,11 +80,11 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-20",
       "startDate": "2026-10-21",
-      "notes": "30% bonus through Nov 20, 2026. Transfer 1,000 Capital One miles for 1,300 Virgin points. Lifestyle program.",
-      "sourceUrl": "https://awardwallet.com/news/capital-one-rewards/virgin-red-transfer-bonus/",
+      "notes": "Multi-brand Virgin rewards program (flights, hotels, cruises)",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-15",
-      "id": 4
+      "lastConfirmed": "2026-11-16",
+      "id": 5
     },
     {
       "bank": "capital-one",
@@ -80,11 +97,11 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "20% bonus through Nov 30, 2026. Transfer 1,000 Capital One miles for 1,200 Flying Blue miles.",
-      "sourceUrl": "https://awardwallet.com/news/capital-one-rewards/flying-blue-transfer-bonus/",
+      "notes": "20% transfer bonus through Nov 30, 2026",
+      "sourceUrl": "https://upgradedpoints.com/news/capital-one-flying-blue-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-15",
-      "id": 5
+      "lastConfirmed": "2026-11-16",
+      "id": 6
     },
     {
       "bank": "capital-one",
@@ -93,15 +110,32 @@
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
-      "transferRatio": "2:1.5",
-      "bonusRatio": "2:1.95",
+      "transferRatio": "4:3",
+      "bonusRatio": "4:3.9",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-02",
-      "notes": "New partner launched Nov 2, 2026. 30% bonus through Dec 1, 2026. Base ratio 2:1.5; with bonus ~1:1.",
-      "sourceUrl": "https://awardwallet.com/news/capital-one-rewards/copa-connectmiles-transfer-partner/",
+      "notes": "New partner Nov 2, 2026. Launch bonus 30% through Dec 1",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-15",
-      "id": 6
+      "lastConfirmed": "2026-11-16",
+      "id": 7
+    },
+    {
+      "bank": "capital-one",
+      "bankName": "Capital One",
+      "partner": "Qatar Airways Privilege Club",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 15,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.15",
+      "expiresDate": "2026-12-14",
+      "startDate": "2026-11-15",
+      "notes": "First bonus for Qatar since partnership Sept 2025. Through Dec 14",
+      "sourceUrl": "https://upgradedpoints.com/news/capital-one-qatar-airways-transfer-bonus/",
+      "method": "auto",
+      "lastConfirmed": "2026-11-16",
+      "id": 8
     },
     {
       "bank": "chase",
@@ -114,11 +148,11 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus on Avios transfers; valid 12AM ET Nov 1 - 11:59PM ET Dec 1, 2026",
-      "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/avios-transfer-bonus/",
+      "notes": "30% bonus through December 1, 2026",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-15",
-      "id": 7
+      "lastConfirmed": "2026-11-16",
+      "id": 9
     },
     {
       "bank": "chase",
@@ -131,11 +165,11 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus on Avios transfers; valid 12AM ET Nov 1 - 11:59PM ET Dec 1, 2026",
-      "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/avios-transfer-bonus/",
+      "notes": "30% bonus through December 1, 2026",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-15",
-      "id": 8
+      "lastConfirmed": "2026-11-16",
+      "id": 10
     },
     {
       "bank": "chase",
@@ -148,11 +182,11 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus on Avios transfers; valid 12AM ET Nov 1 - 11:59PM ET Dec 1, 2026",
-      "sourceUrl": "https://awardwallet.com/news/chase-ultimate-rewards/avios-transfer-bonus/",
+      "notes": "30% bonus through December 1, 2026",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-15",
-      "id": 9
+      "lastConfirmed": "2026-11-16",
+      "id": 11
     },
     {
       "bank": "chase",
@@ -165,11 +199,11 @@
       "bonusRatio": "1:1.8",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "80% bonus valid 12AM ET Nov 1 - 11:59PM ET Dec 3, 2026",
-      "sourceUrl": "https://onemileatatime.com/deals/chase-ihg-transfer-bonus/",
+      "notes": "80% bonus through December 3, 2026",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-15",
-      "id": 10
+      "lastConfirmed": "2026-11-16",
+      "id": 12
     },
     {
       "bank": "chase",
@@ -182,11 +216,28 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "30% bonus valid 12AM ET Nov 1 - 11:59PM ET Dec 3, 2026",
-      "sourceUrl": "https://frequentmiler.com/30-transfer-bonus-from-chase-ultimate-rewards-to-wyndham-rewards/",
+      "notes": "30% bonus through December 3, 2026",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-15",
-      "id": 11
+      "lastConfirmed": "2026-11-16",
+      "id": 13
+    },
+    {
+      "bank": "chase",
+      "bankName": "Chase",
+      "partner": "Virgin Atlantic Flying Club",
+      "partnerType": "airline",
+      "partnerIcon": "✈️",
+      "bonusPct": 40,
+      "transferRatio": "1:1",
+      "bonusRatio": "1:1.4",
+      "expiresDate": "2026-12-30",
+      "startDate": "2026-11-16",
+      "notes": "40% bonus through December 30, 2026",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "method": "auto",
+      "lastConfirmed": "2026-11-16",
+      "id": 14
     },
     {
       "bank": "citi",
@@ -199,11 +250,11 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "Bonus capped at 50,000 miles (requires 125,000 points). Posts after Nov 30.",
+      "notes": "Bonus managed by Turkish Airlines; posts after Nov 30. Max 50,000 bonus miles (requires 125k points transfer)",
       "sourceUrl": "https://frequentmiler.com/40-percent-transfer-bonus-citi-thankyou-turkish-milesandsmiles/",
       "method": "auto",
-      "lastConfirmed": "2026-11-15",
-      "id": 12
+      "lastConfirmed": "2026-11-16",
+      "id": 15
     },
     {
       "bank": "citi",
@@ -220,7 +271,7 @@
       "sourceUrl": "https://www.uscreditcardguide.com/points-transfer-bonus-offers/",
       "method": "auto",
       "lastConfirmed": "2026-11-11",
-      "id": 13
+      "id": 16
     }
   ],
   "recentlyExpired": [
@@ -431,7 +482,7 @@
   ],
   "meta": {
     "source": "HRT Auto-Updater v3.0",
-    "bonusCount": 13,
+    "bonusCount": 16,
     "expiredCount": 12,
     "banks": [
       "amex",
@@ -449,37 +500,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-11-15T19:29:15.619466Z",
+        "checked": "2026-11-16T23:04:49.651335Z",
         "ok": true,
-        "found": 2,
-        "live": 3
+        "found": 3,
+        "live": 4
       },
       "bilt": {
-        "checked": "2026-11-15T19:29:15.619466Z",
+        "checked": "2026-11-16T23:04:49.651335Z",
         "ok": true,
         "found": 0,
         "live": 0
       },
       "capital-one": {
-        "checked": "2026-11-15T19:29:15.619466Z",
-        "ok": true,
-        "found": 4,
-        "live": 3
-      },
-      "chase": {
-        "checked": "2026-11-15T19:29:15.619466Z",
+        "checked": "2026-11-16T23:04:49.651335Z",
         "ok": true,
         "found": 5,
-        "live": 5
+        "live": 4
+      },
+      "chase": {
+        "checked": "2026-11-16T23:04:49.651335Z",
+        "ok": true,
+        "found": 6,
+        "live": 6
       },
       "citi": {
-        "checked": "2026-11-15T19:29:15.619466Z",
+        "checked": "2026-11-16T23:04:49.651335Z",
         "ok": true,
         "found": 1,
         "live": 2
       },
       "rove": {
-        "checked": "2026-11-15T19:29:15.619466Z",
+        "checked": "2026-11-16T23:04:49.651335Z",
         "ok": true,
         "found": 0,
         "live": 0
