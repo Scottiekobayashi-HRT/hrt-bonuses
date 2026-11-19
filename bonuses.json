@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T21:38:42.114792Z",
+  "lastUpdated": "2026-11-19T21:53:41.300324Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -12,10 +12,10 @@
       "bonusRatio": "1:2.8",
       "expiresDate": "2026-11-24",
       "startDate": "2026-09-29",
-      "notes": "40% bonus through Nov 24. Transfer 50 MR = 140 Hilton points. Min 200 MR, max 499,950 per transaction.",
+      "notes": "Transfer rate becomes 1:2.8 with bonus; expires Nov 24",
       "sourceUrl": "https://www.insideflyer.com/posts/amex-offers-40-bonus-for-hilton-honors-transfers/",
       "method": "auto",
-      "lastConfirmed": "2026-11-12",
+      "lastConfirmed": "2026-11-19",
       "id": 1
     },
     {
@@ -29,10 +29,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-02",
-      "notes": "30% bonus live through Nov 30, 2026. Transfer 1,000 Amex points for 1,300 Virgin Atlantic points.",
+      "notes": "Valid for US cardmembers through Nov 30, 2026",
       "sourceUrl": "https://onemileatatime.com/deals/amex-virgin-atlantic-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 2
     },
     {
@@ -46,10 +46,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-12-10",
       "startDate": "2026-10-20",
-      "notes": "35% bonus extends through Dec 10, 2026. 1,000 points become 1,350 Marriott Bonvoy points.",
+      "notes": "Transfer rate becomes 1:1.35 with bonus",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 3
     },
     {
@@ -63,10 +63,10 @@
       "bonusRatio": "1:1.1",
       "expiresDate": "2026-12-16",
       "startDate": "2026-11-16",
-      "notes": "New bonus launched Nov 16, 2026. Runs through Dec 16, 2026 at 1:1.1 effective ratio.",
+      "notes": "Transfer rate becomes 1:1.1 with bonus",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 4
     },
     {
@@ -80,10 +80,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-20",
       "startDate": "2026-10-21",
-      "notes": "Elevated ratio 1:1.3. Lifestyle/hotel program. Ends Nov 20 11:59 PM ET",
+      "notes": "Transfer ratio becomes 1:1.3 with bonus. Expires in 1 day.",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 5
     },
     {
@@ -97,10 +97,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "Elevated ratio 1:1.2 during bonus period",
+      "notes": "Transfer ratio becomes 1:1.2 with bonus. All Capital One miles cards eligible.",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 6
     },
     {
@@ -110,14 +110,14 @@
       "partnerType": "airline",
       "partnerIcon": "✈️",
       "bonusPct": 30,
-      "transferRatio": "4:3",
-      "bonusRatio": "4:3.9",
+      "transferRatio": "2:1.5",
+      "bonusRatio": "2:1.95",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-02",
-      "notes": "New transfer partner added Nov 2, 2026. Elevated ratio 10:9.75",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "New transfer partner launched Nov 2, 2026. Minimum 1,000 miles to transfer.",
+      "sourceUrl": "https://awardwallet.com/news/capital-one-rewards/copa-connectmiles-transfer-partner/",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 7
     },
     {
@@ -131,10 +131,10 @@
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-12-14",
       "startDate": "2026-11-15",
-      "notes": "Elevated ratio 1:1.15 during bonus period",
+      "notes": "First bonus since Qatar Airways added as transfer partner in September 2025.",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 8
     },
     {
@@ -148,10 +148,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "Minimum transfer 1,000 points. Bonus Avios awarded to Aer Lingus account.",
+      "notes": "Minimum transfer 1,000 points. Bonus Avios awarded by Iberia Club.",
       "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 9
     },
     {
@@ -165,10 +165,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "Minimum transfer 1,000 points. Bonus Avios awarded to British Airways account.",
+      "notes": "Minimum transfer 1,000 points. Bonus Avios awarded by Chase.",
       "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 10
     },
     {
@@ -182,10 +182,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "Minimum transfer 1,000 points. Bonus Avios awarded to Iberia account.",
+      "notes": "Minimum transfer 1,000 points. Bonus Avios awarded by Iberia Club.",
       "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 11
     },
     {
@@ -199,10 +199,10 @@
       "bonusRatio": "1:1.8",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "Minimum transfer 1,000 points. Award prices vary; compare vs. cash.",
+      "notes": "80% bonus IHG points awarded. Minimum transfer 1,000 points.",
       "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 12
     },
     {
@@ -216,10 +216,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "Minimum transfer 1,000 points.",
+      "notes": "30% bonus Wyndham Rewards points. Minimum transfer 1,000 points.",
       "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 13
     },
     {
@@ -233,10 +233,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-12-30",
       "startDate": "2026-11-16",
-      "notes": "Minimum transfer 1,000 points. Bonus awarded within 7 days.",
+      "notes": "Minimum transfer 1,000 points. 40% bonus Virgin Points for each UR point transferred.",
       "sourceUrl": "https://loyaltylobby.com/2026/11/17/chase-ultimate-rewards-to-virgin-atlantic-40-conversion-bonus-november-16-december-30-2026/",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 14
     },
     {
@@ -250,10 +250,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "Bonus capped at 50,000 miles. Administered by Turkish Airlines; posts after Nov 30.",
-      "sourceUrl": "https://onemileatatime.com/deals/citi-turkish-miles-smiles-transfer-bonus/",
+      "notes": "Bonus capped at 50,000 extra miles. Bonus posts after Nov 30, not immediately.",
+      "sourceUrl": "https://frequentmiler.com/40-percent-transfer-bonus-citi-thankyou-turkish-milesandsmiles/",
       "method": "auto",
-      "lastConfirmed": "2026-11-18",
+      "lastConfirmed": "2026-11-19",
       "id": 15
     },
     {
@@ -517,37 +517,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-11-18T21:38:42.114792Z",
+        "checked": "2026-11-19T21:53:41.300324Z",
         "ok": true,
-        "found": 3,
+        "found": 4,
         "live": 4
       },
       "bilt": {
-        "checked": "2026-11-18T21:38:42.114792Z",
+        "checked": "2026-11-19T21:53:41.300324Z",
         "ok": true,
         "found": 0,
         "live": 0
       },
       "capital-one": {
-        "checked": "2026-11-18T21:38:42.114792Z",
+        "checked": "2026-11-19T21:53:41.300324Z",
         "ok": true,
-        "found": 5,
+        "found": 4,
         "live": 4
       },
       "chase": {
-        "checked": "2026-11-18T21:38:42.114792Z",
+        "checked": "2026-11-19T21:53:41.300324Z",
         "ok": true,
         "found": 6,
         "live": 6
       },
       "citi": {
-        "checked": "2026-11-18T21:38:42.114792Z",
+        "checked": "2026-11-19T21:53:41.300324Z",
         "ok": true,
-        "found": 2,
+        "found": 1,
         "live": 3
       },
       "rove": {
-        "checked": "2026-11-18T21:38:42.114792Z",
+        "checked": "2026-11-19T21:53:41.300324Z",
         "ok": true,
         "found": 0,
         "live": 0
