@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T20:16:59.290379Z",
+  "lastUpdated": "2026-11-22T20:29:50.636812Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -29,10 +29,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-02",
-      "notes": "Instant transfers, 1,000 point minimum increments",
-      "sourceUrl": "https://awardtravelfinder.com/credit-card-transfers/amex-membership-rewards",
+      "notes": "1,000 Amex points become 1,300 Virgin Atlantic points. Ends Nov 30.",
+      "sourceUrl": "https://onemileatatime.com/deals/amex-virgin-atlantic-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 2
     },
     {
@@ -46,10 +46,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-12-10",
       "startDate": "2026-10-20",
-      "notes": "Transfers up to 1 day, 1,000 point minimum",
+      "notes": "1,000 Amex points become 1,350 Marriott Bonvoy points",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 3
     },
     {
@@ -63,10 +63,10 @@
       "bonusRatio": "1:1.1",
       "expiresDate": "2026-12-16",
       "startDate": "2026-11-16",
-      "notes": "Instant transfers, 1,000 point minimum increments",
-      "sourceUrl": "https://awardtravelfinder.com/transfer-partners/amex-membership-rewards-to-avianca-lifemiles",
+      "notes": "1,000 Amex points become 1,100 Avianca LifeMiles points",
+      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 4
     },
     {
@@ -80,10 +80,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "Active through Nov 30. Elevated ratio 1:1.2.",
+      "notes": "Automatic bonus applied at transfer; no registration needed",
       "sourceUrl": "https://onemileatatime.com/deals/capital-one-flying-blue-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 5
     },
     {
@@ -97,10 +97,10 @@
       "bonusRatio": "2:1.95",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-02",
-      "notes": "New partner launched Nov 2, 2026. Launch bonus through Dec 1.",
+      "notes": "New transfer partner launched Nov 2, 2026; standard ratio 2:1.5, bonus ratio ~1:1",
       "sourceUrl": "https://frequentmiler.com/copa-added-as-new-capital-one-transfer-partner-21-5-30-launch-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 6
     },
     {
@@ -114,10 +114,10 @@
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-12-14",
       "startDate": "2026-11-15",
-      "notes": "Active through Dec 14. Elevated ratio 1:1.15.",
+      "notes": "First bonus since Qatar Airways added as partner in September 2025",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 7
     },
     {
@@ -131,10 +131,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "Avios currency; can transfer between Avios airlines",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "30% bonus, standard 1:1 ratio becomes 1:1.3 with bonus",
+      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/chase-ultimate-rewards",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 8
     },
     {
@@ -148,10 +148,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "Avios currency; can transfer between Avios airlines",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "30% bonus, standard 1:1 ratio becomes 1:1.3 with bonus",
+      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/chase-ultimate-rewards",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 9
     },
     {
@@ -165,10 +165,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "Avios currency; can transfer between Avios airlines",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "30% bonus, standard 1:1 ratio becomes 1:1.3 with bonus",
+      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/chase-ultimate-rewards",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 10
     },
     {
@@ -182,10 +182,10 @@
       "bonusRatio": "1:1.8",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "Highest bonus; unlimited transfers allowed",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "80% bonus, standard 1:1 ratio becomes 1:1.8 with bonus",
+      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/chase-ultimate-rewards",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 11
     },
     {
@@ -199,10 +199,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "Wyndham added Feb 2026 as 4th hotel partner",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "30% bonus, standard 1:1 ratio becomes 1:1.3 with bonus",
+      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/chase-ultimate-rewards",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 12
     },
     {
@@ -216,10 +216,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-12-30",
       "startDate": "2026-11-16",
-      "notes": "Started November 16, 2026",
-      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
+      "notes": "40% bonus, standard 1:1 ratio becomes 1:1.4 with bonus",
+      "sourceUrl": "https://awardtravelfinder.com/transfer-bonuses/chase-ultimate-rewards",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 13
     },
     {
@@ -233,10 +233,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "Bonus posts after Nov 30. Capped at 50k bonus miles. Offered by Turkish, not Citi",
+      "notes": "Max 50k bonus miles. Bonus posts after promo ends. No registration needed.",
       "sourceUrl": "https://frequentmiler.com/40-percent-transfer-bonus-citi-thankyou-turkish-milesandsmiles/",
       "method": "auto",
-      "lastConfirmed": "2026-11-21",
+      "lastConfirmed": "2026-11-22",
       "id": 14
     },
     {
@@ -517,37 +517,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-11-21T20:16:59.290379Z",
+        "checked": "2026-11-22T20:29:50.636812Z",
         "ok": true,
         "found": 3,
         "live": 4
       },
       "bilt": {
-        "checked": "2026-11-21T20:16:59.290379Z",
+        "checked": "2026-11-22T20:29:50.636812Z",
         "ok": true,
         "found": 0,
         "live": 0
       },
       "capital-one": {
-        "checked": "2026-11-21T20:16:59.290379Z",
+        "checked": "2026-11-22T20:29:50.636812Z",
         "ok": true,
         "found": 3,
         "live": 3
       },
       "chase": {
-        "checked": "2026-11-21T20:16:59.290379Z",
+        "checked": "2026-11-22T20:29:50.636812Z",
         "ok": true,
         "found": 6,
         "live": 6
       },
       "citi": {
-        "checked": "2026-11-21T20:16:59.290379Z",
+        "checked": "2026-11-22T20:29:50.636812Z",
         "ok": true,
         "found": 1,
         "live": 3
       },
       "rove": {
-        "checked": "2026-11-21T20:16:59.290379Z",
+        "checked": "2026-11-22T20:29:50.636812Z",
         "ok": true,
         "found": 0,
         "live": 0
