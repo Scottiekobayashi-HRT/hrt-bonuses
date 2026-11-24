@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T01:18:24.752771Z",
+  "lastUpdated": "2026-11-24T23:17:44.804746Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -29,7 +29,7 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-02",
-      "notes": "1,000 MR points become 1,300 Virgin Atlantic points with bonus.",
+      "notes": "30% transfer bonus expires November 30, 2026",
       "sourceUrl": "https://onemileatatime.com/deals/amex-virgin-atlantic-transfer-bonus/",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
@@ -46,7 +46,7 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-12-10",
       "startDate": "2026-10-20",
-      "notes": "1,000 MR points become 1,350 Marriott points with bonus.",
+      "notes": "35% transfer bonus expires December 10, 2026",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
@@ -63,7 +63,7 @@
       "bonusRatio": "1:1.1",
       "expiresDate": "2026-12-16",
       "startDate": "2026-11-16",
-      "notes": "1,000 MR points become 1,100 Avianca LifeMiles points with bonus.",
+      "notes": "10% transfer bonus expires December 16, 2026",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
@@ -80,7 +80,7 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "Transfer 1,000 Capital One miles for 1,200 Flying Blue miles. Bonus posts same time as standard transfer.",
+      "notes": "20% bonus through Nov 30, 2026. Transfer ratio becomes 1:1.2 with bonus.",
       "sourceUrl": "https://onemileatatime.com/deals/capital-one-flying-blue-transfer-bonus/",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
@@ -97,7 +97,7 @@
       "bonusRatio": "2:1.95",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-02",
-      "notes": "New partner launched Nov 2. With 30% bonus: 1,000 Capital One miles = 975 ConnectMiles (11:59 PM ET cutoff).",
+      "notes": "New partner launched Nov 2, 2026. Launch bonus 30% through Dec 1. Transfer 1,000 Capital One = 975 Copa miles with bonus.",
       "sourceUrl": "https://frequentmiler.com/copa-added-as-new-capital-one-transfer-partner-21-5-30-launch-transfer-bonus/",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
@@ -114,8 +114,8 @@
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-12-14",
       "startDate": "2026-11-15",
-      "notes": "First bonus ever on Qatar Airways. 1,000 Capital One miles = 1,150 Avios. Minimum transfer 1,000 miles.",
-      "sourceUrl": "https://upgradedpoints.com/news/capital-one-qatar-airways-transfer-bonus/",
+      "notes": "15% bonus from Nov 15 through Dec 14. First bonus ever on this partner.",
+      "sourceUrl": "https://onemileatatime.com/deals/qatar-airways-transfer-bonus/",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
       "id": 7
@@ -131,8 +131,8 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus on transfers to Aer Lingus Avios",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "30% bonus to Avios airline (Oneworld). Minimum 1,000 points per transfer.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
       "id": 8
@@ -148,8 +148,8 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus on transfers to British Airways Avios",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "30% bonus to Avios airline (Oneworld). Minimum 1,000 points per transfer.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
       "id": 9
@@ -165,8 +165,8 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus on transfers to Iberia Avios",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "30% bonus to Avios airline (Oneworld). Minimum 1,000 points per transfer.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
       "id": 10
@@ -182,8 +182,8 @@
       "bonusRatio": "1:1.8",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "80% bonus on transfers to IHG One Rewards",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "80% bonus to hotel chain. Minimum 1,000 points per transfer.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
       "id": 11
@@ -199,8 +199,8 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "30% bonus on transfers to Wyndham Rewards",
-      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
+      "notes": "30% bonus to hotel chain. Minimum 1,000 points per transfer.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
       "id": 12
@@ -216,8 +216,8 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-12-30",
       "startDate": "2026-11-16",
-      "notes": "40% bonus on transfers to Virgin Atlantic Flying Club",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "40% bonus to airline. Minimum 1,000 points per transfer.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
       "id": 13
@@ -233,7 +233,7 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "Bonus capped at 50,000 extra miles. Offered by Turkish Airlines; miles post after campaign ends",
+      "notes": "Bonus offered by Turkish Airlines, posts after Nov 30. Max 50k bonus miles (transfer 125k points).",
       "sourceUrl": "https://frequentmiler.com/40-percent-transfer-bonus-citi-thankyou-turkish-milesandsmiles/",
       "method": "auto",
       "lastConfirmed": "2026-11-24",
@@ -500,37 +500,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-11-24T01:18:24.752771Z",
+        "checked": "2026-11-24T23:17:44.804746Z",
         "ok": true,
-        "found": 4,
+        "found": 3,
         "live": 4
       },
       "bilt": {
-        "checked": "2026-11-24T01:18:24.752771Z",
+        "checked": "2026-11-24T23:17:44.804746Z",
         "ok": true,
         "found": 0,
         "live": 0
       },
       "capital-one": {
-        "checked": "2026-11-24T01:18:24.752771Z",
+        "checked": "2026-11-24T23:17:44.804746Z",
         "ok": true,
         "found": 3,
         "live": 3
       },
       "chase": {
-        "checked": "2026-11-24T01:18:24.752771Z",
+        "checked": "2026-11-24T23:17:44.804746Z",
         "ok": true,
         "found": 6,
         "live": 6
       },
       "citi": {
-        "checked": "2026-11-24T01:18:24.752771Z",
+        "checked": "2026-11-24T23:17:44.804746Z",
         "ok": true,
         "found": 1,
         "live": 3
       },
       "rove": {
-        "checked": "2026-11-24T01:18:24.752771Z",
+        "checked": "2026-11-24T23:17:44.804746Z",
         "ok": true,
         "found": 0,
         "live": 0
