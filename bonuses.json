@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T22:40:04.006414Z",
+  "lastUpdated": "2026-11-27T22:24:05.286542Z",
   "bonuses": [
     {
       "bank": "amex",
@@ -12,10 +12,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-02",
-      "notes": "Transfer bonus ends November 30, 2026. Base rate 1:1, with bonus becomes 1:1.3.",
-      "sourceUrl": "https://onemileatatime.com/deals/amex-virgin-atlantic-transfer-bonus/",
+      "notes": "1,000 Amex points = 1,300 Virgin Atlantic points",
+      "sourceUrl": "https://awardwallet.com/news/amex-membership-rewards/virgin-atlantic-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 1
     },
     {
@@ -29,10 +29,10 @@
       "bonusRatio": "1:1.35",
       "expiresDate": "2026-12-10",
       "startDate": "2026-10-20",
-      "notes": "Transfer bonus ends December 10, 2026. Base rate 1:1, with bonus becomes 1:1.35.",
+      "notes": "1,000 Amex points = 1,350 Marriott points",
       "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 2
     },
     {
@@ -46,10 +46,10 @@
       "bonusRatio": "1:1.1",
       "expiresDate": "2026-12-16",
       "startDate": "2026-11-16",
-      "notes": "Transfer bonus ends December 16, 2026. Base rate 1:1, with bonus becomes 1:1.1.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "1,000 Amex points = 1,100 Avianca LifeMiles points",
+      "sourceUrl": "https://frequentmiler.com/current-point-transfer-bonuses/",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 3
     },
     {
@@ -63,10 +63,10 @@
       "bonusRatio": "1:1.2",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "No registration required, no cap on bonus miles",
+      "notes": "No registration, no cap. Transfers instant.",
       "sourceUrl": "https://onemileatatime.com/deals/capital-one-flying-blue-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 4
     },
     {
@@ -80,10 +80,10 @@
       "bonusRatio": "4:3.9",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-02",
-      "notes": "New transfer partner launched Nov 2, 2026 with launch bonus",
-      "sourceUrl": "https://pierreblake.com/capital-one-transfer-bonus/",
+      "notes": "New transfer partner launched Nov 2, 2026 with launch bonus.",
+      "sourceUrl": "https://awardwallet.com/news/capital-one-rewards/copa-connectmiles-transfer-partner/",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 5
     },
     {
@@ -97,10 +97,10 @@
       "bonusRatio": "1:1.15",
       "expiresDate": "2026-12-14",
       "startDate": "2026-11-15",
-      "notes": "First bonus on this route since Qatar added in Sept 2025",
+      "notes": "First bonus for Qatar partner. No registration required.",
       "sourceUrl": "https://onemileatatime.com/deals/qatar-airways-transfer-bonus/",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 6
     },
     {
@@ -114,10 +114,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus through Dec 1, 2026. Instant transfer, minimum 1,000 points.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "30% bonus expires Dec 1, 2026. Part of Avios bonus across BA, Iberia, Aer Lingus.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 7
     },
     {
@@ -131,10 +131,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus through Dec 1, 2026. Instant transfer, minimum 1,000 points.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "30% bonus expires Dec 1, 2026. Avios program.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 8
     },
     {
@@ -148,10 +148,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-01",
       "startDate": "2026-11-01",
-      "notes": "30% bonus through Dec 1, 2026. Instant transfer, minimum 1,000 points.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "30% bonus expires Dec 1, 2026. Avios program.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 9
     },
     {
@@ -165,10 +165,10 @@
       "bonusRatio": "1:1.8",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "80% bonus through Dec 3, 2026. Dynamic pricing may affect value.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "80% bonus through Dec 3, 2026. Highest current Chase bonus.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 10
     },
     {
@@ -182,10 +182,10 @@
       "bonusRatio": "1:1.3",
       "expiresDate": "2026-12-03",
       "startDate": "2026-11-01",
-      "notes": "30% bonus through Dec 3, 2026. New transfer partner as of 2026.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "30% bonus expires Dec 3, 2026.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 11
     },
     {
@@ -199,10 +199,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-12-30",
       "startDate": "2026-11-16",
-      "notes": "40% bonus through Dec 30, 2026. Started Nov 16. Minimum 1,000 points.",
-      "sourceUrl": "https://upgradedpoints.com/news/current-credit-card-transfer-bonuses/",
+      "notes": "40% bonus from Nov 16 through Dec 30, 2026.",
+      "sourceUrl": "https://roame.travel/guides/points-transfer-bonuses",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 12
     },
     {
@@ -216,10 +216,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-01",
-      "notes": "Bonus offered by Turkish Airlines; cap 50,000 bonus miles; posts after Nov 30",
+      "notes": "Bonus credited by Turkish Airlines after campaign ends. Up to 50,000 bonus miles max.",
       "sourceUrl": "https://frequentmiler.com/40-percent-transfer-bonus-citi-thankyou-turkish-milesandsmiles/",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 13
     },
     {
@@ -267,10 +267,10 @@
       "bonusRatio": "1.5:1.4",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-26",
-      "notes": "40% base (Member/Gold); 50% Platinum; 55% Diamond. Standard ratio 1.5:1. Ends Nov 30, 11:59 PM ET.",
-      "sourceUrl": "https://thepointsguy.com/news/rove-black-friday-deals",
+      "notes": "Member/Gold 40%, Platinum 50%, Diamond 55%. Bonus ends 11:59 PM ET Nov 30, 2026.",
+      "sourceUrl": "https://crazy4points.com/alerts/rove-adds-limited-time-40-to-55-percent-transfer-bonus-to-5-partners-nov-30-2026",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 16
     },
     {
@@ -284,10 +284,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-26",
-      "notes": "40% base (Member/Gold); 50% Platinum; 55% Diamond. Ends Nov 30, 11:59 PM ET.",
-      "sourceUrl": "https://thepointsguy.com/news/rove-black-friday-deals",
+      "notes": "Member/Gold 40%, Platinum 50%, Diamond 55%. Bonus ends 11:59 PM ET Nov 30, 2026.",
+      "sourceUrl": "https://crazy4points.com/alerts/rove-adds-limited-time-40-to-55-percent-transfer-bonus-to-5-partners-nov-30-2026",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 17
     },
     {
@@ -301,10 +301,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-26",
-      "notes": "40% base (Member/Gold); 50% Platinum; 55% Diamond. Ends Nov 30, 11:59 PM ET.",
-      "sourceUrl": "https://thepointsguy.com/news/rove-black-friday-deals",
+      "notes": "Member/Gold 40%, Platinum 50%, Diamond 55%. Bonus ends 11:59 PM ET Nov 30, 2026.",
+      "sourceUrl": "https://crazy4points.com/alerts/rove-adds-limited-time-40-to-55-percent-transfer-bonus-to-5-partners-nov-30-2026",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 18
     },
     {
@@ -318,10 +318,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-26",
-      "notes": "40% base (Member/Gold); 50% Platinum; 55% Diamond. Ends Nov 30, 11:59 PM ET.",
-      "sourceUrl": "https://thepointsguy.com/news/rove-black-friday-deals",
+      "notes": "Member/Gold 40%, Platinum 50%, Diamond 55%. Bonus ends 11:59 PM ET Nov 30, 2026.",
+      "sourceUrl": "https://crazy4points.com/alerts/rove-adds-limited-time-40-to-55-percent-transfer-bonus-to-5-partners-nov-30-2026",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 19
     },
     {
@@ -335,10 +335,10 @@
       "bonusRatio": "1:1.4",
       "expiresDate": "2026-11-30",
       "startDate": "2026-11-26",
-      "notes": "40% base (Member/Gold); 50% Platinum; 55% Diamond. Ends Nov 30, 11:59 PM ET.",
-      "sourceUrl": "https://thepointsguy.com/news/rove-black-friday-deals",
+      "notes": "Member/Gold 40%, Platinum 50%, Diamond 55%. Bonus ends 11:59 PM ET Nov 30, 2026.",
+      "sourceUrl": "https://crazy4points.com/alerts/rove-adds-limited-time-40-to-55-percent-transfer-bonus-to-5-partners-nov-30-2026",
       "method": "auto",
-      "lastConfirmed": "2026-11-26",
+      "lastConfirmed": "2026-11-27",
       "id": 20
     }
   ],
@@ -586,37 +586,37 @@
     ],
     "bankStatus": {
       "amex": {
-        "checked": "2026-11-26T22:40:04.006414Z",
+        "checked": "2026-11-27T22:24:05.286542Z",
         "ok": true,
         "found": 3,
         "live": 3
       },
       "bilt": {
-        "checked": "2026-11-26T22:40:04.006414Z",
+        "checked": "2026-11-27T22:24:05.286542Z",
         "ok": true,
         "found": 0,
         "live": 0
       },
       "capital-one": {
-        "checked": "2026-11-26T22:40:04.006414Z",
+        "checked": "2026-11-27T22:24:05.286542Z",
         "ok": true,
         "found": 3,
         "live": 3
       },
       "chase": {
-        "checked": "2026-11-26T22:40:04.006414Z",
+        "checked": "2026-11-27T22:24:05.286542Z",
         "ok": true,
         "found": 6,
         "live": 6
       },
       "citi": {
-        "checked": "2026-11-26T22:40:04.006414Z",
+        "checked": "2026-11-27T22:24:05.286542Z",
         "ok": true,
         "found": 1,
         "live": 3
       },
       "rove": {
-        "checked": "2026-11-26T22:40:04.006414Z",
+        "checked": "2026-11-27T22:24:05.286542Z",
         "ok": true,
         "found": 5,
         "live": 5
